@@ -1,6 +1,8 @@
 import pefile
 import json
 import hashlib
+import numbers
+from strings import extract_all_strings
 
 def hash_file(fname, hash_fnc): #https://stackoverflow.com/a/3431838
     if hash_fnc == 'md5': hash_fun = hashlib.md5()
@@ -27,50 +29,67 @@ def analyze_pefile(filename):
     out['sha1'] = hash_file(filename,"sha1")
     try:
         pe = pefile.PE(filename)
-    except:
-        return json.dumps(out)
-    
-
-    sections = []
-    for section in pe.sections:
-        sections.append(
-            {
-                "Section" : section.Name.decode().rstrip('\x00'), #https://stackoverflow.com/a/38883513
-                "SectionName" : section.name,
-                "VirtualAddress" : hex_NoneCheck(section.VirtualAddress),
-                "Misc_PhysicalAddress" : hex_NoneCheck(section.Misc_PhysicalAddress),
-                "MiscVSize" : hex_NoneCheck(section.Misc_VirtualSize),
-                "SizeOfRawData" : section.SizeOfRawData,
-                "PointerToRawData" : section.PointerToRawData,
-                "next_section_virtual_address" : hex_NoneCheck(section.next_section_virtual_address),
-                "IMAGE_SCN_MEM_EXECUTE" : section.IMAGE_SCN_MEM_EXECUTE,
-                "IMAGE_SCN_MEM_READ" : section.IMAGE_SCN_MEM_READ
-
-            }
-        )
-    out['sections'] = sections
-
-    imports = []
-    for entry in pe.DIRECTORY_ENTRY_IMPORT:
-        function_names = []
-        for function in entry.imports:
-            function_names.append(function.name.decode())
-        imports.append({
-            "dllName" : entry.dll.decode(),
-            "functionNames" : function_names
-            })
-    out['imports'] = imports
-
+        out["pe_info"] = pe.dump_dict()
+    except Exception as E:
+        print("Error" + E)
+        return out   
     return out
+
+def iterdict(d):
+    if not d: 
+        return ""
+    for k, v in d.items():
+        if k == "Imported symbols": 
+            print("")
+        if isinstance(v, dict) :
+            iterdict(v)
+        elif isinstance(v,list):
+            iterlist(v)
+        elif isinstance(v,tuple):
+            ittertuple(v)
+        else:
+            v = convert_rest(v)
+            d.update({k: v})
+    return d
+
+def iterlist(l):
+    if not l: 
+        return ""
+    for i in l:
+        if isinstance(i,list):
+            iterlist(i)
+        elif isinstance(i,dict) :
+            iterdict(i)
+        elif isinstance(i,tuple):
+            ittertuple(i)
+        else:
+            i = convert_rest(i)
+    return l
+
+def ittertuple(t):
+    if not t: return ""
+    for e in t:
+        if isinstance(e,list):
+            iterlist(e)
+        elif isinstance(e, dict) :
+            iterdict(e)
+        elif isinstance(e,tuple):
+            ittertuple(e)
+        else:
+            e = convert_rest(e)
+    return t
+
+def convert_rest(r):
+    if (not isinstance(r, str)) and (not isinstance(r, numbers.Number)):
+        r = r.decode().rstrip('\x00')
+    return r
 
 if __name__ == '__main__':
     result = analyze_pefile('lua54.exe')
-    #print(result)
-
-    # Writing to sample.json 
+    result = iterdict(result)
     with open("sample.json", "w") as outfile: 
         dump = json.dumps(result, sort_keys=False,indent=4, separators=(',', ': '))
-        #print(dump)
+        print(dump)
         outfile.write(dump)
     
 
