@@ -1,7 +1,8 @@
-from util.hashing import hash_file
-import pefile
-from util.commands import extract_all_strings, filetype
 import os
+import pefile
+from .commands import extract_all_strings, filetype
+from .hashing import hash_file
+
 
 def analyze_pefile(filename):
     out ={}
