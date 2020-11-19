@@ -1,4 +1,4 @@
-# Maleware Analysis
+# Malware Analysis
 
 ### Requirements
 - python 3.7
