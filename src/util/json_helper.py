@@ -1,5 +1,4 @@
-from .cleanup import iterdict
-from .pe_header import analyze_pefile
+
 import json
 import os
 import glob
@@ -22,12 +21,6 @@ def flatten_json(y): #changed version of https://stackoverflow.com/a/51379007
 
     flatten(y)
     return out
-
-def create_dict(file,malware = "unknown"):
-    if not os.path.exists(file): raise Exception("File does not exist")
-    result = iterdict(analyze_pefile(file))
-    result["malware"] = malware
-    return result
 
 def write_to_json(dic, targetdir):
     outdir = os.path.dirname(targetdir)
@@ -54,7 +47,7 @@ def clean_strings(l):
     """
     out = []
     for i in l:
-        splitted = re.split('; |, |\n|\s|_|/|\(|\)|\0|\\\\|\{|\}\[|\]', i)
+        splitted = re.split('; |, |\n|\s|_|/|\(|\)|\0|\\\\|\{|\}\[|\]|@', i)
         out.extend([s for s in splitted if len(s) >= 2])
     return out
 
