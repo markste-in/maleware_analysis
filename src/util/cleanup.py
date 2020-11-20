@@ -45,6 +45,8 @@ def ittertuple(t):
     return t
 
 def convert_rest(r):
+    if isinstance(r,type(None)):
+        return ""
     if (not isinstance(r, str)) and (not isinstance(r, numbers.Number)):
-        r = r.decode().rstrip('\x00')
+        return r.decode().rstrip('\x00')
     return r

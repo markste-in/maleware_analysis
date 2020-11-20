@@ -13,8 +13,8 @@ def analyze_pefile(filename):
     try:
         pe = pefile.PE(filename)
         out["pe_info"] = pe.dump_dict()
-    except Exception as E:
-        print("Error" + E)
-        return out   
+    except pefile.PEFormatError as E:
+        print("Error:", str(E))
+        out["pe_info"] = {"PEFormatError" : True}
     out["strings"] = extract_all_strings(filename)
     return out

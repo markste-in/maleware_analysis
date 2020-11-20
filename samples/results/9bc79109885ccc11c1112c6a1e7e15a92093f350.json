@@ -1,0 +1,5822 @@
+{
+    "filename": "4522d778ac188b01fe6b727f4e09acf42fb90744",
+    "md5": "30e13b6a573999682511559ecddb70e3",
+    "sha1": "9bc79109885ccc11c1112c6a1e7e15a92093f350",
+    "filetype": "./../samples/benign/benignware/4522d778ac188b01fe6b727f4e09acf42fb90744: PE32 executable (DLL) (native) Intel 80386, for MS Windows",
+    "pe_info": {
+        "Parsing Warnings": [
+            "Byte 0x00 makes up 53.0146% of the file's contents. This may indicate truncation / malformation.",
+            "AddressOfEntryPoint lies outside the sections' boundaries. AddressOfEntryPoint: 0xcc00ffee"
+        ],
+        "DOS_HEADER": {
+            "Structure": "IMAGE_DOS_HEADER",
+            "e_magic": {
+                "FileOffset": 0,
+                "Offset": 0,
+                "Value": 23117
+            },
+            "e_cblp": {
+                "FileOffset": 2,
+                "Offset": 2,
+                "Value": 144
+            },
+            "e_cp": {
+                "FileOffset": 4,
+                "Offset": 4,
+                "Value": 3
+            },
+            "e_crlc": {
+                "FileOffset": 6,
+                "Offset": 6,
+                "Value": 0
+            },
+            "e_cparhdr": {
+                "FileOffset": 8,
+                "Offset": 8,
+                "Value": 4
+            },
+            "e_minalloc": {
+                "FileOffset": 10,
+                "Offset": 10,
+                "Value": 0
+            },
+            "e_maxalloc": {
+                "FileOffset": 12,
+                "Offset": 12,
+                "Value": 65535
+            },
+            "e_ss": {
+                "FileOffset": 14,
+                "Offset": 14,
+                "Value": 0
+            },
+            "e_sp": {
+                "FileOffset": 16,
+                "Offset": 16,
+                "Value": 184
+            },
+            "e_csum": {
+                "FileOffset": 18,
+                "Offset": 18,
+                "Value": 0
+            },
+            "e_ip": {
+                "FileOffset": 20,
+                "Offset": 20,
+                "Value": 0
+            },
+            "e_cs": {
+                "FileOffset": 22,
+                "Offset": 22,
+                "Value": 0
+            },
+            "e_lfarlc": {
+                "FileOffset": 24,
+                "Offset": 24,
+                "Value": 64
+            },
+            "e_ovno": {
+                "FileOffset": 26,
+                "Offset": 26,
+                "Value": 0
+            },
+            "e_res": {
+                "FileOffset": 28,
+                "Offset": 28,
+                "Value": "\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00"
+            },
+            "e_oemid": {
+                "FileOffset": 36,
+                "Offset": 36,
+                "Value": 0
+            },
+            "e_oeminfo": {
+                "FileOffset": 38,
+                "Offset": 38,
+                "Value": 0
+            },
+            "e_res2": {
+                "FileOffset": 40,
+                "Offset": 40,
+                "Value": "\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00"
+            },
+            "e_lfanew": {
+                "FileOffset": 60,
+                "Offset": 60,
+                "Value": 128
+            }
+        },
+        "NT_HEADERS": {
+            "Structure": "IMAGE_NT_HEADERS",
+            "Signature": {
+                "FileOffset": 128,
+                "Offset": 0,
+                "Value": 17744
+            }
+        },
+        "FILE_HEADER": {
+            "Structure": "IMAGE_FILE_HEADER",
+            "Machine": {
+                "FileOffset": 132,
+                "Offset": 0,
+                "Value": 332
+            },
+            "NumberOfSections": {
+                "FileOffset": 134,
+                "Offset": 2,
+                "Value": 9
+            },
+            "TimeDateStamp": {
+                "FileOffset": 136,
+                "Offset": 4,
+                "Value": "0x53C55599 [Tue Jul 15 16:23:53 2014 UTC]"
+            },
+            "PointerToSymbolTable": {
+                "FileOffset": 140,
+                "Offset": 8,
+                "Value": 81920
+            },
+            "NumberOfSymbols": {
+                "FileOffset": 144,
+                "Offset": 12,
+                "Value": 0
+            },
+            "SizeOfOptionalHeader": {
+                "FileOffset": 148,
+                "Offset": 16,
+                "Value": 224
+            },
+            "Characteristics": {
+                "FileOffset": 150,
+                "Offset": 18,
+                "Value": 8450
+            }
+        },
+        "Flags": [
+            "IMAGE_FILE_EXECUTABLE_IMAGE",
+            "IMAGE_FILE_32BIT_MACHINE",
+            "IMAGE_FILE_DLL"
+        ],
+        "OPTIONAL_HEADER": {
+            "Structure": "IMAGE_OPTIONAL_HEADER",
+            "Magic": {
+                "FileOffset": 152,
+                "Offset": 0,
+                "Value": 267
+            },
+            "MajorLinkerVersion": {
+                "FileOffset": 154,
+                "Offset": 2,
+                "Value": 2
+            },
+            "MinorLinkerVersion": {
+                "FileOffset": 155,
+                "Offset": 3,
+                "Value": 23
+            },
+            "SizeOfCode": {
+                "FileOffset": 156,
+                "Offset": 4,
+                "Value": 16384
+            },
+            "SizeOfInitializedData": {
+                "FileOffset": 160,
+                "Offset": 8,
+                "Value": 32768
+            },
+            "SizeOfUninitializedData": {
+                "FileOffset": 164,
+                "Offset": 12,
+                "Value": 4096
+            },
+            "AddressOfEntryPoint": {
+                "FileOffset": 168,
+                "Offset": 16,
+                "Value": 3422617582
+            },
+            "BaseOfCode": {
+                "FileOffset": 172,
+                "Offset": 20,
+                "Value": 4096
+            },
+            "BaseOfData": {
+                "FileOffset": 176,
+                "Offset": 24,
+                "Value": 20480
+            },
+            "ImageBase": {
+                "FileOffset": 180,
+                "Offset": 28,
+                "Value": 65536
+            },
+            "SectionAlignment": {
+                "FileOffset": 184,
+                "Offset": 32,
+                "Value": 4096
+            },
+            "FileAlignment": {
+                "FileOffset": 188,
+                "Offset": 36,
+                "Value": 4096
+            },
+            "MajorOperatingSystemVersion": {
+                "FileOffset": 192,
+                "Offset": 40,
+                "Value": 4
+            },
+            "MinorOperatingSystemVersion": {
+                "FileOffset": 194,
+                "Offset": 42,
+                "Value": 0
+            },
+            "MajorImageVersion": {
+                "FileOffset": 196,
+                "Offset": 44,
+                "Value": 1
+            },
+            "MinorImageVersion": {
+                "FileOffset": 198,
+                "Offset": 46,
+                "Value": 0
+            },
+            "MajorSubsystemVersion": {
+                "FileOffset": 200,
+                "Offset": 48,
+                "Value": 4
+            },
+            "MinorSubsystemVersion": {
+                "FileOffset": 202,
+                "Offset": 50,
+                "Value": 0
+            },
+            "Reserved1": {
+                "FileOffset": 204,
+                "Offset": 52,
+                "Value": 0
+            },
+            "SizeOfImage": {
+                "FileOffset": 208,
+                "Offset": 56,
+                "Value": 86016
+            },
+            "SizeOfHeaders": {
+                "FileOffset": 212,
+                "Offset": 60,
+                "Value": 4096
+            },
+            "CheckSum": {
+                "FileOffset": 216,
+                "Offset": 64,
+                "Value": 103630
+            },
+            "Subsystem": {
+                "FileOffset": 220,
+                "Offset": 68,
+                "Value": 1
+            },
+            "DllCharacteristics": {
+                "FileOffset": 222,
+                "Offset": 70,
+                "Value": 0
+            },
+            "SizeOfStackReserve": {
+                "FileOffset": 224,
+                "Offset": 72,
+                "Value": 2097152
+            },
+            "SizeOfStackCommit": {
+                "FileOffset": 228,
+                "Offset": 76,
+                "Value": 4096
+            },
+            "SizeOfHeapReserve": {
+                "FileOffset": 232,
+                "Offset": 80,
+                "Value": 1048576
+            },
+            "SizeOfHeapCommit": {
+                "FileOffset": 236,
+                "Offset": 84,
+                "Value": 4096
+            },
+            "LoaderFlags": {
+                "FileOffset": 240,
+                "Offset": 88,
+                "Value": 0
+            },
+            "NumberOfRvaAndSizes": {
+                "FileOffset": 244,
+                "Offset": 92,
+                "Value": 16
+            }
+        },
+        "DllCharacteristics": [],
+        "PE Sections": [
+            {
+                "Structure": "IMAGE_SECTION_HEADER",
+                "Name": {
+                    "FileOffset": 376,
+                    "Offset": 0,
+                    "Value": ".text\\x00\\x00\\x00"
+                },
+                "Misc": {
+                    "FileOffset": 384,
+                    "Offset": 8,
+                    "Value": 15888
+                },
+                "Misc_PhysicalAddress": {
+                    "FileOffset": 384,
+                    "Offset": 8,
+                    "Value": 15888
+                },
+                "Misc_VirtualSize": {
+                    "FileOffset": 384,
+                    "Offset": 8,
+                    "Value": 15888
+                },
+                "VirtualAddress": {
+                    "FileOffset": 388,
+                    "Offset": 12,
+                    "Value": 4096
+                },
+                "SizeOfRawData": {
+                    "FileOffset": 392,
+                    "Offset": 16,
+                    "Value": 16384
+                },
+                "PointerToRawData": {
+                    "FileOffset": 396,
+                    "Offset": 20,
+                    "Value": 4096
+                },
+                "PointerToRelocations": {
+                    "FileOffset": 400,
+                    "Offset": 24,
+                    "Value": 0
+                },
+                "PointerToLinenumbers": {
+                    "FileOffset": 404,
+                    "Offset": 28,
+                    "Value": 0
+                },
+                "NumberOfRelocations": {
+                    "FileOffset": 408,
+                    "Offset": 32,
+                    "Value": 0
+                },
+                "NumberOfLinenumbers": {
+                    "FileOffset": 410,
+                    "Offset": 34,
+                    "Value": 0
+                },
+                "Characteristics": {
+                    "FileOffset": 412,
+                    "Offset": 36,
+                    "Value": 1615855648
+                },
+                "Flags": [
+                    "IMAGE_SCN_CNT_CODE",
+                    "IMAGE_SCN_ALIGN_1BYTES",
+                    "IMAGE_SCN_ALIGN_4BYTES",
+                    "IMAGE_SCN_ALIGN_8BYTES",
+                    "IMAGE_SCN_ALIGN_16BYTES",
+                    "IMAGE_SCN_ALIGN_32BYTES",
+                    "IMAGE_SCN_ALIGN_64BYTES",
+                    "IMAGE_SCN_ALIGN_256BYTES",
+                    "IMAGE_SCN_ALIGN_1024BYTES",
+                    "IMAGE_SCN_ALIGN_2048BYTES",
+                    "IMAGE_SCN_ALIGN_4096BYTES",
+                    "IMAGE_SCN_ALIGN_8192BYTES",
+                    "IMAGE_SCN_ALIGN_MASK",
+                    "IMAGE_SCN_MEM_EXECUTE",
+                    "IMAGE_SCN_MEM_READ"
+                ],
+                "Entropy": 5.668634850523405,
+                "MD5": "237b588516351d8ea0edeac80812b483",
+                "SHA1": "4591a70d652adf7b7db502e8cd1867d4a7e3b040",
+                "SHA256": "d3a4a409beff490a731181c7b04c2e9f20a781787489fe9f66939f3fbfdfa8f8",
+                "SHA512": "74d5ba687dad09719e265df5945b5edfa52a2cf14a318e2cdda89d3827a4ba08591d7ea85f14c70fd212a8122f01ec25e95422a83ac20d53da679af790408c98"
+            },
+            {
+                "Structure": "IMAGE_SECTION_HEADER",
+                "Name": {
+                    "FileOffset": 416,
+                    "Offset": 0,
+                    "Value": ".data\\x00\\x00\\x00"
+                },
+                "Misc": {
+                    "FileOffset": 424,
+                    "Offset": 8,
+                    "Value": 12
+                },
+                "Misc_PhysicalAddress": {
+                    "FileOffset": 424,
+                    "Offset": 8,
+                    "Value": 12
+                },
+                "Misc_VirtualSize": {
+                    "FileOffset": 424,
+                    "Offset": 8,
+                    "Value": 12
+                },
+                "VirtualAddress": {
+                    "FileOffset": 428,
+                    "Offset": 12,
+                    "Value": 20480
+                },
+                "SizeOfRawData": {
+                    "FileOffset": 432,
+                    "Offset": 16,
+                    "Value": 4096
+                },
+                "PointerToRawData": {
+                    "FileOffset": 436,
+                    "Offset": 20,
+                    "Value": 20480
+                },
+                "PointerToRelocations": {
+                    "FileOffset": 440,
+                    "Offset": 24,
+                    "Value": 0
+                },
+                "PointerToLinenumbers": {
+                    "FileOffset": 444,
+                    "Offset": 28,
+                    "Value": 0
+                },
+                "NumberOfRelocations": {
+                    "FileOffset": 448,
+                    "Offset": 32,
+                    "Value": 0
+                },
+                "NumberOfLinenumbers": {
+                    "FileOffset": 450,
+                    "Offset": 34,
+                    "Value": 0
+                },
+                "Characteristics": {
+                    "FileOffset": 452,
+                    "Offset": 36,
+                    "Value": 3224371264
+                },
+                "Flags": [
+                    "IMAGE_SCN_CNT_INITIALIZED_DATA",
+                    "IMAGE_SCN_ALIGN_1BYTES",
+                    "IMAGE_SCN_ALIGN_2BYTES",
+                    "IMAGE_SCN_ALIGN_4BYTES",
+                    "IMAGE_SCN_ALIGN_16BYTES",
+                    "IMAGE_SCN_ALIGN_32BYTES",
+                    "IMAGE_SCN_ALIGN_64BYTES",
+                    "IMAGE_SCN_ALIGN_256BYTES",
+                    "IMAGE_SCN_ALIGN_512BYTES",
+                    "IMAGE_SCN_ALIGN_1024BYTES",
+                    "IMAGE_SCN_ALIGN_4096BYTES",
+                    "IMAGE_SCN_ALIGN_8192BYTES",
+                    "IMAGE_SCN_ALIGN_MASK",
+                    "IMAGE_SCN_MEM_READ",
+                    "IMAGE_SCN_MEM_WRITE"
+                ],
+                "Entropy": 0.012150381221219527,
+                "MD5": "2feb7c60c6014743609aff0b0ce5cb3f",
+                "SHA1": "bfe684cf5325d4036777e6f023f0f57571d3e93d",
+                "SHA256": "27c3c2aa1f41e9d3bc2c9b070e90f4f448ec20961c98fdde179e341234646f2d",
+                "SHA512": "e4e0b1b9452e236f11e38b3f7086169a022d9f58d6d8aefffa8e11e478f90b0719326320007146d7ee745839ca6bcc1fc0f418875972f431608c707a8070ab14"
+            },
+            {
+                "Structure": "IMAGE_SECTION_HEADER",
+                "Name": {
+                    "FileOffset": 456,
+                    "Offset": 0,
+                    "Value": ".rdata\\x00\\x00"
+                },
+                "Misc": {
+                    "FileOffset": 464,
+                    "Offset": 8,
+                    "Value": 9428
+                },
+                "Misc_PhysicalAddress": {
+                    "FileOffset": 464,
+                    "Offset": 8,
+                    "Value": 9428
+                },
+                "Misc_VirtualSize": {
+                    "FileOffset": 464,
+                    "Offset": 8,
+                    "Value": 9428
+                },
+                "VirtualAddress": {
+                    "FileOffset": 468,
+                    "Offset": 12,
+                    "Value": 24576
+                },
+                "SizeOfRawData": {
+                    "FileOffset": 472,
+                    "Offset": 16,
+                    "Value": 12288
+                },
+                "PointerToRawData": {
+                    "FileOffset": 476,
+                    "Offset": 20,
+                    "Value": 24576
+                },
+                "PointerToRelocations": {
+                    "FileOffset": 480,
+                    "Offset": 24,
+                    "Value": 0
+                },
+                "PointerToLinenumbers": {
+                    "FileOffset": 484,
+                    "Offset": 28,
+                    "Value": 0
+                },
+                "NumberOfRelocations": {
+                    "FileOffset": 488,
+                    "Offset": 32,
+                    "Value": 0
+                },
+                "NumberOfLinenumbers": {
+                    "FileOffset": 490,
+                    "Offset": 34,
+                    "Value": 0
+                },
+                "Characteristics": {
+                    "FileOffset": 492,
+                    "Offset": 36,
+                    "Value": 1076887616
+                },
+                "Flags": [
+                    "IMAGE_SCN_CNT_INITIALIZED_DATA",
+                    "IMAGE_SCN_ALIGN_1BYTES",
+                    "IMAGE_SCN_ALIGN_2BYTES",
+                    "IMAGE_SCN_ALIGN_4BYTES",
+                    "IMAGE_SCN_ALIGN_16BYTES",
+                    "IMAGE_SCN_ALIGN_32BYTES",
+                    "IMAGE_SCN_ALIGN_64BYTES",
+                    "IMAGE_SCN_ALIGN_256BYTES",
+                    "IMAGE_SCN_ALIGN_512BYTES",
+                    "IMAGE_SCN_ALIGN_1024BYTES",
+                    "IMAGE_SCN_ALIGN_4096BYTES",
+                    "IMAGE_SCN_ALIGN_8192BYTES",
+                    "IMAGE_SCN_ALIGN_MASK",
+                    "IMAGE_SCN_MEM_READ"
+                ],
+                "Entropy": 5.064048207485616,
+                "MD5": "e6687ef60982f9b722517e59f3c0da12",
+                "SHA1": "771a3c28e62f6c2fba40a54629b23074ef43e8c3",
+                "SHA256": "55604b65a01355446f7859073322b98c6182b8104dfe33afe7785aa174472031",
+                "SHA512": "e710e3b58a7ba8c0544a90f651bbcce61ead92a4e39e59dcb7d6144686ced133c9ee29bf106d86f72e16188832c4e430933388445a40c7da6d4f44b109536373"
+            },
+            {
+                "Structure": "IMAGE_SECTION_HEADER",
+                "Name": {
+                    "FileOffset": 496,
+                    "Offset": 0,
+                    "Value": ".bss\\x00\\x00\\x00\\x00"
+                },
+                "Misc": {
+                    "FileOffset": 504,
+                    "Offset": 8,
+                    "Value": 156
+                },
+                "Misc_PhysicalAddress": {
+                    "FileOffset": 504,
+                    "Offset": 8,
+                    "Value": 156
+                },
+                "Misc_VirtualSize": {
+                    "FileOffset": 504,
+                    "Offset": 8,
+                    "Value": 156
+                },
+                "VirtualAddress": {
+                    "FileOffset": 508,
+                    "Offset": 12,
+                    "Value": 36864
+                },
+                "SizeOfRawData": {
+                    "FileOffset": 512,
+                    "Offset": 16,
+                    "Value": 0
+                },
+                "PointerToRawData": {
+                    "FileOffset": 516,
+                    "Offset": 20,
+                    "Value": 0
+                },
+                "PointerToRelocations": {
+                    "FileOffset": 520,
+                    "Offset": 24,
+                    "Value": 0
+                },
+                "PointerToLinenumbers": {
+                    "FileOffset": 524,
+                    "Offset": 28,
+                    "Value": 0
+                },
+                "NumberOfRelocations": {
+                    "FileOffset": 528,
+                    "Offset": 32,
+                    "Value": 0
+                },
+                "NumberOfLinenumbers": {
+                    "FileOffset": 530,
+                    "Offset": 34,
+                    "Value": 0
+                },
+                "Characteristics": {
+                    "FileOffset": 532,
+                    "Offset": 36,
+                    "Value": 3227517056
+                },
+                "Flags": [
+                    "IMAGE_SCN_CNT_UNINITIALIZED_DATA",
+                    "IMAGE_SCN_ALIGN_2BYTES",
+                    "IMAGE_SCN_ALIGN_4BYTES",
+                    "IMAGE_SCN_ALIGN_8BYTES",
+                    "IMAGE_SCN_ALIGN_16BYTES",
+                    "IMAGE_SCN_ALIGN_32BYTES",
+                    "IMAGE_SCN_ALIGN_64BYTES",
+                    "IMAGE_SCN_ALIGN_512BYTES",
+                    "IMAGE_SCN_ALIGN_1024BYTES",
+                    "IMAGE_SCN_ALIGN_2048BYTES",
+                    "IMAGE_SCN_ALIGN_4096BYTES",
+                    "IMAGE_SCN_ALIGN_8192BYTES",
+                    "IMAGE_SCN_ALIGN_MASK",
+                    "IMAGE_SCN_MEM_READ",
+                    "IMAGE_SCN_MEM_WRITE"
+                ],
+                "Entropy": 0.0,
+                "MD5": "d41d8cd98f00b204e9800998ecf8427e",
+                "SHA1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+                "SHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "SHA512": "cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e"
+            },
+            {
+                "Structure": "IMAGE_SECTION_HEADER",
+                "Name": {
+                    "FileOffset": 536,
+                    "Offset": 0,
+                    "Value": ".edata\\x00\\x00"
+                },
+                "Misc": {
+                    "FileOffset": 544,
+                    "Offset": 8,
+                    "Value": 51
+                },
+                "Misc_PhysicalAddress": {
+                    "FileOffset": 544,
+                    "Offset": 8,
+                    "Value": 51
+                },
+                "Misc_VirtualSize": {
+                    "FileOffset": 544,
+                    "Offset": 8,
+                    "Value": 51
+                },
+                "VirtualAddress": {
+                    "FileOffset": 548,
+                    "Offset": 12,
+                    "Value": 40960
+                },
+                "SizeOfRawData": {
+                    "FileOffset": 552,
+                    "Offset": 16,
+                    "Value": 4096
+                },
+                "PointerToRawData": {
+                    "FileOffset": 556,
+                    "Offset": 20,
+                    "Value": 36864
+                },
+                "PointerToRelocations": {
+                    "FileOffset": 560,
+                    "Offset": 24,
+                    "Value": 0
+                },
+                "PointerToLinenumbers": {
+                    "FileOffset": 564,
+                    "Offset": 28,
+                    "Value": 0
+                },
+                "NumberOfRelocations": {
+                    "FileOffset": 568,
+                    "Offset": 32,
+                    "Value": 0
+                },
+                "NumberOfLinenumbers": {
+                    "FileOffset": 570,
+                    "Offset": 34,
+                    "Value": 0
+                },
+                "Characteristics": {
+                    "FileOffset": 572,
+                    "Offset": 36,
+                    "Value": 1076887616
+                },
+                "Flags": [
+                    "IMAGE_SCN_CNT_INITIALIZED_DATA",
+                    "IMAGE_SCN_ALIGN_1BYTES",
+                    "IMAGE_SCN_ALIGN_2BYTES",
+                    "IMAGE_SCN_ALIGN_4BYTES",
+                    "IMAGE_SCN_ALIGN_16BYTES",
+                    "IMAGE_SCN_ALIGN_32BYTES",
+                    "IMAGE_SCN_ALIGN_64BYTES",
+                    "IMAGE_SCN_ALIGN_256BYTES",
+                    "IMAGE_SCN_ALIGN_512BYTES",
+                    "IMAGE_SCN_ALIGN_1024BYTES",
+                    "IMAGE_SCN_ALIGN_4096BYTES",
+                    "IMAGE_SCN_ALIGN_8192BYTES",
+                    "IMAGE_SCN_ALIGN_MASK",
+                    "IMAGE_SCN_MEM_READ"
+                ],
+                "Entropy": 0.07057828338845004,
+                "MD5": "a7cb7b6dceaa49abe8971079c43a0a2e",
+                "SHA1": "7d7ce89a2a5f61ac285cbe970e209d2a4fae99e2",
+                "SHA256": "eb0cc784c1d9174bb7cabc46a6e8c7428ed9da5b02fa89aac5caf97ad08358e6",
+                "SHA512": "3224d2f40537735a34c97093b768c57e130d4d7d7c9e0d691285345f395e87ce4a6f142f75d14c4f1371caacfd3593a9d49b289bc94bf79c073f7503b6e6df4d"
+            },
+            {
+                "Structure": "IMAGE_SECTION_HEADER",
+                "Name": {
+                    "FileOffset": 576,
+                    "Offset": 0,
+                    "Value": ".idata\\x00\\x00"
+                },
+                "Misc": {
+                    "FileOffset": 584,
+                    "Offset": 8,
+                    "Value": 1972
+                },
+                "Misc_PhysicalAddress": {
+                    "FileOffset": 584,
+                    "Offset": 8,
+                    "Value": 1972
+                },
+                "Misc_VirtualSize": {
+                    "FileOffset": 584,
+                    "Offset": 8,
+                    "Value": 1972
+                },
+                "VirtualAddress": {
+                    "FileOffset": 588,
+                    "Offset": 12,
+                    "Value": 45056
+                },
+                "SizeOfRawData": {
+                    "FileOffset": 592,
+                    "Offset": 16,
+                    "Value": 4096
+                },
+                "PointerToRawData": {
+                    "FileOffset": 596,
+                    "Offset": 20,
+                    "Value": 40960
+                },
+                "PointerToRelocations": {
+                    "FileOffset": 600,
+                    "Offset": 24,
+                    "Value": 0
+                },
+                "PointerToLinenumbers": {
+                    "FileOffset": 604,
+                    "Offset": 28,
+                    "Value": 0
+                },
+                "NumberOfRelocations": {
+                    "FileOffset": 608,
+                    "Offset": 32,
+                    "Value": 0
+                },
+                "NumberOfLinenumbers": {
+                    "FileOffset": 610,
+                    "Offset": 34,
+                    "Value": 0
+                },
+                "Characteristics": {
+                    "FileOffset": 612,
+                    "Offset": 36,
+                    "Value": 3224371264
+                },
+                "Flags": [
+                    "IMAGE_SCN_CNT_INITIALIZED_DATA",
+                    "IMAGE_SCN_ALIGN_1BYTES",
+                    "IMAGE_SCN_ALIGN_2BYTES",
+                    "IMAGE_SCN_ALIGN_4BYTES",
+                    "IMAGE_SCN_ALIGN_16BYTES",
+                    "IMAGE_SCN_ALIGN_32BYTES",
+                    "IMAGE_SCN_ALIGN_64BYTES",
+                    "IMAGE_SCN_ALIGN_256BYTES",
+                    "IMAGE_SCN_ALIGN_512BYTES",
+                    "IMAGE_SCN_ALIGN_1024BYTES",
+                    "IMAGE_SCN_ALIGN_4096BYTES",
+                    "IMAGE_SCN_ALIGN_8192BYTES",
+                    "IMAGE_SCN_ALIGN_MASK",
+                    "IMAGE_SCN_MEM_READ",
+                    "IMAGE_SCN_MEM_WRITE"
+                ],
+                "Entropy": 2.9197891577539137,
+                "MD5": "fe64cf3a8b0c2647f54aad5e23723657",
+                "SHA1": "2e44eb0a4bddecf379c4db92dd051f0a0404d4a9",
+                "SHA256": "31f151716c6ce745b5d723bd08d30aa6aeafe202071cc60dfe9911189483c044",
+                "SHA512": "10fd4cd6857a384b18185e584f3c46faf3560fc32a1c742c54a9f03419822a35a645d0c7527d80fd82d66a39b6ffc3b32e44f61449114bacf3ac1e294b4411f1"
+            },
+            {
+                "Structure": "IMAGE_SECTION_HEADER",
+                "Name": {
+                    "FileOffset": 616,
+                    "Offset": 0,
+                    "Value": ".rsrc\\x00\\x00\\x00"
+                },
+                "Misc": {
+                    "FileOffset": 624,
+                    "Offset": 8,
+                    "Value": 916
+                },
+                "Misc_PhysicalAddress": {
+                    "FileOffset": 624,
+                    "Offset": 8,
+                    "Value": 916
+                },
+                "Misc_VirtualSize": {
+                    "FileOffset": 624,
+                    "Offset": 8,
+                    "Value": 916
+                },
+                "VirtualAddress": {
+                    "FileOffset": 628,
+                    "Offset": 12,
+                    "Value": 49152
+                },
+                "SizeOfRawData": {
+                    "FileOffset": 632,
+                    "Offset": 16,
+                    "Value": 4096
+                },
+                "PointerToRawData": {
+                    "FileOffset": 636,
+                    "Offset": 20,
+                    "Value": 45056
+                },
+                "PointerToRelocations": {
+                    "FileOffset": 640,
+                    "Offset": 24,
+                    "Value": 0
+                },
+                "PointerToLinenumbers": {
+                    "FileOffset": 644,
+                    "Offset": 28,
+                    "Value": 0
+                },
+                "NumberOfRelocations": {
+                    "FileOffset": 648,
+                    "Offset": 32,
+                    "Value": 0
+                },
+                "NumberOfLinenumbers": {
+                    "FileOffset": 650,
+                    "Offset": 34,
+                    "Value": 0
+                },
+                "Characteristics": {
+                    "FileOffset": 652,
+                    "Offset": 36,
+                    "Value": 3224371264
+                },
+                "Flags": [
+                    "IMAGE_SCN_CNT_INITIALIZED_DATA",
+                    "IMAGE_SCN_ALIGN_1BYTES",
+                    "IMAGE_SCN_ALIGN_2BYTES",
+                    "IMAGE_SCN_ALIGN_4BYTES",
+                    "IMAGE_SCN_ALIGN_16BYTES",
+                    "IMAGE_SCN_ALIGN_32BYTES",
+                    "IMAGE_SCN_ALIGN_64BYTES",
+                    "IMAGE_SCN_ALIGN_256BYTES",
+                    "IMAGE_SCN_ALIGN_512BYTES",
+                    "IMAGE_SCN_ALIGN_1024BYTES",
+                    "IMAGE_SCN_ALIGN_4096BYTES",
+                    "IMAGE_SCN_ALIGN_8192BYTES",
+                    "IMAGE_SCN_ALIGN_MASK",
+                    "IMAGE_SCN_MEM_READ",
+                    "IMAGE_SCN_MEM_WRITE"
+                ],
+                "Entropy": 0.9911702764336424,
+                "MD5": "8efbae24c8a4385ca6a7d2f601be6b4f",
+                "SHA1": "d0b742fa2daa36e18a712e54b34f263c876fb369",
+                "SHA256": "593b1f0ea266cd1d9c2a20e168e73f51d788645a932a1cfc6c5f2dade9e566fd",
+                "SHA512": "3aa9f3586195d387ca6a4c9ce5b7522cab3655d64b0a770a3fd95e9a2fefe250b11e944c8851e927be7affaaee71fba4c75a6c55cd401ea76a2e09776856e0f5"
+            },
+            {
+                "Structure": "IMAGE_SECTION_HEADER",
+                "Name": {
+                    "FileOffset": 656,
+                    "Offset": 0,
+                    "Value": ".reloc\\x00\\x00"
+                },
+                "Misc": {
+                    "FileOffset": 664,
+                    "Offset": 8,
+                    "Value": 1592
+                },
+                "Misc_PhysicalAddress": {
+                    "FileOffset": 664,
+                    "Offset": 8,
+                    "Value": 1592
+                },
+                "Misc_VirtualSize": {
+                    "FileOffset": 664,
+                    "Offset": 8,
+                    "Value": 1592
+                },
+                "VirtualAddress": {
+                    "FileOffset": 668,
+                    "Offset": 12,
+                    "Value": 53248
+                },
+                "SizeOfRawData": {
+                    "FileOffset": 672,
+                    "Offset": 16,
+                    "Value": 4096
+                },
+                "PointerToRawData": {
+                    "FileOffset": 676,
+                    "Offset": 20,
+                    "Value": 49152
+                },
+                "PointerToRelocations": {
+                    "FileOffset": 680,
+                    "Offset": 24,
+                    "Value": 0
+                },
+                "PointerToLinenumbers": {
+                    "FileOffset": 684,
+                    "Offset": 28,
+                    "Value": 0
+                },
+                "NumberOfRelocations": {
+                    "FileOffset": 688,
+                    "Offset": 32,
+                    "Value": 0
+                },
+                "NumberOfLinenumbers": {
+                    "FileOffset": 690,
+                    "Offset": 34,
+                    "Value": 0
+                },
+                "Characteristics": {
+                    "FileOffset": 692,
+                    "Offset": 36,
+                    "Value": 1110442048
+                },
+                "Flags": [
+                    "IMAGE_SCN_CNT_INITIALIZED_DATA",
+                    "IMAGE_SCN_ALIGN_1BYTES",
+                    "IMAGE_SCN_ALIGN_2BYTES",
+                    "IMAGE_SCN_ALIGN_4BYTES",
+                    "IMAGE_SCN_ALIGN_16BYTES",
+                    "IMAGE_SCN_ALIGN_32BYTES",
+                    "IMAGE_SCN_ALIGN_64BYTES",
+                    "IMAGE_SCN_ALIGN_256BYTES",
+                    "IMAGE_SCN_ALIGN_512BYTES",
+                    "IMAGE_SCN_ALIGN_1024BYTES",
+                    "IMAGE_SCN_ALIGN_4096BYTES",
+                    "IMAGE_SCN_ALIGN_8192BYTES",
+                    "IMAGE_SCN_ALIGN_MASK",
+                    "IMAGE_SCN_MEM_DISCARDABLE",
+                    "IMAGE_SCN_MEM_READ"
+                ],
+                "Entropy": 3.4559898674464544,
+                "MD5": "740223b4c9ab53a35158c94312f4988c",
+                "SHA1": "76c259f9cfcabd76602591623031dc81061894d2",
+                "SHA256": "9e797e6387ba205d39dd5383609e8327bca196cd86ddabdb18a65ad34d1af06b",
+                "SHA512": "00b91eebde5018379f3d341671cc251758aaf66e932a07e4b61ab3b7e7593e0cd6bf60f09e84290b8a7eff235329c9d2396d154f438a12602eba9ac95021f931"
+            },
+            {
+                "Structure": "IMAGE_SECTION_HEADER",
+                "Name": {
+                    "FileOffset": 696,
+                    "Offset": 0,
+                    "Value": ".rossym\\x00"
+                },
+                "Misc": {
+                    "FileOffset": 704,
+                    "Offset": 8,
+                    "Value": 27574
+                },
+                "Misc_PhysicalAddress": {
+                    "FileOffset": 704,
+                    "Offset": 8,
+                    "Value": 27574
+                },
+                "Misc_VirtualSize": {
+                    "FileOffset": 704,
+                    "Offset": 8,
+                    "Value": 27574
+                },
+                "VirtualAddress": {
+                    "FileOffset": 708,
+                    "Offset": 12,
+                    "Value": 57344
+                },
+                "SizeOfRawData": {
+                    "FileOffset": 712,
+                    "Offset": 16,
+                    "Value": 28672
+                },
+                "PointerToRawData": {
+                    "FileOffset": 716,
+                    "Offset": 20,
+                    "Value": 53248
+                },
+                "PointerToRelocations": {
+                    "FileOffset": 720,
+                    "Offset": 24,
+                    "Value": 0
+                },
+                "PointerToLinenumbers": {
+                    "FileOffset": 724,
+                    "Offset": 28,
+                    "Value": 0
+                },
+                "NumberOfRelocations": {
+                    "FileOffset": 728,
+                    "Offset": 32,
+                    "Value": 0
+                },
+                "NumberOfLinenumbers": {
+                    "FileOffset": 730,
+                    "Offset": 34,
+                    "Value": 0
+                },
+                "Characteristics": {
+                    "FileOffset": 732,
+                    "Offset": 36,
+                    "Value": 1107298306
+                },
+                "Flags": [
+                    "IMAGE_SCN_TYPE_NOLOAD",
+                    "IMAGE_SCN_LNK_REMOVE",
+                    "IMAGE_SCN_MEM_DISCARDABLE",
+                    "IMAGE_SCN_MEM_READ"
+                ],
+                "Entropy": 4.438450167794074,
+                "MD5": "6133917dd6ed046aa729a415570893a0",
+                "SHA1": "76a5fab4dc89a0a85e13d08ba2d896f3fa006512",
+                "SHA256": "e632636ed5e7700153d1c59f764662cdfd540a9408f7dc549cf3bce58d7fc6fe",
+                "SHA512": "aadb17e57791144c950a6721da7817a01f843affc111b6088ddd2bb487fa898c4839ea06709344339789d6a5f611f0f9b8b471735faaca66b4858b9b6a9f6392"
+            }
+        ],
+        "Directories": [
+            {
+                "Structure": "IMAGE_DIRECTORY_ENTRY_EXPORT",
+                "VirtualAddress": {
+                    "FileOffset": 248,
+                    "Offset": 0,
+                    "Value": 40960
+                },
+                "Size": {
+                    "FileOffset": 252,
+                    "Offset": 4,
+                    "Value": 51
+                }
+            },
+            {
+                "Structure": "IMAGE_DIRECTORY_ENTRY_IMPORT",
+                "VirtualAddress": {
+                    "FileOffset": 256,
+                    "Offset": 0,
+                    "Value": 45056
+                },
+                "Size": {
+                    "FileOffset": 260,
+                    "Offset": 4,
+                    "Value": 1972
+                }
+            },
+            {
+                "Structure": "IMAGE_DIRECTORY_ENTRY_RESOURCE",
+                "VirtualAddress": {
+                    "FileOffset": 264,
+                    "Offset": 0,
+                    "Value": 49152
+                },
+                "Size": {
+                    "FileOffset": 268,
+                    "Offset": 4,
+                    "Value": 916
+                }
+            },
+            {
+                "Structure": "IMAGE_DIRECTORY_ENTRY_EXCEPTION",
+                "VirtualAddress": {
+                    "FileOffset": 272,
+                    "Offset": 0,
+                    "Value": 0
+                },
+                "Size": {
+                    "FileOffset": 276,
+                    "Offset": 4,
+                    "Value": 0
+                }
+            },
+            {
+                "Structure": "IMAGE_DIRECTORY_ENTRY_SECURITY",
+                "VirtualAddress": {
+                    "FileOffset": 280,
+                    "Offset": 0,
+                    "Value": 0
+                },
+                "Size": {
+                    "FileOffset": 284,
+                    "Offset": 4,
+                    "Value": 0
+                }
+            },
+            {
+                "Structure": "IMAGE_DIRECTORY_ENTRY_BASERELOC",
+                "VirtualAddress": {
+                    "FileOffset": 288,
+                    "Offset": 0,
+                    "Value": 53248
+                },
+                "Size": {
+                    "FileOffset": 292,
+                    "Offset": 4,
+                    "Value": 1592
+                }
+            },
+            {
+                "Structure": "IMAGE_DIRECTORY_ENTRY_DEBUG",
+                "VirtualAddress": {
+                    "FileOffset": 296,
+                    "Offset": 0,
+                    "Value": 0
+                },
+                "Size": {
+                    "FileOffset": 300,
+                    "Offset": 4,
+                    "Value": 0
+                }
+            },
+            {
+                "Structure": "IMAGE_DIRECTORY_ENTRY_COPYRIGHT",
+                "VirtualAddress": {
+                    "FileOffset": 304,
+                    "Offset": 0,
+                    "Value": 0
+                },
+                "Size": {
+                    "FileOffset": 308,
+                    "Offset": 4,
+                    "Value": 0
+                }
+            },
+            {
+                "Structure": "IMAGE_DIRECTORY_ENTRY_GLOBALPTR",
+                "VirtualAddress": {
+                    "FileOffset": 312,
+                    "Offset": 0,
+                    "Value": 0
+                },
+                "Size": {
+                    "FileOffset": 316,
+                    "Offset": 4,
+                    "Value": 0
+                }
+            },
+            {
+                "Structure": "IMAGE_DIRECTORY_ENTRY_TLS",
+                "VirtualAddress": {
+                    "FileOffset": 320,
+                    "Offset": 0,
+                    "Value": 0
+                },
+                "Size": {
+                    "FileOffset": 324,
+                    "Offset": 4,
+                    "Value": 0
+                }
+            },
+            {
+                "Structure": "IMAGE_DIRECTORY_ENTRY_LOAD_CONFIG",
+                "VirtualAddress": {
+                    "FileOffset": 328,
+                    "Offset": 0,
+                    "Value": 0
+                },
+                "Size": {
+                    "FileOffset": 332,
+                    "Offset": 4,
+                    "Value": 0
+                }
+            },
+            {
+                "Structure": "IMAGE_DIRECTORY_ENTRY_BOUND_IMPORT",
+                "VirtualAddress": {
+                    "FileOffset": 336,
+                    "Offset": 0,
+                    "Value": 0
+                },
+                "Size": {
+                    "FileOffset": 340,
+                    "Offset": 4,
+                    "Value": 0
+                }
+            },
+            {
+                "Structure": "IMAGE_DIRECTORY_ENTRY_IAT",
+                "VirtualAddress": {
+                    "FileOffset": 344,
+                    "Offset": 0,
+                    "Value": 45388
+                },
+                "Size": {
+                    "FileOffset": 348,
+                    "Offset": 4,
+                    "Value": 232
+                }
+            },
+            {
+                "Structure": "IMAGE_DIRECTORY_ENTRY_DELAY_IMPORT",
+                "VirtualAddress": {
+                    "FileOffset": 352,
+                    "Offset": 0,
+                    "Value": 0
+                },
+                "Size": {
+                    "FileOffset": 356,
+                    "Offset": 4,
+                    "Value": 0
+                }
+            },
+            {
+                "Structure": "IMAGE_DIRECTORY_ENTRY_COM_DESCRIPTOR",
+                "VirtualAddress": {
+                    "FileOffset": 360,
+                    "Offset": 0,
+                    "Value": 0
+                },
+                "Size": {
+                    "FileOffset": 364,
+                    "Offset": 4,
+                    "Value": 0
+                }
+            },
+            {
+                "Structure": "IMAGE_DIRECTORY_ENTRY_RESERVED",
+                "VirtualAddress": {
+                    "FileOffset": 368,
+                    "Offset": 0,
+                    "Value": 0
+                },
+                "Size": {
+                    "FileOffset": 372,
+                    "Offset": 4,
+                    "Value": 0
+                }
+            }
+        ],
+        "Version Information": [
+            [
+                {
+                    "Structure": "VS_VERSIONINFO",
+                    "Length": {
+                        "FileOffset": 45144,
+                        "Offset": 0,
+                        "Value": 828
+                    },
+                    "ValueLength": {
+                        "FileOffset": 45146,
+                        "Offset": 2,
+                        "Value": 52
+                    },
+                    "Type": {
+                        "FileOffset": 45148,
+                        "Offset": 4,
+                        "Value": 0
+                    }
+                },
+                {
+                    "Structure": "VS_FIXEDFILEINFO",
+                    "Signature": {
+                        "FileOffset": 45184,
+                        "Offset": 0,
+                        "Value": 4277077181
+                    },
+                    "StrucVersion": {
+                        "FileOffset": 45188,
+                        "Offset": 4,
+                        "Value": 65536
+                    },
+                    "FileVersionMS": {
+                        "FileOffset": 45192,
+                        "Offset": 8,
+                        "Value": 2752516
+                    },
+                    "FileVersionLS": {
+                        "FileOffset": 45196,
+                        "Offset": 12,
+                        "Value": 0
+                    },
+                    "ProductVersionMS": {
+                        "FileOffset": 45200,
+                        "Offset": 16,
+                        "Value": 4
+                    },
+                    "ProductVersionLS": {
+                        "FileOffset": 45204,
+                        "Offset": 20,
+                        "Value": 0
+                    },
+                    "FileFlagsMask": {
+                        "FileOffset": 45208,
+                        "Offset": 24,
+                        "Value": 63
+                    },
+                    "FileFlags": {
+                        "FileOffset": 45212,
+                        "Offset": 28,
+                        "Value": 0
+                    },
+                    "FileOS": {
+                        "FileOffset": 45216,
+                        "Offset": 32,
+                        "Value": 262148
+                    },
+                    "FileType": {
+                        "FileOffset": 45220,
+                        "Offset": 36,
+                        "Value": 2
+                    },
+                    "FileSubtype": {
+                        "FileOffset": 45224,
+                        "Offset": 40,
+                        "Value": 0
+                    },
+                    "FileDateMS": {
+                        "FileOffset": 45228,
+                        "Offset": 44,
+                        "Value": 0
+                    },
+                    "FileDateLS": {
+                        "FileOffset": 45232,
+                        "Offset": 48,
+                        "Value": 0
+                    }
+                }
+            ]
+        ],
+        "Exported symbols": [
+            {
+                "Structure": "IMAGE_EXPORT_DIRECTORY",
+                "Characteristics": {
+                    "FileOffset": 36864,
+                    "Offset": 0,
+                    "Value": 0
+                },
+                "TimeDateStamp": {
+                    "FileOffset": 36868,
+                    "Offset": 4,
+                    "Value": "0x53C55599 [Tue Jul 15 16:23:53 2014 UTC]"
+                },
+                "MajorVersion": {
+                    "FileOffset": 36872,
+                    "Offset": 8,
+                    "Value": 0
+                },
+                "MinorVersion": {
+                    "FileOffset": 36874,
+                    "Offset": 10,
+                    "Value": 0
+                },
+                "Name": {
+                    "FileOffset": 36876,
+                    "Offset": 12,
+                    "Value": 41000
+                },
+                "Base": {
+                    "FileOffset": 36880,
+                    "Offset": 16,
+                    "Value": 1
+                },
+                "NumberOfFunctions": {
+                    "FileOffset": 36884,
+                    "Offset": 20,
+                    "Value": 0
+                },
+                "NumberOfNames": {
+                    "FileOffset": 36888,
+                    "Offset": 24,
+                    "Value": 0
+                },
+                "AddressOfFunctions": {
+                    "FileOffset": 36892,
+                    "Offset": 28,
+                    "Value": 41000
+                },
+                "AddressOfNames": {
+                    "FileOffset": 36896,
+                    "Offset": 32,
+                    "Value": 41000
+                },
+                "AddressOfNameOrdinals": {
+                    "FileOffset": 36900,
+                    "Offset": 36,
+                    "Value": 41000
+                }
+            }
+        ],
+        "Imported symbols": [
+            [
+                {
+                    "Structure": "IMAGE_IMPORT_DESCRIPTOR",
+                    "OriginalFirstThunk": {
+                        "FileOffset": 40960,
+                        "Offset": 0,
+                        "Value": 45156
+                    },
+                    "Characteristics": {
+                        "FileOffset": 40960,
+                        "Offset": 0,
+                        "Value": 45156
+                    },
+                    "TimeDateStamp": {
+                        "FileOffset": 40964,
+                        "Offset": 4,
+                        "Value": "0x0        [Thu Jan  1 00:00:00 1970 UTC]"
+                    },
+                    "ForwarderChain": {
+                        "FileOffset": 40968,
+                        "Offset": 8,
+                        "Value": 0
+                    },
+                    "Name": {
+                        "FileOffset": 40972,
+                        "Offset": 12,
+                        "Value": 46784
+                    },
+                    "FirstThunk": {
+                        "FileOffset": 40976,
+                        "Offset": 16,
+                        "Value": 45388
+                    }
+                },
+                {
+                    "DLL": "battc.sys",
+                    "Name": "BatteryClassInitializeDevice",
+                    "Hint": 0
+                },
+                {
+                    "DLL": "battc.sys",
+                    "Name": "BatteryClassIoctl",
+                    "Hint": 1
+                },
+                {
+                    "DLL": "battc.sys",
+                    "Name": "BatteryClassStatusNotify",
+                    "Hint": 3
+                },
+                {
+                    "DLL": "battc.sys",
+                    "Name": "BatteryClassSystemControl",
+                    "Hint": 4
+                },
+                {
+                    "DLL": "battc.sys",
+                    "Name": "BatteryClassUnload",
+                    "Hint": 5
+                }
+            ],
+            [
+                {
+                    "Structure": "IMAGE_IMPORT_DESCRIPTOR",
+                    "OriginalFirstThunk": {
+                        "FileOffset": 40980,
+                        "Offset": 0,
+                        "Value": 45180
+                    },
+                    "Characteristics": {
+                        "FileOffset": 40980,
+                        "Offset": 0,
+                        "Value": 45180
+                    },
+                    "TimeDateStamp": {
+                        "FileOffset": 40984,
+                        "Offset": 4,
+                        "Value": "0x0        [Thu Jan  1 00:00:00 1970 UTC]"
+                    },
+                    "ForwarderChain": {
+                        "FileOffset": 40988,
+                        "Offset": 8,
+                        "Value": 0
+                    },
+                    "Name": {
+                        "FileOffset": 40992,
+                        "Offset": 12,
+                        "Value": 46800
+                    },
+                    "FirstThunk": {
+                        "FileOffset": 40996,
+                        "Offset": 16,
+                        "Value": 45412
+                    }
+                },
+                {
+                    "DLL": "wmilib.sys",
+                    "Name": "WmiSystemControl",
+                    "Hint": 2
+                }
+            ],
+            [
+                {
+                    "Structure": "IMAGE_IMPORT_DESCRIPTOR",
+                    "OriginalFirstThunk": {
+                        "FileOffset": 41000,
+                        "Offset": 0,
+                        "Value": 45188
+                    },
+                    "Characteristics": {
+                        "FileOffset": 41000,
+                        "Offset": 0,
+                        "Value": 45188
+                    },
+                    "TimeDateStamp": {
+                        "FileOffset": 41004,
+                        "Offset": 4,
+                        "Value": "0x0        [Thu Jan  1 00:00:00 1970 UTC]"
+                    },
+                    "ForwarderChain": {
+                        "FileOffset": 41008,
+                        "Offset": 8,
+                        "Value": 0
+                    },
+                    "Name": {
+                        "FileOffset": 41012,
+                        "Offset": 12,
+                        "Value": 46824
+                    },
+                    "FirstThunk": {
+                        "FileOffset": 41016,
+                        "Offset": 16,
+                        "Value": 45420
+                    }
+                },
+                {
+                    "DLL": "hal.dll",
+                    "Name": "ExAcquireFastMutex",
+                    "Hint": 0
+                },
+                {
+                    "DLL": "hal.dll",
+                    "Name": "ExReleaseFastMutex",
+                    "Hint": 1
+                },
+                {
+                    "DLL": "hal.dll",
+                    "Name": "KeGetCurrentIrql",
+                    "Hint": 65
+                }
+            ],
+            [
+                {
+                    "Structure": "IMAGE_IMPORT_DESCRIPTOR",
+                    "OriginalFirstThunk": {
+                        "FileOffset": 41020,
+                        "Offset": 0,
+                        "Value": 45204
+                    },
+                    "Characteristics": {
+                        "FileOffset": 41020,
+                        "Offset": 0,
+                        "Value": 45204
+                    },
+                    "TimeDateStamp": {
+                        "FileOffset": 41024,
+                        "Offset": 4,
+                        "Value": "0x0        [Thu Jan  1 00:00:00 1970 UTC]"
+                    },
+                    "ForwarderChain": {
+                        "FileOffset": 41028,
+                        "Offset": 8,
+                        "Value": 0
+                    },
+                    "Name": {
+                        "FileOffset": 41032,
+                        "Offset": 12,
+                        "Value": 47012
+                    },
+                    "FirstThunk": {
+                        "FileOffset": 41036,
+                        "Offset": 16,
+                        "Value": 45436
+                    }
+                },
+                {
+                    "DLL": "ntoskrnl.exe",
+                    "Name": "DbgPrint",
+                    "Hint": 49
+                },
+                {
+                    "DLL": "ntoskrnl.exe",
+                    "Name": "ExAllocatePoolWithTag",
+                    "Hint": 69
+                },
+                {
+                    "DLL": "ntoskrnl.exe",
+                    "Name": "ExCreateCallback",
+                    "Hint": 72
+                },
+                {
+                    "DLL": "ntoskrnl.exe",
+                    "Name": "ExFreePool",
+                    "Hint": 86
+                },
+                {
+                    "DLL": "ntoskrnl.exe",
+                    "Name": "ExRegisterCallback",
+                    "Hint": 130
+                },
+                {
+                    "DLL": "ntoskrnl.exe",
+                    "Name": "ExUnregisterCallback",
+                    "Hint": 149
+                },
+                {
+                    "DLL": "ntoskrnl.exe",
+                    "Name": "InterlockedExchange",
+                    "Hint": 316
+                },
+                {
+                    "DLL": "ntoskrnl.exe",
+                    "Name": "IoAcquireRemoveLockEx",
+                    "Hint": 322
+                },
+                {
+                    "DLL": "ntoskrnl.exe",
+                    "Name": "IoAllocateIrp",
+                    "Hint": 329
+                },
+                {
+                    "DLL": "ntoskrnl.exe",
+                    "Name": "IoAttachDeviceToDeviceStack",
+                    "Hint": 336
+                },
+                {
+                    "DLL": "ntoskrnl.exe",
+                    "Name": "IoBuildDeviceIoControlRequest",
+                    "Hint": 339
+                },
+                {
+                    "DLL": "ntoskrnl.exe",
+                    "Name": "IoCancelIrp",
+                    "Hint": 344
+                },
+                {
+                    "DLL": "ntoskrnl.exe",
+                    "Name": "IoCreateDevice",
+                    "Hint": 355
+                },
+                {
+                    "DLL": "ntoskrnl.exe",
+                    "Name": "IoDeleteDevice",
+                    "Hint": 374
+                },
+                {
+                    "DLL": "ntoskrnl.exe",
+                    "Name": "IoDetachDevice",
+                    "Hint": 377
+                },
+                {
+                    "DLL": "ntoskrnl.exe",
+                    "Name": "IoFreeIrp",
+                    "Hint": 392
+                },
+                {
+                    "DLL": "ntoskrnl.exe",
+                    "Name": "IoInitializeRemoveLockEx",
+                    "Hint": 421
+                },
+                {
+                    "DLL": "ntoskrnl.exe",
+                    "Name": "IoOpenDeviceRegistryKey",
+                    "Hint": 432
+                },
+                {
+                    "DLL": "ntoskrnl.exe",
+                    "Name": "IoReleaseRemoveLockAndWaitEx",
+                    "Hint": 457
+                },
+                {
+                    "DLL": "ntoskrnl.exe",
+                    "Name": "IoReleaseRemoveLockEx",
+                    "Hint": 458
+                },
+                {
+                    "DLL": "ntoskrnl.exe",
+                    "Name": "IoWMIRegistrationControl",
+                    "Hint": 511
+                },
+                {
+                    "DLL": "ntoskrnl.exe",
+                    "Name": "IofCallDriver",
+                    "Hint": 522
+                },
+                {
+                    "DLL": "ntoskrnl.exe",
+                    "Name": "IofCompleteRequest",
+                    "Hint": 523
+                },
+                {
+                    "DLL": "ntoskrnl.exe",
+                    "Name": "KeGetCurrentThread",
+                    "Hint": 569
+                },
+                {
+                    "DLL": "ntoskrnl.exe",
+                    "Name": "KeInitializeDpc",
+                    "Hint": 579
+                },
+                {
+                    "DLL": "ntoskrnl.exe",
+                    "Name": "KeInitializeEvent",
+                    "Hint": 580
+                },
+                {
+                    "DLL": "ntoskrnl.exe",
+                    "Name": "KeInitializeTimer",
+                    "Hint": 589
+                },
+                {
+                    "DLL": "ntoskrnl.exe",
+                    "Name": "KeQueryInterruptTime",
+                    "Hint": 609
+                },
+                {
+                    "DLL": "ntoskrnl.exe",
+                    "Name": "KeSetEvent",
+                    "Hint": 652
+                },
+                {
+                    "DLL": "ntoskrnl.exe",
+                    "Name": "KeSetTimer",
+                    "Hint": 662
+                },
+                {
+                    "DLL": "ntoskrnl.exe",
+                    "Name": "KeWaitForSingleObject",
+                    "Hint": 679
+                },
+                {
+                    "DLL": "ntoskrnl.exe",
+                    "Name": "ObfDereferenceObject",
+                    "Hint": 882
+                },
+                {
+                    "DLL": "ntoskrnl.exe",
+                    "Name": "PoCallDriver",
+                    "Hint": 884
+                },
+                {
+                    "DLL": "ntoskrnl.exe",
+                    "Name": "PoRequestPowerIrp",
+                    "Hint": 890
+                },
+                {
+                    "DLL": "ntoskrnl.exe",
+                    "Name": "PoStartNextPowerIrp",
+                    "Hint": 896
+                },
+                {
+                    "DLL": "ntoskrnl.exe",
+                    "Name": "RtlAnsiStringToUnicodeString",
+                    "Hint": 1008
+                },
+                {
+                    "DLL": "ntoskrnl.exe",
+                    "Name": "RtlAppendUnicodeStringToString",
+                    "Hint": 1011
+                },
+                {
+                    "DLL": "ntoskrnl.exe",
+                    "Name": "RtlAssert",
+                    "Hint": 1017
+                },
+                {
+                    "DLL": "ntoskrnl.exe",
+                    "Name": "RtlCopyUnicodeString",
+                    "Hint": 1038
+                },
+                {
+                    "DLL": "ntoskrnl.exe",
+                    "Name": "RtlInitAnsiString",
+                    "Hint": 1121
+                },
+                {
+                    "DLL": "ntoskrnl.exe",
+                    "Name": "RtlInitUnicodeString",
+                    "Hint": 1125
+                },
+                {
+                    "DLL": "ntoskrnl.exe",
+                    "Name": "ZwClose",
+                    "Hint": 1349
+                },
+                {
+                    "DLL": "ntoskrnl.exe",
+                    "Name": "ZwQueryValueKey",
+                    "Hint": 1425
+                },
+                {
+                    "DLL": "ntoskrnl.exe",
+                    "Name": "memmove",
+                    "Hint": 1511
+                },
+                {
+                    "DLL": "ntoskrnl.exe",
+                    "Name": "memset",
+                    "Hint": 1512
+                }
+            ]
+        ],
+        "Resource directory": [
+            {
+                "Structure": "IMAGE_RESOURCE_DIRECTORY",
+                "Characteristics": {
+                    "FileOffset": 45056,
+                    "Offset": 0,
+                    "Value": 0
+                },
+                "TimeDateStamp": {
+                    "FileOffset": 45060,
+                    "Offset": 4,
+                    "Value": "0x53C55598 [Tue Jul 15 16:23:52 2014 UTC]"
+                },
+                "MajorVersion": {
+                    "FileOffset": 45064,
+                    "Offset": 8,
+                    "Value": 0
+                },
+                "MinorVersion": {
+                    "FileOffset": 45066,
+                    "Offset": 10,
+                    "Value": 0
+                },
+                "NumberOfNamedEntries": {
+                    "FileOffset": 45068,
+                    "Offset": 12,
+                    "Value": 0
+                },
+                "NumberOfIdEntries": {
+                    "FileOffset": 45070,
+                    "Offset": 14,
+                    "Value": 1
+                }
+            },
+            {
+                "Id": [
+                    16,
+                    "RT_VERSION"
+                ],
+                "Structure": "IMAGE_RESOURCE_DIRECTORY_ENTRY",
+                "Name": {
+                    "FileOffset": 45072,
+                    "Offset": 0,
+                    "Value": 16
+                },
+                "OffsetToData": {
+                    "FileOffset": 45076,
+                    "Offset": 4,
+                    "Value": 2147483672
+                }
+            },
+            [
+                {
+                    "Structure": "IMAGE_RESOURCE_DIRECTORY",
+                    "Characteristics": {
+                        "FileOffset": 45080,
+                        "Offset": 0,
+                        "Value": 0
+                    },
+                    "TimeDateStamp": {
+                        "FileOffset": 45084,
+                        "Offset": 4,
+                        "Value": "0x53C55598 [Tue Jul 15 16:23:52 2014 UTC]"
+                    },
+                    "MajorVersion": {
+                        "FileOffset": 45088,
+                        "Offset": 8,
+                        "Value": 0
+                    },
+                    "MinorVersion": {
+                        "FileOffset": 45090,
+                        "Offset": 10,
+                        "Value": 0
+                    },
+                    "NumberOfNamedEntries": {
+                        "FileOffset": 45092,
+                        "Offset": 12,
+                        "Value": 0
+                    },
+                    "NumberOfIdEntries": {
+                        "FileOffset": 45094,
+                        "Offset": 14,
+                        "Value": 1
+                    }
+                },
+                {
+                    "Id": 1,
+                    "Structure": "IMAGE_RESOURCE_DIRECTORY_ENTRY",
+                    "Name": {
+                        "FileOffset": 45096,
+                        "Offset": 0,
+                        "Value": 1
+                    },
+                    "OffsetToData": {
+                        "FileOffset": 45100,
+                        "Offset": 4,
+                        "Value": 2147483696
+                    }
+                },
+                [
+                    {
+                        "Structure": "IMAGE_RESOURCE_DIRECTORY",
+                        "Characteristics": {
+                            "FileOffset": 45104,
+                            "Offset": 0,
+                            "Value": 0
+                        },
+                        "TimeDateStamp": {
+                            "FileOffset": 45108,
+                            "Offset": 4,
+                            "Value": "0x53C55598 [Tue Jul 15 16:23:52 2014 UTC]"
+                        },
+                        "MajorVersion": {
+                            "FileOffset": 45112,
+                            "Offset": 8,
+                            "Value": 0
+                        },
+                        "MinorVersion": {
+                            "FileOffset": 45114,
+                            "Offset": 10,
+                            "Value": 0
+                        },
+                        "NumberOfNamedEntries": {
+                            "FileOffset": 45116,
+                            "Offset": 12,
+                            "Value": 0
+                        },
+                        "NumberOfIdEntries": {
+                            "FileOffset": 45118,
+                            "Offset": 14,
+                            "Value": 1
+                        }
+                    },
+                    {
+                        "LANG": 9,
+                        "SUBLANG": 1,
+                        "LANG_NAME": "LANG_ENGLISH",
+                        "SUBLANG_NAME": "SUBLANG_ENGLISH_US",
+                        "Structure": "IMAGE_RESOURCE_DATA_ENTRY",
+                        "Name": {
+                            "FileOffset": 45120,
+                            "Offset": 0,
+                            "Value": 1033
+                        },
+                        "OffsetToData": {
+                            "FileOffset": 45128,
+                            "Offset": 0,
+                            "Value": 49240
+                        },
+                        "Size": {
+                            "FileOffset": 45132,
+                            "Offset": 4,
+                            "Value": 828
+                        },
+                        "CodePage": {
+                            "FileOffset": 45136,
+                            "Offset": 8,
+                            "Value": 0
+                        },
+                        "Reserved": {
+                            "FileOffset": 45140,
+                            "Offset": 12,
+                            "Value": 0
+                        }
+                    }
+                ]
+            ]
+        ],
+        "Base relocations": [
+            [
+                {
+                    "Structure": "IMAGE_BASE_RELOCATION",
+                    "VirtualAddress": {
+                        "FileOffset": 49152,
+                        "Offset": 0,
+                        "Value": 4096
+                    },
+                    "SizeOfBlock": {
+                        "FileOffset": 49156,
+                        "Offset": 4,
+                        "Value": 340
+                    }
+                },
+                {
+                    "RVA": 4116,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 4126,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 4140,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 4169,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 4176,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 4182,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 4191,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 4201,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 4236,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 4253,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 4280,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 4328,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 4335,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 4341,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 4363,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 4389,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 4416,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 4471,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 4478,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 4484,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 4511,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 4525,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 4552,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 4688,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 4879,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 4893,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 4924,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 4959,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 4966,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 4972,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 4994,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 5020,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 5062,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 5072,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 5086,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 5115,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 5122,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 5128,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 5137,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 5156,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 5163,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 5188,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 5195,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 5220,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 5242,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 5266,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 5315,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 5322,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 5328,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 5361,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 5385,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 5416,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 5446,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 5460,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 5476,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 5500,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 5519,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 5526,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 5551,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 5558,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 5569,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 5577,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 5586,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 5595,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 5601,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 5606,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 5619,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 5637,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 5647,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 5674,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 5684,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 5751,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 5761,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 5812,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 5829,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 5857,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 5902,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 5938,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 5959,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 5985,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 5995,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 6008,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 6013,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 6019,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 6034,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 6040,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 6049,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 6066,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 6085,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 6095,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 6135,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 6145,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 6184,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 6221,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 6276,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 6296,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 6327,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 6341,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 6361,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 6386,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 6402,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 6423,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 6472,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 6514,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 6547,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 6627,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 6635,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 6642,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 6677,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 6687,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 6701,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 6730,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 6737,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 6743,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 6752,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 6782,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 6881,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 6895,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 6937,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 6943,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 6986,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 7004,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 7038,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 7048,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 7062,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 7091,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 7098,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 7104,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 7113,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 7123,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 7202,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 7216,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 7260,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 7270,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 7284,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 7313,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 7320,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 7326,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 7335,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 7359,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 7432,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 7446,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 7571,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 7585,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 7638,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 7656,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 7733,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 7751,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 7791,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 7809,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 7839,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 7860,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 7905,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 7926,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 7956,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 7980,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 7991,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 8024,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 8114,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 8124,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 8138,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 8167,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 8174,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 8180,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 8189,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 4096,
+                    "Type": "ABSOLUTE"
+                }
+            ],
+            [
+                {
+                    "Structure": "IMAGE_BASE_RELOCATION",
+                    "VirtualAddress": {
+                        "FileOffset": 49492,
+                        "Offset": 0,
+                        "Value": 8192
+                    },
+                    "SizeOfBlock": {
+                        "FileOffset": 49496,
+                        "Offset": 4,
+                        "Value": 328
+                    }
+                },
+                {
+                    "RVA": 8207,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 8314,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 8381,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 8395,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 8437,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 8498,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 8567,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 8577,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 8590,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 8600,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 8678,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 8692,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 8708,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 8751,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 8761,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 8773,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 8846,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 8856,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 8872,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 8924,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 8934,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 8946,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 8979,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 8989,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 9005,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 9040,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 9050,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 9103,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 9117,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 9183,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 9193,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 9207,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 9236,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 9243,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 9249,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 9258,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 9286,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 9332,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 9418,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 9539,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 9549,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 9586,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 9596,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 9625,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 9639,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 9680,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 9694,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 9762,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 9813,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 9858,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 9909,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 9954,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 10005,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 10047,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 10074,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 10096,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 10121,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 10148,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 10170,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 10347,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 10357,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 10371,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 10400,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 10407,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 10413,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 10422,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 10446,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 10513,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 10550,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 10598,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 10608,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 10636,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 10644,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 10659,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 10673,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 10694,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 10700,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 10709,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 10730,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 10742,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 10749,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 10756,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 10766,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 10776,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 10786,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 10793,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 10803,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 10811,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 10823,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 10894,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 10900,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 10915,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 10925,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 10943,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 10962,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 10967,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 10976,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 10984,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 11000,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 11007,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 11013,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 11023,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 11029,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 11045,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 11051,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 11062,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 11072,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 11128,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 11145,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 11249,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 11266,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 11289,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 11306,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 11341,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 11351,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 11365,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 11394,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 11401,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 11407,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 11438,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 11501,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 11521,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 11535,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 11551,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 11560,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 11575,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 11590,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 11643,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 11689,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 11698,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 11717,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 11754,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 11764,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 11778,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 11807,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 11814,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 11820,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 11829,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 11838,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 11853,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 11886,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 11893,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 11899,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 12003,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 12022,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 12035,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 12052,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 12088,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 12098,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 12112,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 12141,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 12148,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 12154,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 12163,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 12172,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 12187,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 12220,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 12227,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 12233,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 8192,
+                    "Type": "ABSOLUTE"
+                }
+            ],
+            [
+                {
+                    "Structure": "IMAGE_BASE_RELOCATION",
+                    "VirtualAddress": {
+                        "FileOffset": 49820,
+                        "Offset": 0,
+                        "Value": 12288
+                    },
+                    "SizeOfBlock": {
+                        "FileOffset": 49824,
+                        "Offset": 4,
+                        "Value": 400
+                    }
+                },
+                {
+                    "RVA": 12337,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 12356,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 12369,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 12386,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 12427,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 12437,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 12451,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 12480,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 12487,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 12493,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 12502,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 12511,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 12526,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 12559,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 12566,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 12572,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 12676,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 12695,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 12708,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 12725,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 12766,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 12776,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 12790,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 12819,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 12826,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 12832,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 12841,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 12852,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 12877,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 12964,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 12991,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 13029,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 13037,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 13044,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 13080,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 13088,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 13095,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 13147,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 13157,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 13183,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 13193,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 13220,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 13246,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 13255,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 13269,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 13282,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 13296,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 13339,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 13353,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 13383,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 13434,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 13454,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 13468,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 13515,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 13522,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 13528,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 13549,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 13610,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 13643,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 13650,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 13656,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 13669,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 13689,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 13742,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 13757,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 13770,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 13784,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 13813,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 13823,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 13837,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 13866,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 13873,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 13879,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 13888,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 13901,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 13918,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 13927,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 13940,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 13968,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 13998,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 14031,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 14050,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 14079,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 14117,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 14148,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 14155,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 14161,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 14174,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 14203,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 14219,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 14234,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 14266,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 14279,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 14323,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 14330,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 14336,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 14376,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 14386,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 14399,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 14409,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 14422,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 14432,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 14445,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 14469,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 14482,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 14499,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 14513,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 14555,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 14562,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 14568,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 14595,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 14618,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 14647,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 14657,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 14671,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 14700,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 14707,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 14713,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 14755,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 14762,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 14768,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 14813,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 14826,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 14855,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 14890,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 14918,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 14960,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 14967,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 14973,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 15012,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 15019,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 15025,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 15091,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 15098,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 15104,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 15117,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 15138,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 15191,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 15214,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 15238,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 15252,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 15262,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 15278,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 15293,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 15309,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 15319,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 15356,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 15366,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 15403,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 15413,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 15432,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 15474,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 15484,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 15498,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 15509,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 15519,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 15555,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 15565,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 15581,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 15604,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 15618,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 15631,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 15652,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 15666,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 15687,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 15701,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 15739,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 15781,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 15788,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 15794,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 15833,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 15840,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 15846,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 15912,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 15919,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 15925,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 15938,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 15959,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 16012,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 16036,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 16056,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 16077,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 16087,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 16129,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 16156,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 16165,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 16175,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 16193,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 16217,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 16231,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 16248,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 16277,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 16336,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 16343,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 16349,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 16371,
+                    "Type": "HIGHLOW"
+                }
+            ],
+            [
+                {
+                    "Structure": "IMAGE_BASE_RELOCATION",
+                    "VirtualAddress": {
+                        "FileOffset": 50220,
+                        "Offset": 0,
+                        "Value": 16384
+                    },
+                    "SizeOfBlock": {
+                        "FileOffset": 50224,
+                        "Offset": 4,
+                        "Value": 360
+                    }
+                },
+                {
+                    "RVA": 16388,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 16414,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 16455,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 16465,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 16479,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 16508,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 16515,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 16521,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 16530,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 16543,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 16583,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 16597,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 16657,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 16672,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 16690,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 16766,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 16801,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 16815,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 16867,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 16895,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 16913,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 16972,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 17019,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 17098,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 17113,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 17125,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 17174,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 17201,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 17223,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 17240,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 17275,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 17285,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 17299,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 17328,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 17335,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 17341,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 17350,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 17367,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 17417,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 17435,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 17488,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 17514,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 17593,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 17600,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 17607,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 17614,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 17621,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 17649,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 17670,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 17693,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 17711,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 17744,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 17762,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 17781,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 17831,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 17846,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 17869,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 17883,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 17916,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 17926,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 17940,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 17969,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 17976,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 17982,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 17991,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 18008,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 18019,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 18028,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 18038,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 18051,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 18096,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 18114,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 18157,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 18171,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 18188,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 18216,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 18230,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 18285,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 18295,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 18309,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 18338,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 18345,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 18351,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 18360,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 18377,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 18397,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 18411,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 18453,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 18468,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 18486,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 18504,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 18516,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 18565,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 18582,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 18595,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 18609,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 18683,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 18697,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 18738,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 18746,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 18753,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 18789,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 18797,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 18804,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 18840,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 18848,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 18855,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 18891,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 18899,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 18906,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 18932,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 18947,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 18952,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 18959,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 18966,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 18973,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 18980,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 18987,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 18994,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 19001,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 19008,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 19015,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 19031,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 19041,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 19055,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 19084,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 19091,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 19097,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 19123,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 19146,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 19156,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 19170,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 19199,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 19206,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 19212,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 19229,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 19236,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 19243,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 19250,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 19257,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 19291,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 19326,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 19336,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 19350,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 19379,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 19386,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 19392,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 19401,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 19443,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 19450,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 19456,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 19488,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 19526,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 19543,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 19570,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 19627,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 19701,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 19711,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 19729,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 19740,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 19750,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 19788,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 19795,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 19801,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 19823,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 19834,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 19844,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 19875,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 19882,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 19888,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 19916,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 19938,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 19946,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 19954,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 19962,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 16384,
+                    "Type": "ABSOLUTE"
+                }
+            ],
+            [
+                {
+                    "Structure": "IMAGE_BASE_RELOCATION",
+                    "VirtualAddress": {
+                        "FileOffset": 50580,
+                        "Offset": 0,
+                        "Value": 20480
+                    },
+                    "SizeOfBlock": {
+                        "FileOffset": 50584,
+                        "Offset": 4,
+                        "Value": 12
+                    }
+                },
+                {
+                    "RVA": 20480,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 20480,
+                    "Type": "ABSOLUTE"
+                }
+            ],
+            [
+                {
+                    "Structure": "IMAGE_BASE_RELOCATION",
+                    "VirtualAddress": {
+                        "FileOffset": 50592,
+                        "Offset": 0,
+                        "Value": 24576
+                    },
+                    "SizeOfBlock": {
+                        "FileOffset": 50596,
+                        "Offset": 4,
+                        "Value": 68
+                    }
+                },
+                {
+                    "RVA": 24876,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 24880,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 24884,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 24888,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 24892,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 24896,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 24900,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 24904,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 24908,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 24912,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 24916,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 24920,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 24924,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 24928,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 24932,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 24936,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 24940,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 24944,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 24948,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 24952,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 24956,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 28140,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 28144,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 28148,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 28152,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 28156,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 28160,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 28164,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 28168,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 24576,
+                    "Type": "ABSOLUTE"
+                }
+            ],
+            [
+                {
+                    "Structure": "IMAGE_BASE_RELOCATION",
+                    "VirtualAddress": {
+                        "FileOffset": 50660,
+                        "Offset": 0,
+                        "Value": 28672
+                    },
+                    "SizeOfBlock": {
+                        "FileOffset": 50664,
+                        "Offset": 4,
+                        "Value": 56
+                    }
+                },
+                {
+                    "RVA": 31312,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 31316,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 31320,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 31324,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 31328,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 31332,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 31336,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 31340,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 31344,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 31348,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 31352,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 31356,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 31360,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 31364,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 31368,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 31372,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 31376,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 31380,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 31384,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 31388,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 31392,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 31396,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 31400,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 31404,
+                    "Type": "HIGHLOW"
+                }
+            ],
+            [
+                {
+                    "Structure": "IMAGE_BASE_RELOCATION",
+                    "VirtualAddress": {
+                        "FileOffset": 50716,
+                        "Offset": 0,
+                        "Value": 32768
+                    },
+                    "SizeOfBlock": {
+                        "FileOffset": 50720,
+                        "Offset": 4,
+                        "Value": 28
+                    }
+                },
+                {
+                    "RVA": 32848,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 32852,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 32856,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 32860,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 32864,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 32868,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 32872,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 32876,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 32880,
+                    "Type": "HIGHLOW"
+                },
+                {
+                    "RVA": 32884,
+                    "Type": "HIGHLOW"
+                }
+            ]
+        ]
+    },
+    "strings": [
+        "!This program cannot be run in DOS mode.",
+        ".text",
+        "P`.data",
+        ".rdata",
+        "0@.bss",
+        ".edata",
+        "0@.idata",
+        ".rsrc",
+        ".reloc",
+        "0B.rossym",
+        "D$\fi",
+        "S\"8S#~(",
+        "C\"8C#~(",
+        "[^_]",
+        "[^_]",
+        "[^_]",
+        "D$\f ",
+        "[^_]",
+        "[^_]",
+        "[^_]",
+        "[^_]",
+        "BatM",
+        ">AeoBu",
+        "[^_]",
+        "_PSR",
+        "AeiB",
+        "_STA",
+        "AeiB",
+        "_UID",
+        "AeiB",
+        "_BTP",
+        "AeiI",
+        "D$\f\f",
+        "D$\fH",
+        "D$\fQ",
+        "D$\f@3",
+        "[^_]",
+        "C\"8C#~(",
+        "D$\f@3",
+        "C\"8C#~(",
+        "[^_]",
+        "D$\f)",
+        "CmbR",
+        "[^_]",
+        "[^_]",
+        "D$\fj",
+        "D$\f\\",
+        "D$\fO",
+        "D$\f@",
+        "CPSI",
+        "CT I",
+        "C\"8C#~(",
+        "[^_]",
+        "NTDDK: Pageable code called at IRQL > APC_LEVEL (%d)",
+        "../../drivers/bus/acpi/cmbatt/cmbatt.c",
+        "CmBattIoctl",
+        "../../include/ddk/wdm.h",
+        "Irp->CurrentLocation <= Irp->StackCount",
+        "Irp->CurrentLocation <= Irp->StackCount + 1",
+        "CmBattIoctl: Received  Direct Access IOCTL %x",
+        "CmBattIoctl: Unknown IOCTL %x",
+        "(%s:%d) CmBattOpenClose",
+        "(%s:%d) DbgPrint() failed!",
+        "CmBattOpenClose: Failed (UID = %x)(device being removed).",
+        "CmBattOpenClose: Open (DeviceNumber = %x)(count = %x).",
+        "CmBattOpenClose: Close (DeviceNumber = %x)(count = %x).",
+        "(%s:%d) CmBattUnload: ",
+        "Unload called before all devices removed.",
+        "CmBattWakeDpc: Entered.",
+        "CmBattWakeDpc: AC adapter notified",
+        "CmBattWakeDpc: Performing delayed ARs: %01x",
+        "CmBattPowerCallBack: action: %d, value: %d ",
+        "CmBattPowerCallBack: Calling CmBattWakeDpc after 10 seconds.",
+        "CmBattPowerCallBack: timerCanceled = %d.",
+        "CmBattPowerCallBack: Delaying Notifications",
+        "CmBattPowerCallBack: unknown argument2 = %08x",
+        "CmBattNotifyHandler: CmBatt 0x%08x Type %d Number %d Notify Value: %x",
+        "CmBattNotifyHandler: Received battery #%x insertion, but tag was not invalid.",
+        "CmBattNotifyHandler: Unknown Notify Value: %x",
+        "CmBattNotifyHandler: Notification delayed: ARs = %01x",
+        "CmBattNotifyHandler: Performing ARs: %01x",
+        "WARNING:  %s at %s:%d is UNIMPLEMENTED!",
+        "CmBattQueryTag - Tag (%d), Battery %x, Device %d",
+        "CmBattQueryTag - New Tag: (%d)",
+        "CmBattQueryTag: Returning Tag: 0x%x, status 0x%x",
+        "CmBattDisableStatusNotify",
+        "CmBattDisableStatusNotify: SetTripPoint failed - %x",
+        "CmBattSetStatusNotify: Tag (%d) Target(0x%x)",
+        "CmBattSetStatusNotify: Failing request because of BATTERY_UNKNOWN_CAPACITY.",
+        "CmBattSetStatusNotify: Can't calculate BTP, DesignVoltage = 0x%08x",
+        "CmBattSetStatusNotify: Keeping original setting: %X",
+        "CmBattSetStatusNotify: SetTripPoint failed - %x",
+        "CmBattSetStatusNotify: GetBstData - %x",
+        "CmBattSetStatusNotify: Trip point already crossed (1): TP = %08x, remaining capacity = %08x",
+        "CmBattSetStatusNotify: Want %X CurrentCap %X",
+        "CmBattSetStatusNotify: Set to: [%#08lx][%#08lx][%#08lx] Status %x",
+        "CmBattGetBatteryStatus - CmBatt (%08x) Tag (%d)",
+        "************************ ACPI BIOS BUG ********************",
+        "* CmBattGetBatteryStatus: Invalid state: _BST method returned 0x%08x for Battery State.",
+        "* One battery cannot be charging and discharging at the same time.",
+        "CmBattGetBatteryStatus: AC adapter is connected",
+        "CmBattGetBatteryStatus: AC adapter is NOT connected",
+        "CmBattGetBatteryStatus - Rate is greater than CM_MAX_VALUE",
+        "----------------------   PresentRate = 0x%08x",
+        "CmBattGetBatteryStatus - Can't calculate RemainingCapacity ",
+        "----------------------   RemainingCapacity = CM_UNKNOWN_VALUE",
+        "CmBattGetBatteryStatus - Can't calculate Rate ",
+        "----------------------   Overflow: PresentRate = 0x%08x",
+        "----------------------   Present Rate = CM_UNKNOWN_VALUE",
+        "CmBattGetBatteryStatus - Can't calculate RemainingCapacity and Rate ",
+        "----------------------   DesignVoltage = 0x%08x",
+        "CmBattGetBatteryStatus: battery rate is unkown when battery is not charging!",
+        "CmBattGetBatteryStatus: battery is not charging or discharging, but rate = %x",
+        "CmBattQueryInformation - Tag (%d) Device %d, Informationlevel %d",
+        "CmBattQueryInformation: Can't calculate EstimatedTime.",
+        "----------------------   PresentRate = BATTERY_UNKNOWN_RATE",
+        "----------------------   RemainingCapacity = BATTERY_UNKNOWN_CAPACITY",
+        "CmBattQueryInformation: Data Overflow in calculating Remaining Capacity.",
+        "CmBattQueryStatus - Tag (%d) Device %x",
+        "CmBattQueryStatus: Returning [%#08lx][%#08lx][%#08lx][%#08lx]",
+        "CmBatt: Couldn't allocate pool for registry path.",
+        "CmBatt DriverEntry - Obj (%08x) Path \"%ws\"",
+        "CmBattRegisterPowerCallBack: failed status=0x%08x",
+        "CmBattRegisterPowerCallBack: ExRegisterCallback failed.",
+        "CmBattVerifyStaticInfo",
+        "GetDwordElement: Object contained wrong data type - %d",
+        "GetStringElement: return buffer not big enough - %d",
+        "GetStringElement: Object contained wrong data type - %d",
+        "NTDDK: Pageable code called at IRQL > APC_LEVEL (%d)",
+        "../../drivers/bus/acpi/cmbatt/cmexec.c",
+        "CmBattSendDownStreamIrp: Failed to allocate Irp",
+        "CmBattSendDownStreamIrp: Irp %x [Tid] %x",
+        "CmBattSendDownStreamIrp: Irp %x completed %x! [Tid] %x",
+        "CmBattGetPsrData: Entered with Pdo %x Tid %x",
+        "PsrData != NULL",
+        "CmBattGetPsrData: _PSR method returned %x ",
+        "CmBattGetPsrData: Failed _PSR method - Status (0x%x)",
+        "CmBattGetStaData: Entered with Pdo %x Tid %x",
+        "StaData != NULL",
+        "CmBattGetStaData: _STA method returned %x ",
+        "CmBattGetStaData: Failed _STA method - Status (0x%x)",
+        "CmBattGetUniqueId: Entered with Pdo %x Tid %x",
+        "UniqueId != NULL",
+        "CmBattGetUniqueId: _UID method returned %x ",
+        "CmBattGetUniqueId: Failed _UID method - Status (0x%x)",
+        "CmBattSetTripPpoint: _BTP Alarm Value %x Device %x Tid %x",
+        "CmBattSetTripPpoint: Failed _BTP method on device %x - Status (0x%x)",
+        "WARNING:  %s at %s:%d is UNIMPLEMENTED!",
+        "CmBattGetBifData",
+        "CmBattGetBstData",
+        "CmBattWaitWakeLoop: Entered.",
+        "CmBattWaitWakeLoop: completed successfully",
+        "CmBattWaitWakeLoop: PoRequestPowerIrp: status = 0x%08x.",
+        "CmBattWaitWakeLoop: failed: status = 0x%08x.",
+        "CmBattIoCompletion: Event (%x)",
+        "CmBattGetAcpiInterfaces: Failed to allocate Irp",
+        "../../include/ddk/wdm.h",
+        "Irp->CurrentLocation > 0",
+        "CmBattGetAcpiInterfaces: Could not get ACPI driver interfaces, status = %x",
+        "NTDDK: Pageable code called at IRQL > APC_LEVEL (%d)",
+        "../../drivers/bus/acpi/cmbatt/cmbpnp.c",
+        "CmBattDestroyFdo, Battery.",
+        "CmBattDestroyFdo: done.",
+        "CmBattRemoveDevice: CmBatt (%x), Type %d, _UID %d",
+        "FALSE",
+        "CmBattPowerDispatch",
+        "Irp->CurrentLocation <= Irp->StackCount + 1",
+        "CmBattPowerDispatch: IRP_MN_WAIT_WAKE",
+        "CmBattPowerDispatch: IRP_MN_POWER_SEQUENCE",
+        "CmBattPowerDispatch: IRP_MN_SET_POWER type: %d, State: %d ",
+        "CmBattPowerDispatch: minor %d",
+        "Irp->CurrentLocation <= Irp->StackCount",
+        "CmBattPnpDispatch: IRP_MN_SURPRISE_REMOVAL",
+        "CmBattPnpDispatch: IRP_MN_START_DEVICE",
+        "CmBattPnpDispatch: IRP_MN_STOP_DEVICE",
+        "CmBattPnpDispatch: IRP_MN_QUERY_REMOVE_DEVICE",
+        "CmBattPnpDispatch: Received two consecutive QUERY_REMOVE requests.",
+        "CmBattPnpDispatch: IRP_MN_REMOVE_DEVICE",
+        "CmBattPnpDispatch: IRP_MN_CANCEL_REMOVE_DEVICE",
+        "CmBattPnpDispatch: Received CANCEL_REMOVE when OpenCount == %x",
+        "CmBattPnpDispatch: IRP_MN_QUERY_STOP_DEVICE",
+        "CmBattPnpDispatch: IRP_MN_CANCEL_STOP_DEVICE",
+        "CmBattPnpDispatch: IRP_MN_QUERY_CAPABILITIES %d Capabilities->SystemWake = %x",
+        "CmBattPnpDispatch: IRP_MN_QUERY_CAPABILITIES Wake not supported.",
+        "CmBattPnpDispatch: IRP_MN_QUERY_CAPABILITIES wait/Wake irp sent.",
+        "CmBattPnpDispatch: Unimplemented minor %0x",
+        "CmBattCreateFdo: Entered",
+        "CmBattCreateFdo: Error %x from _UID, assuming unit #0",
+        "CmBattCreateFdo: error (0x%x) creating device object",
+        "CmBattCreateFdo: IoAttachDeviceToDeviceStack failed.",
+        "CmBattCreateFdo: Could not get ACPI interfaces: %x",
+        "CmBattCreateFdo: Created FDO %x",
+        "CmBattAddBattery: pdo %x",
+        "CmBattAddBattery: error (0x%x) creating Fdo",
+        "CmBattAddBattery: error (0x%x) registering with class",
+        "CmBattAddBattery: Could not register as a WMI provider, status = %Lx",
+        "CmBattAddBattery: Could not register for battery notify, status = %Lx",
+        "CmBattAddAcAdapter: pdo %x",
+        "CmBatt: Second AC adapter found.  Current version of driver only supports 1 aadapter.",
+        "CmBattAddAcAdapter: error (0x%x) creating Fdo",
+        "CmBattAddAcAdapter: Could not register for power notify, status = %Lx",
+        "CmBattAddDevice: Entered with pdo %x",
+        "CmBattAddDevice: Asked to do detection",
+        "CmBattAddDevice: Could not get the software branch: %x",
+        "CmBattAddDevice: Could not read the power type identifier: %x",
+        "CmBattAddDevice: Invalid POWER_SOURCE_TYPE == %d ",
+        "../../drivers/bus/acpi/cmbatt/cmbwmi.c",
+        "WARNING:  %s at %s:%d is UNIMPLEMENTED!",
+        "IRP_MN_CHANGE_SINGLE_INSTANCE",
+        "IRP_MN_CHANGE_SINGLE_ITEM",
+        "IRP_MN_DISABLE_COLLECTION",
+        "IRP_MN_DISABLE_EVENTS",
+        "IRP_MN_ENABLE_COLLECTION",
+        "IRP_MN_ENABLE_EVENTS",
+        "IRP_MN_EXECUTE_METHOD",
+        "IRP_MN_QUERY_ALL_DATA",
+        "IRP_MN_QUERY_SINGLE_INSTANCE",
+        "IRP_MN_REGINFO",
+        "IRP_MN_?????",
+        "NTDDK: Pageable code called at IRQL > APC_LEVEL (%d)",
+        "../../include/ddk/wdm.h",
+        "Irp->CurrentLocation <= Irp->StackCount + 1",
+        "CmBatt: SystemControl: %s",
+        "CmBatt: SystemControl: Irp Not Completed.",
+        "CmBatt: SystemControl: Irp Forward.",
+        "Irp->CurrentLocation <= Irp->StackCount",
+        "CmBatt: SystemControl: Irp Processed.",
+        "FALSE",
+        "CmBattQueryWmiRegInfo",
+        "CmBattQueryWmiDataBlock",
+        "CmBattSetWmiDataBlock",
+        "CmBattSetWmiDataItem",
+        "EricF.Nelson",
+        "kI%o",
+        "O`RM",
+        "HrGm",
+        "O`RMz",
+        "O`RM",
+        "kI%o",
+        "BIz`",
+        "cmbatt.sys",
+        "BatteryClassInitializeDevice",
+        "BatteryClassIoctl",
+        "BatteryClassStatusNotify",
+        "BatteryClassSystemControl",
+        "BatteryClassUnload",
+        "WmiSystemControl",
+        "ExAcquireFastMutex",
+        "ExReleaseFastMutex",
+        "KeGetCurrentIrql",
+        "DbgPrint",
+        "ExAllocatePoolWithTag",
+        "ExCreateCallback",
+        "ExFreePool",
+        "ExRegisterCallback",
+        "ExUnregisterCallback",
+        "InterlockedExchange",
+        "IoAcquireRemoveLockEx",
+        "IoAllocateIrp",
+        "IoAttachDeviceToDeviceStack",
+        "IoBuildDeviceIoControlRequest",
+        "IoCancelIrp",
+        "IoCreateDevice",
+        "IoDeleteDevice",
+        "IoDetachDevice",
+        "IoFreeIrp",
+        "IoInitializeRemoveLockEx",
+        "IoOpenDeviceRegistryKey",
+        "IoReleaseRemoveLockAndWaitEx",
+        "IoReleaseRemoveLockEx",
+        "IoWMIRegistrationControl",
+        "IofCallDriver",
+        "IofCompleteRequest",
+        "KeGetCurrentThread",
+        "KeInitializeDpc",
+        "KeInitializeEvent",
+        "KeInitializeTimer",
+        "KeQueryInterruptTime",
+        "KeSetEvent",
+        "KeSetTimer",
+        "KeWaitForSingleObject",
+        "ObfDereferenceObject",
+        "PoCallDriver",
+        "PoRequestPowerIrp",
+        "PoStartNextPowerIrp",
+        "RtlAnsiStringToUnicodeString",
+        "RtlAppendUnicodeStringToString",
+        "RtlAssert",
+        "RtlCopyUnicodeString",
+        "RtlInitAnsiString",
+        "RtlInitUnicodeString",
+        "ZwClose",
+        "ZwQueryValueKey",
+        "memmove",
+        "memset",
+        "battc.sys",
+        "wmilib.sys",
+        "hal.dll",
+        "ntoskrnl.exe",
+        "0,0I0P0V0_0i0",
+        "1%1@1w1~1",
+        "3<3_3f3l3",
+        "4$4+4D4K4d4z4",
+        "5(5F5T5d5|5",
+        "6*646w6",
+        "727G7a7k7x7}7",
+        "8(8M8",
+        "9H9r9",
+        ":-:J:Q:W:`:~:",
+        ";J;\\;~;",
+        ";\"<0<\\<f<t<",
+        "=5>G>o>",
+        "?,?7?X?",
+        "021w1",
+        "2/292E2",
+        "3-3P3Z3",
+        "4!4*4F4t4",
+        "4C5M5r5|5",
+        "5\"6U6",
+        "7?7Z7p7",
+        "7k8u8",
+        "969f9p9",
+        ":\":):3:;:G:",
+        ";%;+;6;@;x;",
+        "<*<M<W<e<",
+        "=(=7=F={=",
+        ">&>,>5>>>M>n>u>{>",
+        "?8?B?P?m?t?z?",
+        "10D0Q0b0",
+        "2 2)242M2",
+        "3 3'3[3e3",
+        "4)4G4z4",
+        "4*5K5R5X5e5y5",
+        "6*61676@6M6^6g6t6",
+        "6%7D7K7Q7^7{7",
+        "8(828?8I8V8`8m8",
+        "979A9O9l9s9y9",
+        ":*:F:p:w:}:",
+        ";\";W;n;",
+        "<+<5<H<r<|<",
+        "=$=2=G=U={=",
+        "=(>/>5>B>W>",
+        "?%?/?A?Y?g?x?",
+        "0G0Q0_0|0",
+        "1 121~1",
+        "2L2{2",
+        "313G3X3{3",
+        "4P4j4",
+        "5/5P5b5u5",
+        "61686>6G6X6c6l6v6",
+        "6\f7(767m7w7",
+        "8$868H8T8",
+        "929:9A9e9m9t9",
+        ":$:+:2:9:@:G:W:a:o:",
+        ";$;+;2;9;[;~;",
+        "< <F<W<r<",
+        "=&=L=S=Y=o=z=",
+        ",1014181<1@1D1H1L1P1T1X1\\1`1d1h1l1p1t1x1|1",
+        "P:T:X:\\:`:d:h:l:p:t:x:|:",
+        "P0T0X0\\0`0d0h0l0p0t0",
+        "CmBattOpenClose",
+        "CmBattSetStatusNotify",
+        "CmBattSetWmiDataBlock",
+        "CmBattGetStaData",
+        "CmBattSetTripPpoint",
+        "CmBattGetAcpiInterfaces",
+        "CmBattGetBstData",
+        "CmBattDisableStatusNotify",
+        "CmBattWmiDeRegistration",
+        "CmBattSetWmiDataItem",
+        "GetDwordElement",
+        "drivers/bus/acpi/cmbatt/cmbwmi.c",
+        "include/crt/mingw32/intrin_x86.h",
+        "CmBattPowerDispatch",
+        "CmBattGetBatteryStatus",
+        "CmBattAddAcAdapter",
+        "CmBattVerifyStaticInfo",
+        "CmBattAddDevice",
+        "WMIMinorFunctionString",
+        "CmBattQueryStatus",
+        "CmBattWakeDpc",
+        "CmBattUnload",
+        "CmBattSendDownStreamIrp",
+        "CmBattDestroyFdo",
+        "GetStringElement",
+        "CmBattGetPsrData",
+        "CmBattIoCompletion",
+        "include/ddk/wdm.h",
+        "CmBattIoctl",
+        "CmBattSystemControl",
+        "CmBattAddBattery",
+        "CmBattQueryWmiDataBlock",
+        "CmBattQueryWmiRegInfo",
+        "CmBattGetUniqueId",
+        "drivers/bus/acpi/cmbatt/cmexec.c",
+        "CmBattWmiRegistration",
+        "CmBattPnpDispatch",
+        "CmBattWaitWakeLoop",
+        "CmBattPowerCallBack",
+        "CmBattRemoveDevice",
+        "CmBattGetBifData",
+        "CmBattCreateFdo",
+        "drivers/bus/acpi/cmbatt/cmbatt.c",
+        "CmBattQueryTag",
+        "CmBattNotifyHandler",
+        "CmBattQueryInformation",
+        "drivers/bus/acpi/cmbatt/cmbpnp.c",
+        "DriverEntry",
+        "RtlCopyUnicodeString",
+        "__RUNTIME_PSEUDO_RELOC_LIST__",
+        "GUID_PCMCIA_BUS_INTERFACE_STANDARD",
+        "KeGetCurrentIrql",
+        "_imp__PoRequestPowerIrp",
+        "_data_start__",
+        "__DTOR_LIST__",
+        "GUID_POWER_DEVICE_TIMEOUTS",
+        "CmBattWmiGuidList",
+        "ExAcquireFastMutex",
+        "_imp__IoDetachDevice",
+        "_imp__PoCallDriver",
+        "IoAcquireRemoveLockEx",
+        "IoInitializeRemoveLockEx",
+        "GUID_PCI_BUS_INTERFACE_STANDARD",
+        "_imp__IoInitializeRemoveLockEx",
+        "CmBattPowerCallBackObject",
+        "InterlockedExchange",
+        "ExReleaseFastMutex",
+        "__tls_start__",
+        "GUID_HWPROFILE_CHANGE_CANCELLED",
+        "GUID_DEVICE_INTERFACE_ARRIVAL",
+        "ZwClose",
+        "_imp__KeSetTimer",
+        "_imp__ExUnregisterCallback",
+        "_rt_psrelocs_start",
+        "GUID_BUS_TYPE_EISA",
+        "CmBattWakeDpcObject",
+        "_dll_characteristics__",
+        "GUID_BUS_TYPE_SERENUM",
+        "_size_of_stack_commit__",
+        "_head_drivers_battery_battc_libbattc_a",
+        "GUID_BUS_TYPE_USB",
+        "_size_of_stack_reserve__",
+        "_major_subsystem_version__",
+        "__crt_xl_start__",
+        "_imp__RtlInitAnsiString",
+        "GUID_LEGACY_DEVICE_DETECTION_STANDARD",
+        "CmBattWakeDpcDelay",
+        "_imp__KeQueryInterruptTime",
+        "__crt_xi_start__",
+        "__crt_xi_end__",
+        "DbgPrint",
+        "_imp_@InterlockedExchange",
+        "_imp__KeWaitForSingleObject",
+        "GUID_BUS_TYPE_IRDA",
+        "_imp_@ExAcquireFastMutex",
+        "_imp__ExAllocatePoolWithTag",
+        "_imp__RtlAssert",
+        "KeGetCurrentThread",
+        "CmBattWakeDpcTimerObject",
+        "GlobalRegistryPath",
+        "_head_drivers_wmi_libwmilib_a",
+        "BatteryClassInitializeDevice",
+        "KeSetTimer",
+        "_imp__KeInitializeEvent",
+        "_imp__KeGetCurrentThread",
+        "GUID_POWER_DEVICE_WAKE_ENABLE",
+        "KeInitializeEvent",
+        "IoAttachDeviceToDeviceStack",
+        "_bss_start__",
+        "__RUNTIME_PSEUDO_RELOC_LIST_END__",
+        "KeWaitForSingleObject",
+        "_size_of_heap_commit__",
+        "KeQueryInterruptTime",
+        "GUID_BUS_TYPE_PCI",
+        "_imp__IoOpenDeviceRegistryKey",
+        "ObfDereferenceObject",
+        "GUID_TARGET_DEVICE_QUERY_REMOVE",
+        "_imp__IoDeleteDevice",
+        "GUID_MF_ENUMERATION_INTERFACE",
+        "_imp__BatteryClassSystemControl",
+        "GUID_ARBITER_INTERFACE_STANDARD",
+        "__crt_xp_start__",
+        "IofCallDriver",
+        "_imp__IoReleaseRemoveLockEx",
+        "GUID_POWER_DEVICE_ENABLE",
+        "WmiSystemControl",
+        "_imp__IoWMIRegistrationControl",
+        "_imp__IoBuildDeviceIoControlRequest",
+        "_imp__BatteryClassInitializeDevice",
+        "_imp__WmiSystemControl",
+        "_imp__ZwQueryValueKey",
+        "KeInitializeTimer",
+        "ExFreePool",
+        "_imp__IoFreeIrp",
+        "__crt_xp_end__",
+        "_dll__",
+        "_imp__KeSetEvent",
+        "GUID_HWPROFILE_CHANGE_COMPLETE",
+        "GUID_BUS_TYPE_PCMCIA",
+        "_imp__KeInitializeDpc",
+        "_minor_os_version__",
+        "_drivers_battery_battc_libbattc_a_iname",
+        "KeInitializeDpc",
+        "ExAllocatePoolWithTag",
+        "RtlInitUnicodeString",
+        "_image_base__",
+        "IoCancelIrp",
+        "_section_alignment__",
+        "GUID_PNP_POWER_NOTIFICATION",
+        "GUID_BUS_TYPE_HID",
+        "_imp__memmove",
+        "PoStartNextPowerIrp",
+        "ExCreateCallback",
+        "BatteryClassIoctl",
+        "_imp__ExRegisterCallback",
+        "IoAllocateIrp",
+        "_IAT_end__",
+        "_RUNTIME_PSEUDO_RELOC_LIST__",
+        "memset",
+        "GUID_TRANSLATOR_INTERFACE_STANDARD",
+        "_imp_@ExReleaseFastMutex",
+        "PoCallDriver",
+        "BatteryClassStatusNotify",
+        "GUID_BUS_TYPE_DOT4PRT",
+        "_imp__KeInitializeTimer",
+        "_data_end__",
+        "_CTOR_LIST__",
+        "_imp__IoReleaseRemoveLockAndWaitEx",
+        "_bss_end__",
+        "_imp_@IofCallDriver",
+        "__crt_xc_end__",
+        "_imp__ExFreePool",
+        "__crt_xc_start__",
+        "BatteryClassSystemControl",
+        "__CTOR_LIST__",
+        "GUID_BUS_INTERFACE_STANDARD",
+        "_rt_psrelocs_size",
+        "_head_ntoskrnl_libntoskrnl_a",
+        "_imp__DbgPrint",
+        "_imp__IoAllocateIrp",
+        "IoCreateDevice",
+        "GUID_ACPI_CMOS_INTERFACE_STANDARD",
+        "_hal_halx86_libhal_a_iname",
+        "_imp__ZwClose",
+        "_file_alignment__",
+        "_imp_@ObfDereferenceObject",
+        "GUID_ACPI_REGS_INTERFACE_STANDARD",
+        "_imp__IoCreateDevice",
+        "GUID_BUS_TYPE_ISAPNP",
+        "IoReleaseRemoveLockEx",
+        "_imp__RtlAnsiStringToUnicodeString",
+        "_imp__BatteryClassIoctl",
+        "GUID_BUS_TYPE_SD",
+        "_major_os_version__",
+        "RtlAppendUnicodeStringToString",
+        "GUID_INT_ROUTE_INTERFACE_STANDARD",
+        "_ntoskrnl_libntoskrnl_a_iname",
+        "_IAT_start__",
+        "IoDetachDevice",
+        "GUID_BUS_TYPE_USBPRINT",
+        "IoWMIRegistrationControl",
+        "GUID_ACPI_PORT_RANGES_INTERFACE_STANDARD",
+        "_end__",
+        "_imp__IoCancelIrp",
+        "GUID_BUS_TYPE_1394",
+        "GUID_HWPROFILE_QUERY_CHANGE",
+        "_imp__BatteryClassUnload",
+        "ZwQueryValueKey",
+        "_DTOR_LIST__",
+        "GUID_TARGET_DEVICE_REMOVE_COMPLETE",
+        "_imp__memset",
+        "RtlAssert",
+        "_imp__ExCreateCallback",
+        "_size_of_heap_reserve__",
+        "__crt_xt_start__",
+        "__ImageBase",
+        "_subsystem__",
+        "_imp__RtlCopyUnicodeString",
+        "GUID_DEVICE_INTERFACE_REMOVAL",
+        "RtlInitAnsiString",
+        "IoBuildDeviceIoControlRequest",
+        "IoFreeIrp",
+        "PoRequestPowerIrp",
+        "_imp__RtlAppendUnicodeStringToString",
+        "IoReleaseRemoveLockAndWaitEx",
+        "GUID_AGP_TARGET_BUS_INTERFACE_STANDARD",
+        "__tls_end__",
+        "GUID_BUS_TYPE_AVC",
+        "CmBattPowerCallBackRegistration",
+        "_imp_@IofCompleteRequest",
+        "RtlAnsiStringToUnicodeString",
+        "GUID_BUS_TYPE_INTERNAL",
+        "_imp__RtlInitUnicodeString",
+        "CmBattDebug",
+        "_major_image_version__",
+        "_loader_flags__",
+        "GUID_PNP_LOCATION_INTERFACE",
+        "_imp__BatteryClassStatusNotify",
+        "_drivers_wmi_libwmilib_a_iname",
+        "_rt_psrelocs_end",
+        "_head_hal_halx86_libhal_a",
+        "GUID_ACPI_INTERFACE_STANDARD",
+        "_minor_subsystem_version__",
+        "_minor_image_version__",
+        "GUID_PNP_CUSTOM_NOTIFICATION",
+        "GUID_BUS_TYPE_MCA",
+        "IofCompleteRequest",
+        "memmove",
+        "KeSetEvent",
+        "ExRegisterCallback",
+        "AcAdapterPdo",
+        "GUID_BUS_TYPE_LPTENUM",
+        "IoDeleteDevice",
+        "_imp__IoAcquireRemoveLockEx",
+        "IoOpenDeviceRegistryKey",
+        "GUID_PCI_DEVICE_PRESENT_INTERFACE",
+        "GUID_TARGET_DEVICE_REMOVE_CANCELLED",
+        "_RUNTIME_PSEUDO_RELOC_LIST_END__",
+        "_imp__PoStartNextPowerIrp",
+        "_imp__KeGetCurrentIrql",
+        "_imp__IoAttachDeviceToDeviceStack",
+        "__crt_xt_end__",
+        "ExUnregisterCallback",
+        "BatteryClassUnload",
+        ".debug_aranges",
+        ".debug_info",
+        ".debug_abbrev",
+        ".debug_line",
+        ".debug_frame",
+        ".debug_str",
+        ".debug_loc",
+        ""
+    ],
+    "malware": "benign"
+}
