@@ -9,8 +9,10 @@ from util.hashing import get_hash_from_filenames
 import numpy as np
 
 inp_folder = './../samples/malware/malware'
+#inp_folder = './../samples/'
+
 inp_folder_type = "malware"
-out_folder = './../samples/results/'
+out_folder = './../db/results/'
 
 if __name__ == '__main__':
 
@@ -24,7 +26,8 @@ if __name__ == '__main__':
 
     for file in tqdm(files):
         results = create_info_dict(file, malware = inp_folder_type, analyzed_sha1= analyzed)
-        if isinstance(results,dict): write_to_json(results,out_folder)
+        if isinstance(results,dict):
+            write_to_json(results,out_folder)
 
     strings = get_all_strings(out_folder)
     cleaned_strings = []

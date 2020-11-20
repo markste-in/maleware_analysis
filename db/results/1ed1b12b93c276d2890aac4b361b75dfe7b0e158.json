@@ -1,0 +1,1825 @@
+{
+    "filename": "Backdoor.Win32.DsBot.dul_91f6.exe",
+    "md5": "9dfe29aec0fd35d5b369d952f6080f02",
+    "sha1": "1ed1b12b93c276d2890aac4b361b75dfe7b0e158",
+    "filetype": "../samples/malware/malware/Backdoor.Win32.DsBot.dul_91f6.exe: PE32 executable (GUI) Intel 80386, for MS Windows, PECompact2 compressed",
+    "pe_info": {
+        "pe_info": {
+            "Parsing Warnings": [
+                "Suspicious flags set for section 0. Both IMAGE_SCN_MEM_WRITE and IMAGE_SCN_MEM_EXECUTE are set. This might indicate a packed executable.",
+                "Suspicious flags set for section 1. Both IMAGE_SCN_MEM_WRITE and IMAGE_SCN_MEM_EXECUTE are set. This might indicate a packed executable.",
+                "AddressOfEntryPoint lies outside the sections' boundaries. AddressOfEntryPoint: 0xcc00ffee"
+            ],
+            "DOS_HEADER": {
+                "Structure": "IMAGE_DOS_HEADER",
+                "e_magic": {
+                    "FileOffset": 0,
+                    "Offset": 0,
+                    "Value": 23117
+                },
+                "e_cblp": {
+                    "FileOffset": 2,
+                    "Offset": 2,
+                    "Value": 144
+                },
+                "e_cp": {
+                    "FileOffset": 4,
+                    "Offset": 4,
+                    "Value": 3
+                },
+                "e_crlc": {
+                    "FileOffset": 6,
+                    "Offset": 6,
+                    "Value": 0
+                },
+                "e_cparhdr": {
+                    "FileOffset": 8,
+                    "Offset": 8,
+                    "Value": 4
+                },
+                "e_minalloc": {
+                    "FileOffset": 10,
+                    "Offset": 10,
+                    "Value": 0
+                },
+                "e_maxalloc": {
+                    "FileOffset": 12,
+                    "Offset": 12,
+                    "Value": 65535
+                },
+                "e_ss": {
+                    "FileOffset": 14,
+                    "Offset": 14,
+                    "Value": 0
+                },
+                "e_sp": {
+                    "FileOffset": 16,
+                    "Offset": 16,
+                    "Value": 184
+                },
+                "e_csum": {
+                    "FileOffset": 18,
+                    "Offset": 18,
+                    "Value": 0
+                },
+                "e_ip": {
+                    "FileOffset": 20,
+                    "Offset": 20,
+                    "Value": 0
+                },
+                "e_cs": {
+                    "FileOffset": 22,
+                    "Offset": 22,
+                    "Value": 0
+                },
+                "e_lfarlc": {
+                    "FileOffset": 24,
+                    "Offset": 24,
+                    "Value": 64
+                },
+                "e_ovno": {
+                    "FileOffset": 26,
+                    "Offset": 26,
+                    "Value": 0
+                },
+                "e_res": {
+                    "FileOffset": 28,
+                    "Offset": 28,
+                    "Value": "\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00"
+                },
+                "e_oemid": {
+                    "FileOffset": 36,
+                    "Offset": 36,
+                    "Value": 0
+                },
+                "e_oeminfo": {
+                    "FileOffset": 38,
+                    "Offset": 38,
+                    "Value": 0
+                },
+                "e_res2": {
+                    "FileOffset": 40,
+                    "Offset": 40,
+                    "Value": "\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00"
+                },
+                "e_lfanew": {
+                    "FileOffset": 60,
+                    "Offset": 60,
+                    "Value": 200
+                }
+            },
+            "NT_HEADERS": {
+                "Structure": "IMAGE_NT_HEADERS",
+                "Signature": {
+                    "FileOffset": 200,
+                    "Offset": 0,
+                    "Value": 17744
+                }
+            },
+            "FILE_HEADER": {
+                "Structure": "IMAGE_FILE_HEADER",
+                "Machine": {
+                    "FileOffset": 204,
+                    "Offset": 0,
+                    "Value": 332
+                },
+                "NumberOfSections": {
+                    "FileOffset": 206,
+                    "Offset": 2,
+                    "Value": 2
+                },
+                "TimeDateStamp": {
+                    "FileOffset": 208,
+                    "Offset": 4,
+                    "Value": "0x4C264DF1 [Sat Jun 26 18:58:57 2010 UTC]"
+                },
+                "PointerToSymbolTable": {
+                    "FileOffset": 212,
+                    "Offset": 8,
+                    "Value": 0
+                },
+                "NumberOfSymbols": {
+                    "FileOffset": 216,
+                    "Offset": 12,
+                    "Value": 0
+                },
+                "SizeOfOptionalHeader": {
+                    "FileOffset": 220,
+                    "Offset": 16,
+                    "Value": 224
+                },
+                "Characteristics": {
+                    "FileOffset": 222,
+                    "Offset": 18,
+                    "Value": 271
+                }
+            },
+            "Flags": [
+                "IMAGE_FILE_RELOCS_STRIPPED",
+                "IMAGE_FILE_EXECUTABLE_IMAGE",
+                "IMAGE_FILE_LINE_NUMS_STRIPPED",
+                "IMAGE_FILE_LOCAL_SYMS_STRIPPED",
+                "IMAGE_FILE_32BIT_MACHINE"
+            ],
+            "OPTIONAL_HEADER": {
+                "Structure": "IMAGE_OPTIONAL_HEADER",
+                "Magic": {
+                    "FileOffset": 224,
+                    "Offset": 0,
+                    "Value": 267
+                },
+                "MajorLinkerVersion": {
+                    "FileOffset": 226,
+                    "Offset": 2,
+                    "Value": 2
+                },
+                "MinorLinkerVersion": {
+                    "FileOffset": 227,
+                    "Offset": 3,
+                    "Value": 0
+                },
+                "SizeOfCode": {
+                    "FileOffset": 228,
+                    "Offset": 4,
+                    "Value": 81920
+                },
+                "SizeOfInitializedData": {
+                    "FileOffset": 232,
+                    "Offset": 8,
+                    "Value": 8192
+                },
+                "SizeOfUninitializedData": {
+                    "FileOffset": 236,
+                    "Offset": 12,
+                    "Value": 0
+                },
+                "AddressOfEntryPoint": {
+                    "FileOffset": 240,
+                    "Offset": 16,
+                    "Value": 3422617582
+                },
+                "BaseOfCode": {
+                    "FileOffset": 244,
+                    "Offset": 20,
+                    "Value": 4096
+                },
+                "BaseOfData": {
+                    "FileOffset": 248,
+                    "Offset": 24,
+                    "Value": 86016
+                },
+                "ImageBase": {
+                    "FileOffset": 252,
+                    "Offset": 28,
+                    "Value": 4194304
+                },
+                "SectionAlignment": {
+                    "FileOffset": 256,
+                    "Offset": 32,
+                    "Value": 4096
+                },
+                "FileAlignment": {
+                    "FileOffset": 260,
+                    "Offset": 36,
+                    "Value": 512
+                },
+                "MajorOperatingSystemVersion": {
+                    "FileOffset": 264,
+                    "Offset": 40,
+                    "Value": 4
+                },
+                "MinorOperatingSystemVersion": {
+                    "FileOffset": 266,
+                    "Offset": 42,
+                    "Value": 0
+                },
+                "MajorImageVersion": {
+                    "FileOffset": 268,
+                    "Offset": 44,
+                    "Value": 1
+                },
+                "MinorImageVersion": {
+                    "FileOffset": 270,
+                    "Offset": 46,
+                    "Value": 0
+                },
+                "MajorSubsystemVersion": {
+                    "FileOffset": 272,
+                    "Offset": 48,
+                    "Value": 4
+                },
+                "MinorSubsystemVersion": {
+                    "FileOffset": 274,
+                    "Offset": 50,
+                    "Value": 0
+                },
+                "Reserved1": {
+                    "FileOffset": 276,
+                    "Offset": 52,
+                    "Value": 0
+                },
+                "SizeOfImage": {
+                    "FileOffset": 280,
+                    "Offset": 56,
+                    "Value": 106496
+                },
+                "SizeOfHeaders": {
+                    "FileOffset": 284,
+                    "Offset": 60,
+                    "Value": 1024
+                },
+                "CheckSum": {
+                    "FileOffset": 288,
+                    "Offset": 64,
+                    "Value": 0
+                },
+                "Subsystem": {
+                    "FileOffset": 292,
+                    "Offset": 68,
+                    "Value": 2
+                },
+                "DllCharacteristics": {
+                    "FileOffset": 294,
+                    "Offset": 70,
+                    "Value": 0
+                },
+                "SizeOfStackReserve": {
+                    "FileOffset": 296,
+                    "Offset": 72,
+                    "Value": 1048576
+                },
+                "SizeOfStackCommit": {
+                    "FileOffset": 300,
+                    "Offset": 76,
+                    "Value": 4096
+                },
+                "SizeOfHeapReserve": {
+                    "FileOffset": 304,
+                    "Offset": 80,
+                    "Value": 1048576
+                },
+                "SizeOfHeapCommit": {
+                    "FileOffset": 308,
+                    "Offset": 84,
+                    "Value": 4096
+                },
+                "LoaderFlags": {
+                    "FileOffset": 312,
+                    "Offset": 88,
+                    "Value": 0
+                },
+                "NumberOfRvaAndSizes": {
+                    "FileOffset": 316,
+                    "Offset": 92,
+                    "Value": 16
+                }
+            },
+            "DllCharacteristics": [],
+            "PE Sections": [
+                {
+                    "Structure": "IMAGE_SECTION_HEADER",
+                    "Name": {
+                        "FileOffset": 448,
+                        "Offset": 0,
+                        "Value": ".text\\x00\\x00\\x00"
+                    },
+                    "Misc": {
+                        "FileOffset": 456,
+                        "Offset": 8,
+                        "Value": 90112
+                    },
+                    "Misc_PhysicalAddress": {
+                        "FileOffset": 456,
+                        "Offset": 8,
+                        "Value": 90112
+                    },
+                    "Misc_VirtualSize": {
+                        "FileOffset": 456,
+                        "Offset": 8,
+                        "Value": 90112
+                    },
+                    "VirtualAddress": {
+                        "FileOffset": 460,
+                        "Offset": 12,
+                        "Value": 4096
+                    },
+                    "SizeOfRawData": {
+                        "FileOffset": 464,
+                        "Offset": 16,
+                        "Value": 90112
+                    },
+                    "PointerToRawData": {
+                        "FileOffset": 468,
+                        "Offset": 20,
+                        "Value": 4096
+                    },
+                    "PointerToRelocations": {
+                        "FileOffset": 472,
+                        "Offset": 24,
+                        "Value": 843269456
+                    },
+                    "PointerToLinenumbers": {
+                        "FileOffset": 476,
+                        "Offset": 28,
+                        "Value": 20302
+                    },
+                    "NumberOfRelocations": {
+                        "FileOffset": 480,
+                        "Offset": 32,
+                        "Value": 0
+                    },
+                    "NumberOfLinenumbers": {
+                        "FileOffset": 482,
+                        "Offset": 34,
+                        "Value": 0
+                    },
+                    "Characteristics": {
+                        "FileOffset": 484,
+                        "Offset": 36,
+                        "Value": 3758096480
+                    },
+                    "Flags": [
+                        "IMAGE_SCN_CNT_CODE",
+                        "IMAGE_SCN_CNT_INITIALIZED_DATA",
+                        "IMAGE_SCN_MEM_EXECUTE",
+                        "IMAGE_SCN_MEM_READ",
+                        "IMAGE_SCN_MEM_WRITE"
+                    ],
+                    "Entropy": 5.544633566807792,
+                    "MD5": "2c1ce29ea288cd07482f1d27e7823a59",
+                    "SHA1": "54ce2c5e2b8dda3bf2ac490de2e06e63cb95d00d",
+                    "SHA256": "bfa0b01d58d11d930cf179f217c33ce0959dcccfde63d3b07f6ac15426ca13fc",
+                    "SHA512": "66c2ef39169adb944b52d2250071a4a633689e5e81013d5cd2a3ecbc73308a51a19f29cd414460ce212273e675669e4447ea722e102b20a064fc09eb25a83e1f"
+                },
+                {
+                    "Structure": "IMAGE_SECTION_HEADER",
+                    "Name": {
+                        "FileOffset": 488,
+                        "Offset": 0,
+                        "Value": ".rsrc\\x00\\x00\\x00"
+                    },
+                    "Misc": {
+                        "FileOffset": 496,
+                        "Offset": 8,
+                        "Value": 12288
+                    },
+                    "Misc_PhysicalAddress": {
+                        "FileOffset": 496,
+                        "Offset": 8,
+                        "Value": 12288
+                    },
+                    "Misc_VirtualSize": {
+                        "FileOffset": 496,
+                        "Offset": 8,
+                        "Value": 12288
+                    },
+                    "VirtualAddress": {
+                        "FileOffset": 500,
+                        "Offset": 12,
+                        "Value": 94208
+                    },
+                    "SizeOfRawData": {
+                        "FileOffset": 504,
+                        "Offset": 16,
+                        "Value": 12288
+                    },
+                    "PointerToRawData": {
+                        "FileOffset": 508,
+                        "Offset": 20,
+                        "Value": 94208
+                    },
+                    "PointerToRelocations": {
+                        "FileOffset": 512,
+                        "Offset": 24,
+                        "Value": 0
+                    },
+                    "PointerToLinenumbers": {
+                        "FileOffset": 516,
+                        "Offset": 28,
+                        "Value": 0
+                    },
+                    "NumberOfRelocations": {
+                        "FileOffset": 520,
+                        "Offset": 32,
+                        "Value": 0
+                    },
+                    "NumberOfLinenumbers": {
+                        "FileOffset": 522,
+                        "Offset": 34,
+                        "Value": 0
+                    },
+                    "Characteristics": {
+                        "FileOffset": 524,
+                        "Offset": 36,
+                        "Value": 3758096416
+                    },
+                    "Flags": [
+                        "IMAGE_SCN_CNT_CODE",
+                        "IMAGE_SCN_MEM_EXECUTE",
+                        "IMAGE_SCN_MEM_READ",
+                        "IMAGE_SCN_MEM_WRITE"
+                    ],
+                    "Entropy": 5.556468551223859,
+                    "MD5": "c24b0edb0e45834d2b645551947ae7de",
+                    "SHA1": "1c6af4f89d79e562b31f6111eb0d5444f5db4b28",
+                    "SHA256": "b436e5ada1c86fc1555d984283fc26240f3dd65d1c36d3ac3d028a4ec625f713",
+                    "SHA512": "45e9dba33add7eefdb170e1b5cf0b2ea9220e62ea6f254c8f02e721b44abe7c32fe28a0963885e87cbf62554da648e2e074dd9b7bfefe0c7f117ebc9802a7f6e"
+                }
+            ],
+            "Directories": [
+                {
+                    "Structure": "IMAGE_DIRECTORY_ENTRY_EXPORT",
+                    "VirtualAddress": {
+                        "FileOffset": 320,
+                        "Offset": 0,
+                        "Value": 0
+                    },
+                    "Size": {
+                        "FileOffset": 324,
+                        "Offset": 4,
+                        "Value": 0
+                    }
+                },
+                {
+                    "Structure": "IMAGE_DIRECTORY_ENTRY_IMPORT",
+                    "VirtualAddress": {
+                        "FileOffset": 328,
+                        "Offset": 0,
+                        "Value": 80628
+                    },
+                    "Size": {
+                        "FileOffset": 332,
+                        "Offset": 4,
+                        "Value": 40
+                    }
+                },
+                {
+                    "Structure": "IMAGE_DIRECTORY_ENTRY_RESOURCE",
+                    "VirtualAddress": {
+                        "FileOffset": 336,
+                        "Offset": 0,
+                        "Value": 94208
+                    },
+                    "Size": {
+                        "FileOffset": 340,
+                        "Offset": 4,
+                        "Value": 16
+                    }
+                },
+                {
+                    "Structure": "IMAGE_DIRECTORY_ENTRY_EXCEPTION",
+                    "VirtualAddress": {
+                        "FileOffset": 344,
+                        "Offset": 0,
+                        "Value": 0
+                    },
+                    "Size": {
+                        "FileOffset": 348,
+                        "Offset": 4,
+                        "Value": 0
+                    }
+                },
+                {
+                    "Structure": "IMAGE_DIRECTORY_ENTRY_SECURITY",
+                    "VirtualAddress": {
+                        "FileOffset": 352,
+                        "Offset": 0,
+                        "Value": 0
+                    },
+                    "Size": {
+                        "FileOffset": 356,
+                        "Offset": 4,
+                        "Value": 0
+                    }
+                },
+                {
+                    "Structure": "IMAGE_DIRECTORY_ENTRY_BASERELOC",
+                    "VirtualAddress": {
+                        "FileOffset": 360,
+                        "Offset": 0,
+                        "Value": 0
+                    },
+                    "Size": {
+                        "FileOffset": 364,
+                        "Offset": 4,
+                        "Value": 0
+                    }
+                },
+                {
+                    "Structure": "IMAGE_DIRECTORY_ENTRY_DEBUG",
+                    "VirtualAddress": {
+                        "FileOffset": 368,
+                        "Offset": 0,
+                        "Value": 0
+                    },
+                    "Size": {
+                        "FileOffset": 372,
+                        "Offset": 4,
+                        "Value": 0
+                    }
+                },
+                {
+                    "Structure": "IMAGE_DIRECTORY_ENTRY_COPYRIGHT",
+                    "VirtualAddress": {
+                        "FileOffset": 376,
+                        "Offset": 0,
+                        "Value": 0
+                    },
+                    "Size": {
+                        "FileOffset": 380,
+                        "Offset": 4,
+                        "Value": 0
+                    }
+                },
+                {
+                    "Structure": "IMAGE_DIRECTORY_ENTRY_GLOBALPTR",
+                    "VirtualAddress": {
+                        "FileOffset": 384,
+                        "Offset": 0,
+                        "Value": 0
+                    },
+                    "Size": {
+                        "FileOffset": 388,
+                        "Offset": 4,
+                        "Value": 0
+                    }
+                },
+                {
+                    "Structure": "IMAGE_DIRECTORY_ENTRY_TLS",
+                    "VirtualAddress": {
+                        "FileOffset": 392,
+                        "Offset": 0,
+                        "Value": 0
+                    },
+                    "Size": {
+                        "FileOffset": 396,
+                        "Offset": 4,
+                        "Value": 0
+                    }
+                },
+                {
+                    "Structure": "IMAGE_DIRECTORY_ENTRY_LOAD_CONFIG",
+                    "VirtualAddress": {
+                        "FileOffset": 400,
+                        "Offset": 0,
+                        "Value": 0
+                    },
+                    "Size": {
+                        "FileOffset": 404,
+                        "Offset": 4,
+                        "Value": 0
+                    }
+                },
+                {
+                    "Structure": "IMAGE_DIRECTORY_ENTRY_BOUND_IMPORT",
+                    "VirtualAddress": {
+                        "FileOffset": 408,
+                        "Offset": 0,
+                        "Value": 0
+                    },
+                    "Size": {
+                        "FileOffset": 412,
+                        "Offset": 4,
+                        "Value": 0
+                    }
+                },
+                {
+                    "Structure": "IMAGE_DIRECTORY_ENTRY_IAT",
+                    "VirtualAddress": {
+                        "FileOffset": 416,
+                        "Offset": 0,
+                        "Value": 0
+                    },
+                    "Size": {
+                        "FileOffset": 420,
+                        "Offset": 4,
+                        "Value": 0
+                    }
+                },
+                {
+                    "Structure": "IMAGE_DIRECTORY_ENTRY_DELAY_IMPORT",
+                    "VirtualAddress": {
+                        "FileOffset": 424,
+                        "Offset": 0,
+                        "Value": 0
+                    },
+                    "Size": {
+                        "FileOffset": 428,
+                        "Offset": 4,
+                        "Value": 0
+                    }
+                },
+                {
+                    "Structure": "IMAGE_DIRECTORY_ENTRY_COM_DESCRIPTOR",
+                    "VirtualAddress": {
+                        "FileOffset": 432,
+                        "Offset": 0,
+                        "Value": 0
+                    },
+                    "Size": {
+                        "FileOffset": 436,
+                        "Offset": 4,
+                        "Value": 0
+                    }
+                },
+                {
+                    "Structure": "IMAGE_DIRECTORY_ENTRY_RESERVED",
+                    "VirtualAddress": {
+                        "FileOffset": 440,
+                        "Offset": 0,
+                        "Value": 0
+                    },
+                    "Size": {
+                        "FileOffset": 444,
+                        "Offset": 4,
+                        "Value": 0
+                    }
+                }
+            ],
+            "Imported symbols": [
+                [
+                    {
+                        "Structure": "IMAGE_IMPORT_DESCRIPTOR",
+                        "OriginalFirstThunk": {
+                            "FileOffset": 80628,
+                            "Offset": 0,
+                            "Value": 80668
+                        },
+                        "Characteristics": {
+                            "FileOffset": 80628,
+                            "Offset": 0,
+                            "Value": 80668
+                        },
+                        "TimeDateStamp": {
+                            "FileOffset": 80632,
+                            "Offset": 4,
+                            "Value": "0xFFFFFFFF [Sun Feb  7 06:28:15 2106 UTC]"
+                        },
+                        "ForwarderChain": {
+                            "FileOffset": 80636,
+                            "Offset": 8,
+                            "Value": 4294967295
+                        },
+                        "Name": {
+                            "FileOffset": 80640,
+                            "Offset": 12,
+                            "Value": 81192
+                        },
+                        "FirstThunk": {
+                            "FileOffset": 80644,
+                            "Offset": 16,
+                            "Value": 4096
+                        }
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaVarSub",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "_CIcos",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "_adj_fptan",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaVarMove",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaAryMove",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaFreeVar",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaLenBstr",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaStrVarMove",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaEnd",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaFreeVarList",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "_adj_fdiv_m64",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Ordinal": 516
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "_adj_fprem1",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaRecAnsiToUni",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Ordinal": 518
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaStrCat",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaError",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaRecDestruct",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaSetSystemError",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaNameFile",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaHresultCheckObj",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "_adj_fdiv_m32",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaAryVar",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Ordinal": 666
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaAryDestruct",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Ordinal": 593
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Ordinal": 594
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaOnError",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaObjSet",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "_adj_fdiv_m16i",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaObjSetAddref",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "_adj_fdivr_m16i",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaVarIndexLoad",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Ordinal": 598
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaFpR4",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaStrFixstr",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaBoolVarNull",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaFpR8",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "_CIsin",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaErase",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaVarCmpGt",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Ordinal": 632
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaChkstk",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaFileClose",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "EVENT_SINK_AddRef",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaGenerateBoundsError",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Ordinal": 529
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaCyI2",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaStrCmp",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaAryConstruct2",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaVarTstEq",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaPutOwner3",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaObjVar",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Ordinal": 561
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaI2I4",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "DllFunctionCall",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaRedimPreserve",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaStrR4",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaLbound",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "_adj_fpatan",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaRedim",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaRecUniToAnsi",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "EVENT_SINK_Release",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Ordinal": 600
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Ordinal": 601
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaUI1I2",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "_CIsqrt",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaVarAnd",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "EVENT_SINK_QueryInterface",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Ordinal": 710
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaUI1I4",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaExceptHandler",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Ordinal": 711
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaStrToUnicode",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Ordinal": 712
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "_adj_fprem",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "_adj_fdivr_m64",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Ordinal": 607
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Ordinal": 608
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Ordinal": 716
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaFPException",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Ordinal": 717
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaInStrVar",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaGetOwner3",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaStrVarVal",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaUbound",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaVarCat",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Ordinal": 644
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Ordinal": 645
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "_CIlog",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaErrorOverflow",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaFileOpen",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaVar2Vec",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaNew2",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Ordinal": 570
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaInStr",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "_adj_fdiv_m32i",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "_adj_fdivr_m32i",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Ordinal": 573
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaStrCopy",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaFreeStrList",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "_adj_fdivr_m32",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaPowerR8",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "_adj_fdiv_r",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Ordinal": 685
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Ordinal": 100
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaI4Var",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaAryLock",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaLateMemCall",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaVarDup",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaStrToAnsi",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaFpI4",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaRecDestructAnsi",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaLateMemCallLd",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Ordinal": 617
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "_CIatan",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaAryCopy",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaStrMove",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Ordinal": 619
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "_allmul",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "_CItan",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaAryUnlock",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaUI1Var",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaFPInt",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "_CIexp",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaStrCy",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaFreeStr",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaI4ErrVar",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Name": "__vbaFreeObj",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Ordinal": 581
+                    }
+                ]
+            ],
+            "Resource directory": [
+                {
+                    "Structure": "IMAGE_RESOURCE_DIRECTORY",
+                    "Characteristics": {
+                        "FileOffset": 94208,
+                        "Offset": 0,
+                        "Value": 0
+                    },
+                    "TimeDateStamp": {
+                        "FileOffset": 94212,
+                        "Offset": 4,
+                        "Value": "0x0        [Thu Jan  1 00:00:00 1970 UTC]"
+                    },
+                    "MajorVersion": {
+                        "FileOffset": 94216,
+                        "Offset": 8,
+                        "Value": 4
+                    },
+                    "MinorVersion": {
+                        "FileOffset": 94218,
+                        "Offset": 10,
+                        "Value": 0
+                    },
+                    "NumberOfNamedEntries": {
+                        "FileOffset": 94220,
+                        "Offset": 12,
+                        "Value": 0
+                    },
+                    "NumberOfIdEntries": {
+                        "FileOffset": 94222,
+                        "Offset": 14,
+                        "Value": 0
+                    }
+                }
+            ]
+        },
+        "signature_matches": "",
+        "generated_ep_signature": "\"data at RVA can't be fetched. Corrupt header?\""
+    },
+    "strings": [
+        "!This program cannot be run in DOS mode.",
+        "Rich",
+        ".text",
+        "PEC2NO",
+        ".rsrc",
+        "agjwasviwnkb",
+        "VB5!",
+        "vb6chs.dll",
+        "agjwasviwnkb",
+        "agjwasviwnkb",
+        "agjwasviwnkb",
+        "K6qM27M7w593UL3",
+        "k319c0in2Yl85V3kCMk",
+        "MW0ZN17orbIuw",
+        "QE252v4urV7l86",
+        "uMuZR2iJrMqAk99",
+        "GG137YM67ARDA",
+        "Jc16gF2b9",
+        "Mvs0YB305xu73ezI57",
+        "Vc1clt3pYfu0tg2WbcA",
+        "agjwasviwnkb",
+        "kernel32",
+        "DeleteFileA",
+        "h 6@",
+        "MoveFileExA",
+        "hd6@",
+        "GetModuleFileNameA",
+        "GetDiskFreeSpaceExA",
+        "GetSystemDirectoryA",
+        "hH7@",
+        "GetWindowsDirectoryA",
+        "kernel32.dll",
+        "TerminateProcess",
+        "OpenProcess",
+        "__vbaFreeObj",
+        "h`8@",
+        "CloseHandle",
+        "CreateMutexA",
+        "GetTickCount",
+        "h49@",
+        "Sleep",
+        "ht9@",
+        "VBA6.DLL",
+        "__vbaHresultCheckObj",
+        "__vbaObjSet",
+        "__vbaFpI4",
+        "__vbaStrCmp",
+        "__vbaUbound",
+        "__vbaI4ErrVar",
+        "__vbaFreeVar",
+        "__vbaFreeStrList",
+        "Process32First",
+        "__vbaStrToUnicode",
+        "__vbaErrorOverflow",
+        "__vbaGenerateBoundsError",
+        "__vbaStrCopy",
+        "__vbaFreeStr",
+        "__vbaVarCat",
+        "__vbaStrVarMove",
+        "__vbaStrCat",
+        "__vbaLenBstr",
+        "__vbaStrCy",
+        "__vbaFreeVarList",
+        "__vbaSetSystemError",
+        "__vbaStrVarVal",
+        "__vbaStrToAnsi",
+        "__vbaCyI2",
+        "__vbaStrMove",
+        "__vbaOnError",
+        "RtlMoveMemory",
+        "VirtualProtectEx",
+        "CreateProcessA",
+        "hP?@",
+        "ntdll.dll",
+        "ZwUnmapViewOfSection",
+        "WriteProcessMemory",
+        "ReadProcessMemory",
+        "hH@@",
+        "VirtualAllocEx",
+        "GetThreadContext",
+        "SetThreadContext",
+        "h\\A@",
+        "ResumeThread",
+        "sfc_os.dll",
+        "CreateToolhelp32Snapshot",
+        "hTB@",
+        "Process32Next",
+        "__vbaInStr",
+        "__vbaPutOwner3",
+        "__vbaAryCopy",
+        "__vbaAryDestruct",
+        "RegSetValueExA",
+        "inet_addr",
+        "__vbaFileClose",
+        "__vbaGetOwner3",
+        "__vbaRedim",
+        "__vbaFileOpen",
+        "__vbaVarTstEq",
+        "__vbaUI1I2",
+        "__vbaNew2",
+        "__vbaEnd",
+        "__vbaError",
+        "__vbaI2I4",
+        "__vbaLbound",
+        "__vbaFPInt",
+        "__vbaUI1I4",
+        "__vbaPowerR8",
+        "__vbaInStrVar",
+        "__vbaVarSub",
+        "__vbaVarAnd",
+        "__vbaUI1Var",
+        "__vbaErase",
+        "__vbaVar2Vec",
+        "__vbaAryMove",
+        "__vbaVarDup",
+        "__vbaAryConstruct2",
+        "qhAw",
+        "advapi32.dll",
+        "RegOpenKeyA",
+        "RegQueryValueExA",
+        "RegCloseKey",
+        "h\\F@",
+        "iphlpapi.dll",
+        "AllocateAndGetTcpExTableFromStack",
+        "SetTcpEntry",
+        "HeapCreate",
+        "hTG@",
+        "HeapDestroy",
+        "wsock32.dll",
+        "GetCurrentProcessId",
+        "h(H@",
+        "__vbaLateMemCallLd",
+        "__vbaLateMemCall",
+        "__vbaObjVar",
+        "__vbaObjSetAddref",
+        "__vbaNameFile",
+        "__vbaStrR4",
+        "__vbaFpR8",
+        "__vbaAryUnlock",
+        "__vbaAryLock",
+        "__vbaFpR4",
+        "__vbaAryVar",
+        "Form",
+        "C:\\Program Files\\Microsoft Visual Studio\\VB98\\VB6.OLB",
+        "__vbaVarIndexLoad",
+        "__vbaI4Var",
+        "__vbaVarMove",
+        "__vbaRecDestruct",
+        "__vbaRecDestructAnsi",
+        "__vbaRecAnsiToUni",
+        "__vbaRecUniToAnsi",
+        "__vbaVarCmpGt",
+        "__vbaBoolVarNull",
+        "__vbaStrFixstr",
+        "__vbaRedimPreserve",
+        "Vc1clt3pYfu0tg2WbcA",
+        "Vc1clt3pYfu0tg2WbcA",
+        "Ph0;@",
+        "PhH;@",
+        "h<;@",
+        "h|;@",
+        "hh;@",
+        "PhH;@",
+        "h<;@",
+        "h|;@",
+        "hh;@",
+        "hVb@",
+        "hxe@",
+        "h o@",
+        "pD;M",
+        "h@PA",
+        "h@PA",
+        "h2s@",
+        "Qh,C@",
+        "h\"~@",
+        "h,D@",
+        "QhHD@",
+        "QhHD@",
+        "PhHD@",
+        "hPD@",
+        "hlD@",
+        "QZ^&",
+        "h`H@",
+        "h4I@",
+        "hhK@",
+        "hhI@",
+        "hLI@",
+        "PhH;@",
+        "h<;@",
+        "hP8@",
+        "h$L@",
+        "hLL@",
+        "h<M@",
+        "h`M@",
+        "h<N@",
+        "h,N@",
+        "hpN@",
+        "h|N@",
+        "h<N@",
+        "h,N@",
+        "hpN@",
+        "h|N@",
+        "Ph,C@",
+        "Qh@>@",
+        "Ph@>@",
+        "Ph,C@",
+        "Ph,C@",
+        "Ph,C@",
+        "h\\Q@",
+        "hxQ@",
+        "hxQ@",
+        "h@R@",
+        "hpO@",
+        "hlR@",
+        "hpO@",
+        "hlR@",
+        "h@R@",
+        "Rh\\E@",
+        "h0X@",
+        "h,C@",
+        "h4S@",
+        "h\\S@",
+        "hTT@",
+        "h(T@",
+        "hlU@",
+        "hHU@",
+        "hHV@",
+        "h$V@",
+        "hpW@",
+        "hLW@",
+        "hlX@",
+        "hLX@",
+        "MSVBVM60.DLL",
+        "__vbaVarSub",
+        "_CIcos",
+        "_adj_fptan",
+        "__vbaVarMove",
+        "__vbaAryMove",
+        "__vbaFreeVar",
+        "__vbaLenBstr",
+        "__vbaStrVarMove",
+        "__vbaEnd",
+        "__vbaFreeVarList",
+        "_adj_fdiv_m64",
+        "_adj_fprem1",
+        "__vbaRecAnsiToUni",
+        "__vbaStrCat",
+        "__vbaError",
+        "__vbaRecDestruct",
+        "__vbaSetSystemError",
+        "__vbaNameFile",
+        "__vbaHresultCheckObj",
+        "_adj_fdiv_m32",
+        "__vbaAryVar",
+        "__vbaAryDestruct",
+        "__vbaOnError",
+        "__vbaObjSet",
+        "_adj_fdiv_m16i",
+        "__vbaObjSetAddref",
+        "_adj_fdivr_m16i",
+        "__vbaVarIndexLoad",
+        "__vbaFpR4",
+        "__vbaStrFixstr",
+        "__vbaBoolVarNull",
+        "__vbaFpR8",
+        "_CIsin",
+        "__vbaErase",
+        "__vbaVarCmpGt",
+        "__vbaChkstk",
+        "__vbaFileClose",
+        "EVENT_SINK_AddRef",
+        "__vbaGenerateBoundsError",
+        "__vbaCyI2",
+        "__vbaStrCmp",
+        "__vbaAryConstruct2",
+        "__vbaVarTstEq",
+        "__vbaPutOwner3",
+        "__vbaObjVar",
+        "__vbaI2I4",
+        "DllFunctionCall",
+        "__vbaRedimPreserve",
+        "__vbaStrR4",
+        "__vbaLbound",
+        "_adj_fpatan",
+        "__vbaRedim",
+        "__vbaRecUniToAnsi",
+        "EVENT_SINK_Release",
+        "__vbaUI1I2",
+        "_CIsqrt",
+        "__vbaVarAnd",
+        "EVENT_SINK_QueryInterface",
+        "__vbaUI1I4",
+        "__vbaExceptHandler",
+        "__vbaStrToUnicode",
+        "_adj_fprem",
+        "_adj_fdivr_m64",
+        "__vbaFPException",
+        "__vbaInStrVar",
+        "__vbaGetOwner3",
+        "__vbaStrVarVal",
+        "__vbaUbound",
+        "__vbaVarCat",
+        "_CIlog",
+        "__vbaErrorOverflow",
+        "__vbaFileOpen",
+        "__vbaVar2Vec",
+        "__vbaNew2",
+        "__vbaInStr",
+        "_adj_fdiv_m32i",
+        "_adj_fdivr_m32i",
+        "__vbaStrCopy",
+        "__vbaFreeStrList",
+        "_adj_fdivr_m32",
+        "__vbaPowerR8",
+        "_adj_fdiv_r",
+        "__vbaI4Var",
+        "__vbaAryLock",
+        "__vbaLateMemCall",
+        "__vbaVarDup",
+        "__vbaStrToAnsi",
+        "__vbaFpI4",
+        "__vbaRecDestructAnsi",
+        "__vbaLateMemCallLd",
+        "_CIatan",
+        "__vbaAryCopy",
+        "__vbaStrMove",
+        "_allmul",
+        "_CItan",
+        "__vbaAryUnlock",
+        "__vbaUI1Var",
+        "__vbaFPInt",
+        "_CIexp",
+        "__vbaStrCy",
+        "__vbaFreeStr",
+        "__vbaI4ErrVar",
+        "__vbaFreeObj",
+        "PADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDING",
+        "kernel32.dll",
+        "LoadLibraryA",
+        "GetProcAddress",
+        "VirtualAlloc",
+        "VirtualFree",
+        "{.!w",
+        "u4<E",
+        "p\fWA",
+        "u~`U\f",
+        "7*Id",
+        "9u\f<",
+        "7(hu",
+        ">tg(",
+        "0Hx72",
+        "sGDU",
+        "Q?BU",
+        "rjxY",
+        "D>FA",
+        "_|phK",
+        "~?>S",
+        "P\f_^",
+        "P-XpT@",
+        "g*\f(",
+        "8#SU$",
+        "!S.WVl ",
+        "(@e\fUJ",
+        "`nt{",
+        "*\f(7H",
+        "t5;u*X0",
+        "^}(,K",
+        "2=42",
+        "QRV#",
+        "&^ _1|",
+        ".I8^",
+        "-$-@",
+        "C`QN\f",
+        "ms9vbu",
+        "0sNh",
+        "%9#8j",
+        "Zhalo",
+        "~@<H",
+        "on er",
+        ";<c?d",
+        "6nid",
+        ",al ",
+        "W''cK",
+        "BoxA",
+        "?ExitP",
+        "pLlC",
+        "and?p=Opx",
+        "G=tMP",
+        "|Virt",
+        "HL0z",
+        "+|$(",
+        "USQWVR",
+        "Z^_Y[]",
+        ">&.+",
+        "9u\fs",
+        ")u\f+",
+        "9u\fs",
+        ")u\f+",
+        "9u\fsC",
+        ")u\f+",
+        "9U\fsG",
+        ")U\f+",
+        ")U\f+",
+        "9u\fs",
+        "z)u\f+",
+        "9u\fs",
+        ")u\f+",
+        "9u\fs%",
+        ")u\f+",
+        "9u\fs&",
+        ")u\f+",
+        "9u\fs",
+        "9u\fs",
+        "9E\fr",
+        "9u\fs",
+        "W\f_^",
+        "SWVU",
+        "AARQ",
+        "]^_[",
+        "t5;E",
+        "@tt3",
+        "Z^^ZY",
+        "^ZYY3",
+        "@^_[",
+        "PWQS",
+        "H^_[",
+        "msvbvm",
+        "H^_[",
+        "Q@@P",
+        ";M\ft",
+        "Application error",
+        "Application corrupt.",
+        "The procedure %s could not be located in the DLL %s.",
+        "The ordinal %d could not be located in the DLL %s.",
+        "user32",
+        "MessageBoxA",
+        "wsprintfA",
+        "kernel32",
+        "ExitProcess",
+        "CloseHandle",
+        "OpenProcess",
+        "GetModuleHandleA",
+        "VirtualProtect",
+        ""
+    ],
+    "malware": "malware"
+}

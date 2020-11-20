@@ -1,0 +1,5454 @@
+{
+    "filename": "Backdoor.Win32.IRCBot.tsf_b2b2.exe",
+    "md5": "6298891a76f7c170a85589507f31f1e4",
+    "sha1": "cc44200496eef71a6b2a151a14e9febc8a26de27",
+    "filetype": "../samples/malware/malware/Backdoor.Win32.IRCBot.tsf_b2b2.exe: PE32 executable (GUI) Intel 80386, for MS Windows",
+    "pe_info": {
+        "pe_info": {
+            "Parsing Warnings": [
+                "Suspicious flags set for section 0. Both IMAGE_SCN_MEM_WRITE and IMAGE_SCN_MEM_EXECUTE are set. This might indicate a packed executable.",
+                "Suspicious flags set for section 3. Both IMAGE_SCN_MEM_WRITE and IMAGE_SCN_MEM_EXECUTE are set. This might indicate a packed executable.",
+                "AddressOfEntryPoint lies outside the sections' boundaries. AddressOfEntryPoint: 0xcc00ffee",
+                "Export directory contains more than 10 repeated ordinal entries (0x1). Assuming corrupt."
+            ],
+            "DOS_HEADER": {
+                "Structure": "IMAGE_DOS_HEADER",
+                "e_magic": {
+                    "FileOffset": 0,
+                    "Offset": 0,
+                    "Value": 23117
+                },
+                "e_cblp": {
+                    "FileOffset": 2,
+                    "Offset": 2,
+                    "Value": 144
+                },
+                "e_cp": {
+                    "FileOffset": 4,
+                    "Offset": 4,
+                    "Value": 3
+                },
+                "e_crlc": {
+                    "FileOffset": 6,
+                    "Offset": 6,
+                    "Value": 0
+                },
+                "e_cparhdr": {
+                    "FileOffset": 8,
+                    "Offset": 8,
+                    "Value": 4
+                },
+                "e_minalloc": {
+                    "FileOffset": 10,
+                    "Offset": 10,
+                    "Value": 0
+                },
+                "e_maxalloc": {
+                    "FileOffset": 12,
+                    "Offset": 12,
+                    "Value": 65535
+                },
+                "e_ss": {
+                    "FileOffset": 14,
+                    "Offset": 14,
+                    "Value": 0
+                },
+                "e_sp": {
+                    "FileOffset": 16,
+                    "Offset": 16,
+                    "Value": 184
+                },
+                "e_csum": {
+                    "FileOffset": 18,
+                    "Offset": 18,
+                    "Value": 0
+                },
+                "e_ip": {
+                    "FileOffset": 20,
+                    "Offset": 20,
+                    "Value": 0
+                },
+                "e_cs": {
+                    "FileOffset": 22,
+                    "Offset": 22,
+                    "Value": 0
+                },
+                "e_lfarlc": {
+                    "FileOffset": 24,
+                    "Offset": 24,
+                    "Value": 64
+                },
+                "e_ovno": {
+                    "FileOffset": 26,
+                    "Offset": 26,
+                    "Value": 0
+                },
+                "e_res": {
+                    "FileOffset": 28,
+                    "Offset": 28,
+                    "Value": "\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00"
+                },
+                "e_oemid": {
+                    "FileOffset": 36,
+                    "Offset": 36,
+                    "Value": 0
+                },
+                "e_oeminfo": {
+                    "FileOffset": 38,
+                    "Offset": 38,
+                    "Value": 0
+                },
+                "e_res2": {
+                    "FileOffset": 40,
+                    "Offset": 40,
+                    "Value": "\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00"
+                },
+                "e_lfanew": {
+                    "FileOffset": 60,
+                    "Offset": 60,
+                    "Value": 200
+                }
+            },
+            "NT_HEADERS": {
+                "Structure": "IMAGE_NT_HEADERS",
+                "Signature": {
+                    "FileOffset": 200,
+                    "Offset": 0,
+                    "Value": 17744
+                }
+            },
+            "FILE_HEADER": {
+                "Structure": "IMAGE_FILE_HEADER",
+                "Machine": {
+                    "FileOffset": 204,
+                    "Offset": 0,
+                    "Value": 332
+                },
+                "NumberOfSections": {
+                    "FileOffset": 206,
+                    "Offset": 2,
+                    "Value": 6
+                },
+                "TimeDateStamp": {
+                    "FileOffset": 208,
+                    "Offset": 4,
+                    "Value": "0x4D395C44 [Fri Jan 21 10:13:24 2011 UTC]"
+                },
+                "PointerToSymbolTable": {
+                    "FileOffset": 212,
+                    "Offset": 8,
+                    "Value": 0
+                },
+                "NumberOfSymbols": {
+                    "FileOffset": 216,
+                    "Offset": 12,
+                    "Value": 0
+                },
+                "SizeOfOptionalHeader": {
+                    "FileOffset": 220,
+                    "Offset": 16,
+                    "Value": 224
+                },
+                "Characteristics": {
+                    "FileOffset": 222,
+                    "Offset": 18,
+                    "Value": 271
+                }
+            },
+            "Flags": [
+                "IMAGE_FILE_RELOCS_STRIPPED",
+                "IMAGE_FILE_EXECUTABLE_IMAGE",
+                "IMAGE_FILE_LINE_NUMS_STRIPPED",
+                "IMAGE_FILE_LOCAL_SYMS_STRIPPED",
+                "IMAGE_FILE_32BIT_MACHINE"
+            ],
+            "OPTIONAL_HEADER": {
+                "Structure": "IMAGE_OPTIONAL_HEADER",
+                "Magic": {
+                    "FileOffset": 224,
+                    "Offset": 0,
+                    "Value": 267
+                },
+                "MajorLinkerVersion": {
+                    "FileOffset": 226,
+                    "Offset": 2,
+                    "Value": 6
+                },
+                "MinorLinkerVersion": {
+                    "FileOffset": 227,
+                    "Offset": 3,
+                    "Value": 0
+                },
+                "SizeOfCode": {
+                    "FileOffset": 228,
+                    "Offset": 4,
+                    "Value": 53248
+                },
+                "SizeOfInitializedData": {
+                    "FileOffset": 232,
+                    "Offset": 8,
+                    "Value": 8192
+                },
+                "SizeOfUninitializedData": {
+                    "FileOffset": 236,
+                    "Offset": 12,
+                    "Value": 0
+                },
+                "AddressOfEntryPoint": {
+                    "FileOffset": 240,
+                    "Offset": 16,
+                    "Value": 3422617582
+                },
+                "BaseOfCode": {
+                    "FileOffset": 244,
+                    "Offset": 20,
+                    "Value": 4096
+                },
+                "BaseOfData": {
+                    "FileOffset": 248,
+                    "Offset": 24,
+                    "Value": 57344
+                },
+                "ImageBase": {
+                    "FileOffset": 252,
+                    "Offset": 28,
+                    "Value": 4194304
+                },
+                "SectionAlignment": {
+                    "FileOffset": 256,
+                    "Offset": 32,
+                    "Value": 4096
+                },
+                "FileAlignment": {
+                    "FileOffset": 260,
+                    "Offset": 36,
+                    "Value": 512
+                },
+                "MajorOperatingSystemVersion": {
+                    "FileOffset": 264,
+                    "Offset": 40,
+                    "Value": 4
+                },
+                "MinorOperatingSystemVersion": {
+                    "FileOffset": 266,
+                    "Offset": 42,
+                    "Value": 0
+                },
+                "MajorImageVersion": {
+                    "FileOffset": 268,
+                    "Offset": 44,
+                    "Value": 1
+                },
+                "MinorImageVersion": {
+                    "FileOffset": 270,
+                    "Offset": 46,
+                    "Value": 0
+                },
+                "MajorSubsystemVersion": {
+                    "FileOffset": 272,
+                    "Offset": 48,
+                    "Value": 4
+                },
+                "MinorSubsystemVersion": {
+                    "FileOffset": 274,
+                    "Offset": 50,
+                    "Value": 0
+                },
+                "Reserved1": {
+                    "FileOffset": 276,
+                    "Offset": 52,
+                    "Value": 0
+                },
+                "SizeOfImage": {
+                    "FileOffset": 280,
+                    "Offset": 56,
+                    "Value": 94208
+                },
+                "SizeOfHeaders": {
+                    "FileOffset": 284,
+                    "Offset": 60,
+                    "Value": 4096
+                },
+                "CheckSum": {
+                    "FileOffset": 288,
+                    "Offset": 64,
+                    "Value": 121322
+                },
+                "Subsystem": {
+                    "FileOffset": 292,
+                    "Offset": 68,
+                    "Value": 2
+                },
+                "DllCharacteristics": {
+                    "FileOffset": 294,
+                    "Offset": 70,
+                    "Value": 0
+                },
+                "SizeOfStackReserve": {
+                    "FileOffset": 296,
+                    "Offset": 72,
+                    "Value": 1048576
+                },
+                "SizeOfStackCommit": {
+                    "FileOffset": 300,
+                    "Offset": 76,
+                    "Value": 4096
+                },
+                "SizeOfHeapReserve": {
+                    "FileOffset": 304,
+                    "Offset": 80,
+                    "Value": 1048576
+                },
+                "SizeOfHeapCommit": {
+                    "FileOffset": 308,
+                    "Offset": 84,
+                    "Value": 4096
+                },
+                "LoaderFlags": {
+                    "FileOffset": 312,
+                    "Offset": 88,
+                    "Value": 0
+                },
+                "NumberOfRvaAndSizes": {
+                    "FileOffset": 316,
+                    "Offset": 92,
+                    "Value": 16
+                }
+            },
+            "DllCharacteristics": [],
+            "PE Sections": [
+                {
+                    "Structure": "IMAGE_SECTION_HEADER",
+                    "Name": {
+                        "FileOffset": 448,
+                        "Offset": 0,
+                        "Value": ".text\\x00\\x00\\x00"
+                    },
+                    "Misc": {
+                        "FileOffset": 456,
+                        "Offset": 8,
+                        "Value": 50148
+                    },
+                    "Misc_PhysicalAddress": {
+                        "FileOffset": 456,
+                        "Offset": 8,
+                        "Value": 50148
+                    },
+                    "Misc_VirtualSize": {
+                        "FileOffset": 456,
+                        "Offset": 8,
+                        "Value": 50148
+                    },
+                    "VirtualAddress": {
+                        "FileOffset": 460,
+                        "Offset": 12,
+                        "Value": 4096
+                    },
+                    "SizeOfRawData": {
+                        "FileOffset": 464,
+                        "Offset": 16,
+                        "Value": 53248
+                    },
+                    "PointerToRawData": {
+                        "FileOffset": 468,
+                        "Offset": 20,
+                        "Value": 4096
+                    },
+                    "PointerToRelocations": {
+                        "FileOffset": 472,
+                        "Offset": 24,
+                        "Value": 0
+                    },
+                    "PointerToLinenumbers": {
+                        "FileOffset": 476,
+                        "Offset": 28,
+                        "Value": 0
+                    },
+                    "NumberOfRelocations": {
+                        "FileOffset": 480,
+                        "Offset": 32,
+                        "Value": 0
+                    },
+                    "NumberOfLinenumbers": {
+                        "FileOffset": 482,
+                        "Offset": 34,
+                        "Value": 0
+                    },
+                    "Characteristics": {
+                        "FileOffset": 484,
+                        "Offset": 36,
+                        "Value": 3758096416
+                    },
+                    "Flags": [
+                        "IMAGE_SCN_CNT_CODE",
+                        "IMAGE_SCN_MEM_EXECUTE",
+                        "IMAGE_SCN_MEM_READ",
+                        "IMAGE_SCN_MEM_WRITE"
+                    ],
+                    "Entropy": 5.580426704978754,
+                    "MD5": "fe4d58b68dcbc0d5484fe2ef3ae9a794",
+                    "SHA1": "b4ea812b8e749f44c0ee86e2a0cbd212adfb0a30",
+                    "SHA256": "aa6850cdd50bd9aaa0f2827d9136f792ecb66d2e4f0cc96dc9c606987b9651ac",
+                    "SHA512": "922332bb3013a381cc4eda97301ac2f3c4c3646c1da2684dbbb0ca20077e5eb09f0efd00d415cce790c3550ccded4e2102864fae58db176e7ceaf96004e54b07"
+                },
+                {
+                    "Structure": "IMAGE_SECTION_HEADER",
+                    "Name": {
+                        "FileOffset": 488,
+                        "Offset": 0,
+                        "Value": ".data\\x00\\x00\\x00"
+                    },
+                    "Misc": {
+                        "FileOffset": 496,
+                        "Offset": 8,
+                        "Value": 1108
+                    },
+                    "Misc_PhysicalAddress": {
+                        "FileOffset": 496,
+                        "Offset": 8,
+                        "Value": 1108
+                    },
+                    "Misc_VirtualSize": {
+                        "FileOffset": 496,
+                        "Offset": 8,
+                        "Value": 1108
+                    },
+                    "VirtualAddress": {
+                        "FileOffset": 500,
+                        "Offset": 12,
+                        "Value": 57344
+                    },
+                    "SizeOfRawData": {
+                        "FileOffset": 504,
+                        "Offset": 16,
+                        "Value": 4096
+                    },
+                    "PointerToRawData": {
+                        "FileOffset": 508,
+                        "Offset": 20,
+                        "Value": 57344
+                    },
+                    "PointerToRelocations": {
+                        "FileOffset": 512,
+                        "Offset": 24,
+                        "Value": 0
+                    },
+                    "PointerToLinenumbers": {
+                        "FileOffset": 516,
+                        "Offset": 28,
+                        "Value": 0
+                    },
+                    "NumberOfRelocations": {
+                        "FileOffset": 520,
+                        "Offset": 32,
+                        "Value": 0
+                    },
+                    "NumberOfLinenumbers": {
+                        "FileOffset": 522,
+                        "Offset": 34,
+                        "Value": 0
+                    },
+                    "Characteristics": {
+                        "FileOffset": 524,
+                        "Offset": 36,
+                        "Value": 3221225536
+                    },
+                    "Flags": [
+                        "IMAGE_SCN_CNT_INITIALIZED_DATA",
+                        "IMAGE_SCN_MEM_READ",
+                        "IMAGE_SCN_MEM_WRITE"
+                    ],
+                    "Entropy": 0.0,
+                    "MD5": "620f0b67a91f7f74151bc5be745b7110",
+                    "SHA1": "1ceaf73df40e531df3bfb26b4fb7cd95fb7bff1d",
+                    "SHA256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+                    "SHA512": "2d23913d3759ef01704a86b4bee3ac8a29002313ecc98a7424425a78170f219577822fd77e4ae96313547696ad7d5949b58e12d5063ef2ee063b595740a3a12d"
+                },
+                {
+                    "Structure": "IMAGE_SECTION_HEADER",
+                    "Name": {
+                        "FileOffset": 528,
+                        "Offset": 0,
+                        "Value": ".rsrc\\x00\\x00\\x00"
+                    },
+                    "Misc": {
+                        "FileOffset": 536,
+                        "Offset": 8,
+                        "Value": 3264
+                    },
+                    "Misc_PhysicalAddress": {
+                        "FileOffset": 536,
+                        "Offset": 8,
+                        "Value": 3264
+                    },
+                    "Misc_VirtualSize": {
+                        "FileOffset": 536,
+                        "Offset": 8,
+                        "Value": 3264
+                    },
+                    "VirtualAddress": {
+                        "FileOffset": 540,
+                        "Offset": 12,
+                        "Value": 61440
+                    },
+                    "SizeOfRawData": {
+                        "FileOffset": 544,
+                        "Offset": 16,
+                        "Value": 4096
+                    },
+                    "PointerToRawData": {
+                        "FileOffset": 548,
+                        "Offset": 20,
+                        "Value": 61440
+                    },
+                    "PointerToRelocations": {
+                        "FileOffset": 552,
+                        "Offset": 24,
+                        "Value": 0
+                    },
+                    "PointerToLinenumbers": {
+                        "FileOffset": 556,
+                        "Offset": 28,
+                        "Value": 0
+                    },
+                    "NumberOfRelocations": {
+                        "FileOffset": 560,
+                        "Offset": 32,
+                        "Value": 0
+                    },
+                    "NumberOfLinenumbers": {
+                        "FileOffset": 562,
+                        "Offset": 34,
+                        "Value": 0
+                    },
+                    "Characteristics": {
+                        "FileOffset": 564,
+                        "Offset": 36,
+                        "Value": 3221225536
+                    },
+                    "Flags": [
+                        "IMAGE_SCN_CNT_INITIALIZED_DATA",
+                        "IMAGE_SCN_MEM_READ",
+                        "IMAGE_SCN_MEM_WRITE"
+                    ],
+                    "Entropy": 4.086676597403416,
+                    "MD5": "5450e024d711b19cec06f581121d1a10",
+                    "SHA1": "a26346ecdf043046c0b753ad6a1435a8144d91dd",
+                    "SHA256": "4d15db416fcb0ab51b203fe0e77143dc7c0e4b0290c0659361acf3e0355e6d36",
+                    "SHA512": "4836b845596e6fe441ee270cb268f6a4492ba812f845e6d71ec46ff3c5cafe774bea8c1a56b9e0c5dc721db42a35334452ac0109499a79726c644754efafae60"
+                },
+                {
+                    "Structure": "IMAGE_SECTION_HEADER",
+                    "Name": {
+                        "FileOffset": 568,
+                        "Offset": 0,
+                        "Value": "\\x00\\xcc:~.\\x04\\x98\\x02"
+                    },
+                    "Misc": {
+                        "FileOffset": 576,
+                        "Offset": 8,
+                        "Value": 4096
+                    },
+                    "Misc_PhysicalAddress": {
+                        "FileOffset": 576,
+                        "Offset": 8,
+                        "Value": 4096
+                    },
+                    "Misc_VirtualSize": {
+                        "FileOffset": 576,
+                        "Offset": 8,
+                        "Value": 4096
+                    },
+                    "VirtualAddress": {
+                        "FileOffset": 580,
+                        "Offset": 12,
+                        "Value": 65536
+                    },
+                    "SizeOfRawData": {
+                        "FileOffset": 584,
+                        "Offset": 16,
+                        "Value": 0
+                    },
+                    "PointerToRawData": {
+                        "FileOffset": 588,
+                        "Offset": 20,
+                        "Value": 65536
+                    },
+                    "PointerToRelocations": {
+                        "FileOffset": 592,
+                        "Offset": 24,
+                        "Value": 0
+                    },
+                    "PointerToLinenumbers": {
+                        "FileOffset": 596,
+                        "Offset": 28,
+                        "Value": 0
+                    },
+                    "NumberOfRelocations": {
+                        "FileOffset": 600,
+                        "Offset": 32,
+                        "Value": 0
+                    },
+                    "NumberOfLinenumbers": {
+                        "FileOffset": 602,
+                        "Offset": 34,
+                        "Value": 0
+                    },
+                    "Characteristics": {
+                        "FileOffset": 604,
+                        "Offset": 36,
+                        "Value": 3758096608
+                    },
+                    "Flags": [
+                        "IMAGE_SCN_CNT_CODE",
+                        "IMAGE_SCN_CNT_INITIALIZED_DATA",
+                        "IMAGE_SCN_CNT_UNINITIALIZED_DATA",
+                        "IMAGE_SCN_MEM_EXECUTE",
+                        "IMAGE_SCN_MEM_READ",
+                        "IMAGE_SCN_MEM_WRITE"
+                    ],
+                    "Entropy": 0.0,
+                    "MD5": "d41d8cd98f00b204e9800998ecf8427e",
+                    "SHA1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+                    "SHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                    "SHA512": "cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e"
+                },
+                {
+                    "Structure": "IMAGE_SECTION_HEADER",
+                    "Name": {
+                        "FileOffset": 608,
+                        "Offset": 0,
+                        "Value": "\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00"
+                    },
+                    "Misc": {
+                        "FileOffset": 616,
+                        "Offset": 8,
+                        "Value": 0
+                    },
+                    "Misc_PhysicalAddress": {
+                        "FileOffset": 616,
+                        "Offset": 8,
+                        "Value": 0
+                    },
+                    "Misc_VirtualSize": {
+                        "FileOffset": 616,
+                        "Offset": 8,
+                        "Value": 0
+                    },
+                    "VirtualAddress": {
+                        "FileOffset": 620,
+                        "Offset": 12,
+                        "Value": 69632
+                    },
+                    "SizeOfRawData": {
+                        "FileOffset": 624,
+                        "Offset": 16,
+                        "Value": 14848
+                    },
+                    "PointerToRawData": {
+                        "FileOffset": 628,
+                        "Offset": 20,
+                        "Value": 65536
+                    },
+                    "PointerToRelocations": {
+                        "FileOffset": 632,
+                        "Offset": 24,
+                        "Value": 0
+                    },
+                    "PointerToLinenumbers": {
+                        "FileOffset": 636,
+                        "Offset": 28,
+                        "Value": 0
+                    },
+                    "NumberOfRelocations": {
+                        "FileOffset": 640,
+                        "Offset": 32,
+                        "Value": 0
+                    },
+                    "NumberOfLinenumbers": {
+                        "FileOffset": 642,
+                        "Offset": 34,
+                        "Value": 0
+                    },
+                    "Characteristics": {
+                        "FileOffset": 644,
+                        "Offset": 36,
+                        "Value": 0
+                    },
+                    "Flags": [],
+                    "Entropy": 4.5327681753299895,
+                    "MD5": "8b30914c0a5f7d0e439c06b3a43240f1",
+                    "SHA1": "fba38905d13c6898b956795bd527f48b29a148a7",
+                    "SHA256": "95f97af1dbe22827c84c5469430ed1e2379b2508893f3e03d2becac4185b9007",
+                    "SHA512": "0a7e04cb58dc15e7142942dbaccc560aa37c3cddaaed8ecf7a66404c3770f11adc9bf4bfadaed7267d11d41483054080fdc24fa0ff417e1123ad2f4e5be05f38"
+                },
+                {
+                    "Structure": "IMAGE_SECTION_HEADER",
+                    "Name": {
+                        "FileOffset": 648,
+                        "Offset": 0,
+                        "Value": "\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00"
+                    },
+                    "Misc": {
+                        "FileOffset": 656,
+                        "Offset": 8,
+                        "Value": 8192
+                    },
+                    "Misc_PhysicalAddress": {
+                        "FileOffset": 656,
+                        "Offset": 8,
+                        "Value": 8192
+                    },
+                    "Misc_VirtualSize": {
+                        "FileOffset": 656,
+                        "Offset": 8,
+                        "Value": 8192
+                    },
+                    "VirtualAddress": {
+                        "FileOffset": 660,
+                        "Offset": 12,
+                        "Value": 86016
+                    },
+                    "SizeOfRawData": {
+                        "FileOffset": 664,
+                        "Offset": 16,
+                        "Value": 8192
+                    },
+                    "PointerToRawData": {
+                        "FileOffset": 668,
+                        "Offset": 20,
+                        "Value": 80384
+                    },
+                    "PointerToRelocations": {
+                        "FileOffset": 672,
+                        "Offset": 24,
+                        "Value": 0
+                    },
+                    "PointerToLinenumbers": {
+                        "FileOffset": 676,
+                        "Offset": 28,
+                        "Value": 0
+                    },
+                    "NumberOfRelocations": {
+                        "FileOffset": 680,
+                        "Offset": 32,
+                        "Value": 0
+                    },
+                    "NumberOfLinenumbers": {
+                        "FileOffset": 682,
+                        "Offset": 34,
+                        "Value": 0
+                    },
+                    "Characteristics": {
+                        "FileOffset": 684,
+                        "Offset": 36,
+                        "Value": 3221225536
+                    },
+                    "Flags": [
+                        "IMAGE_SCN_CNT_INITIALIZED_DATA",
+                        "IMAGE_SCN_MEM_READ",
+                        "IMAGE_SCN_MEM_WRITE"
+                    ],
+                    "Entropy": 3.6432572236906147,
+                    "MD5": "9fc5adf5503699a16829b3c5ca3587fa",
+                    "SHA1": "369c22f7592ed9208ab6f3e33dae3dca59256fcf",
+                    "SHA256": "52633998fd4b2efb7cf7903a82c73e6ed4cd9dcc6c9a785f50a743463920caea",
+                    "SHA512": "bbec7374f0fa5438c30976f9ac0d884bc8210f30b779054782b96019d4db71e4d8759c881203813673991b7ded6cddf76d5073de034fd27821410596ff8a0543"
+                }
+            ],
+            "Directories": [
+                {
+                    "Structure": "IMAGE_DIRECTORY_ENTRY_EXPORT",
+                    "VirtualAddress": {
+                        "FileOffset": 320,
+                        "Offset": 0,
+                        "Value": 3
+                    },
+                    "Size": {
+                        "FileOffset": 324,
+                        "Offset": 4,
+                        "Value": 0
+                    }
+                },
+                {
+                    "Structure": "IMAGE_DIRECTORY_ENTRY_IMPORT",
+                    "VirtualAddress": {
+                        "FileOffset": 328,
+                        "Offset": 0,
+                        "Value": 89211
+                    },
+                    "Size": {
+                        "FileOffset": 332,
+                        "Offset": 4,
+                        "Value": 470
+                    }
+                },
+                {
+                    "Structure": "IMAGE_DIRECTORY_ENTRY_RESOURCE",
+                    "VirtualAddress": {
+                        "FileOffset": 336,
+                        "Offset": 0,
+                        "Value": 61440
+                    },
+                    "Size": {
+                        "FileOffset": 340,
+                        "Offset": 4,
+                        "Value": 3264
+                    }
+                },
+                {
+                    "Structure": "IMAGE_DIRECTORY_ENTRY_EXCEPTION",
+                    "VirtualAddress": {
+                        "FileOffset": 344,
+                        "Offset": 0,
+                        "Value": 0
+                    },
+                    "Size": {
+                        "FileOffset": 348,
+                        "Offset": 4,
+                        "Value": 0
+                    }
+                },
+                {
+                    "Structure": "IMAGE_DIRECTORY_ENTRY_SECURITY",
+                    "VirtualAddress": {
+                        "FileOffset": 352,
+                        "Offset": 0,
+                        "Value": 0
+                    },
+                    "Size": {
+                        "FileOffset": 356,
+                        "Offset": 4,
+                        "Value": 0
+                    }
+                },
+                {
+                    "Structure": "IMAGE_DIRECTORY_ENTRY_BASERELOC",
+                    "VirtualAddress": {
+                        "FileOffset": 360,
+                        "Offset": 0,
+                        "Value": 0
+                    },
+                    "Size": {
+                        "FileOffset": 364,
+                        "Offset": 4,
+                        "Value": 0
+                    }
+                },
+                {
+                    "Structure": "IMAGE_DIRECTORY_ENTRY_DEBUG",
+                    "VirtualAddress": {
+                        "FileOffset": 368,
+                        "Offset": 0,
+                        "Value": 0
+                    },
+                    "Size": {
+                        "FileOffset": 372,
+                        "Offset": 4,
+                        "Value": 0
+                    }
+                },
+                {
+                    "Structure": "IMAGE_DIRECTORY_ENTRY_COPYRIGHT",
+                    "VirtualAddress": {
+                        "FileOffset": 376,
+                        "Offset": 0,
+                        "Value": 0
+                    },
+                    "Size": {
+                        "FileOffset": 380,
+                        "Offset": 4,
+                        "Value": 0
+                    }
+                },
+                {
+                    "Structure": "IMAGE_DIRECTORY_ENTRY_GLOBALPTR",
+                    "VirtualAddress": {
+                        "FileOffset": 384,
+                        "Offset": 0,
+                        "Value": 0
+                    },
+                    "Size": {
+                        "FileOffset": 388,
+                        "Offset": 4,
+                        "Value": 0
+                    }
+                },
+                {
+                    "Structure": "IMAGE_DIRECTORY_ENTRY_TLS",
+                    "VirtualAddress": {
+                        "FileOffset": 392,
+                        "Offset": 0,
+                        "Value": 0
+                    },
+                    "Size": {
+                        "FileOffset": 396,
+                        "Offset": 4,
+                        "Value": 0
+                    }
+                },
+                {
+                    "Structure": "IMAGE_DIRECTORY_ENTRY_LOAD_CONFIG",
+                    "VirtualAddress": {
+                        "FileOffset": 400,
+                        "Offset": 0,
+                        "Value": 0
+                    },
+                    "Size": {
+                        "FileOffset": 404,
+                        "Offset": 4,
+                        "Value": 0
+                    }
+                },
+                {
+                    "Structure": "IMAGE_DIRECTORY_ENTRY_BOUND_IMPORT",
+                    "VirtualAddress": {
+                        "FileOffset": 408,
+                        "Offset": 0,
+                        "Value": 0
+                    },
+                    "Size": {
+                        "FileOffset": 412,
+                        "Offset": 4,
+                        "Value": 0
+                    }
+                },
+                {
+                    "Structure": "IMAGE_DIRECTORY_ENTRY_IAT",
+                    "VirtualAddress": {
+                        "FileOffset": 416,
+                        "Offset": 0,
+                        "Value": 0
+                    },
+                    "Size": {
+                        "FileOffset": 420,
+                        "Offset": 4,
+                        "Value": 0
+                    }
+                },
+                {
+                    "Structure": "IMAGE_DIRECTORY_ENTRY_DELAY_IMPORT",
+                    "VirtualAddress": {
+                        "FileOffset": 424,
+                        "Offset": 0,
+                        "Value": 0
+                    },
+                    "Size": {
+                        "FileOffset": 428,
+                        "Offset": 4,
+                        "Value": 0
+                    }
+                },
+                {
+                    "Structure": "IMAGE_DIRECTORY_ENTRY_COM_DESCRIPTOR",
+                    "VirtualAddress": {
+                        "FileOffset": 432,
+                        "Offset": 0,
+                        "Value": 0
+                    },
+                    "Size": {
+                        "FileOffset": 436,
+                        "Offset": 4,
+                        "Value": 0
+                    }
+                },
+                {
+                    "Structure": "IMAGE_DIRECTORY_ENTRY_RESERVED",
+                    "VirtualAddress": {
+                        "FileOffset": 440,
+                        "Offset": 0,
+                        "Value": 0
+                    },
+                    "Size": {
+                        "FileOffset": 444,
+                        "Offset": 4,
+                        "Value": 0
+                    }
+                }
+            ],
+            "Version Information": [
+                [
+                    {
+                        "Structure": "VS_VERSIONINFO",
+                        "Length": {
+                            "FileOffset": 63908,
+                            "Offset": 0,
+                            "Value": 796
+                        },
+                        "ValueLength": {
+                            "FileOffset": 63910,
+                            "Offset": 2,
+                            "Value": 52
+                        },
+                        "Type": {
+                            "FileOffset": 63912,
+                            "Offset": 4,
+                            "Value": 0
+                        }
+                    },
+                    {
+                        "Structure": "VS_FIXEDFILEINFO",
+                        "Signature": {
+                            "FileOffset": 63948,
+                            "Offset": 0,
+                            "Value": 4277077181
+                        },
+                        "StrucVersion": {
+                            "FileOffset": 63952,
+                            "Offset": 4,
+                            "Value": 65536
+                        },
+                        "FileVersionMS": {
+                            "FileOffset": 63956,
+                            "Offset": 8,
+                            "Value": 65536
+                        },
+                        "FileVersionLS": {
+                            "FileOffset": 63960,
+                            "Offset": 12,
+                            "Value": 0
+                        },
+                        "ProductVersionMS": {
+                            "FileOffset": 63964,
+                            "Offset": 16,
+                            "Value": 65536
+                        },
+                        "ProductVersionLS": {
+                            "FileOffset": 63968,
+                            "Offset": 20,
+                            "Value": 0
+                        },
+                        "FileFlagsMask": {
+                            "FileOffset": 63972,
+                            "Offset": 24,
+                            "Value": 63
+                        },
+                        "FileFlags": {
+                            "FileOffset": 63976,
+                            "Offset": 28,
+                            "Value": 0
+                        },
+                        "FileOS": {
+                            "FileOffset": 63980,
+                            "Offset": 32,
+                            "Value": 4
+                        },
+                        "FileType": {
+                            "FileOffset": 63984,
+                            "Offset": 36,
+                            "Value": 1
+                        },
+                        "FileSubtype": {
+                            "FileOffset": 63988,
+                            "Offset": 40,
+                            "Value": 0
+                        },
+                        "FileDateMS": {
+                            "FileOffset": 63992,
+                            "Offset": 44,
+                            "Value": 0
+                        },
+                        "FileDateLS": {
+                            "FileOffset": 63996,
+                            "Offset": 48,
+                            "Value": 0
+                        }
+                    }
+                ]
+            ],
+            "Exported symbols": [
+                {
+                    "Structure": "IMAGE_EXPORT_DIRECTORY",
+                    "Characteristics": {
+                        "FileOffset": 3,
+                        "Offset": 0,
+                        "Value": 768
+                    },
+                    "TimeDateStamp": {
+                        "FileOffset": 7,
+                        "Offset": 4,
+                        "Value": "0x400      [Thu Jan  1 00:17:04 1970 UTC]"
+                    },
+                    "MajorVersion": {
+                        "FileOffset": 11,
+                        "Offset": 8,
+                        "Value": 65280
+                    },
+                    "MinorVersion": {
+                        "FileOffset": 13,
+                        "Offset": 10,
+                        "Value": 255
+                    },
+                    "Name": {
+                        "FileOffset": 15,
+                        "Offset": 12,
+                        "Value": 47104
+                    },
+                    "Base": {
+                        "FileOffset": 19,
+                        "Offset": 16,
+                        "Value": 0
+                    },
+                    "NumberOfFunctions": {
+                        "FileOffset": 23,
+                        "Offset": 20,
+                        "Value": 16384
+                    },
+                    "NumberOfNames": {
+                        "FileOffset": 27,
+                        "Offset": 24,
+                        "Value": 0
+                    },
+                    "AddressOfFunctions": {
+                        "FileOffset": 31,
+                        "Offset": 28,
+                        "Value": 0
+                    },
+                    "AddressOfNames": {
+                        "FileOffset": 35,
+                        "Offset": 32,
+                        "Value": 0
+                    },
+                    "AddressOfNameOrdinals": {
+                        "FileOffset": 39,
+                        "Offset": 36,
+                        "Value": 0
+                    }
+                },
+                {
+                    "Ordinal": 0,
+                    "RVA": 9460301,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 1,
+                    "RVA": 3,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 2,
+                    "RVA": 4,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 3,
+                    "RVA": 65535,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 4,
+                    "RVA": 184,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 6,
+                    "RVA": 64,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 15,
+                    "RVA": 200,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 16,
+                    "RVA": 247078670,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 17,
+                    "RVA": 3439965184,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 18,
+                    "RVA": 1275181089,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 19,
+                    "RVA": 1750344141,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 20,
+                    "RVA": 1881174889,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 21,
+                    "RVA": 1919381362,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 22,
+                    "RVA": 1663069537,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 23,
+                    "RVA": 1869508193,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 24,
+                    "RVA": 1700929652,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 25,
+                    "RVA": 1853190688,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 26,
+                    "RVA": 544106784,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 27,
+                    "RVA": 542330692,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 28,
+                    "RVA": 1701080941,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 29,
+                    "RVA": 168627502,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 30,
+                    "RVA": 36,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 32,
+                    "RVA": 3684747525,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 43,
+                    "RVA": 2295244800,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 50,
+                    "RVA": 17744,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 51,
+                    "RVA": 393548,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 52,
+                    "RVA": 1295604804,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 55,
+                    "RVA": 17760480,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 56,
+                    "RVA": 393483,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 57,
+                    "RVA": 53248,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 58,
+                    "RVA": 8192,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 60,
+                    "RVA": 3422617582,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 61,
+                    "RVA": 4096,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 62,
+                    "RVA": 57344,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 63,
+                    "RVA": 4194304,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 64,
+                    "RVA": 4096,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 65,
+                    "RVA": 512,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 66,
+                    "RVA": 4,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 67,
+                    "RVA": 1,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 68,
+                    "RVA": 4,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 70,
+                    "RVA": 94208,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 71,
+                    "RVA": 4096,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 72,
+                    "RVA": 121322,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 73,
+                    "RVA": 2,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 74,
+                    "RVA": 1048576,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 75,
+                    "RVA": 4096,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 76,
+                    "RVA": 1048576,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 77,
+                    "RVA": 4096,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 79,
+                    "RVA": 16,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 80,
+                    "RVA": 3,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 82,
+                    "RVA": 89211,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 83,
+                    "RVA": 470,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 84,
+                    "RVA": 61440,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 85,
+                    "RVA": 3264,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 112,
+                    "RVA": 2019914798,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 113,
+                    "RVA": 116,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 114,
+                    "RVA": 50148,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 115,
+                    "RVA": 4096,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 116,
+                    "RVA": 53248,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 117,
+                    "RVA": 4096,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 121,
+                    "RVA": 3758096416,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 122,
+                    "RVA": 1952539694,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 123,
+                    "RVA": 97,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 124,
+                    "RVA": 1108,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 125,
+                    "RVA": 57344,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 126,
+                    "RVA": 4096,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 127,
+                    "RVA": 57344,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 131,
+                    "RVA": 3221225536,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 132,
+                    "RVA": 1920168494,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 133,
+                    "RVA": 99,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 134,
+                    "RVA": 3264,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 135,
+                    "RVA": 61440,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 136,
+                    "RVA": 4096,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 137,
+                    "RVA": 61440,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 141,
+                    "RVA": 3221225536,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 142,
+                    "RVA": 2117782528,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 143,
+                    "RVA": 43516974,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 144,
+                    "RVA": 4096,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 145,
+                    "RVA": 65536,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 147,
+                    "RVA": 65536,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 151,
+                    "RVA": 3758096608,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 155,
+                    "RVA": 69632,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 156,
+                    "RVA": 14848,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 157,
+                    "RVA": 65536,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 164,
+                    "RVA": 8192,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 165,
+                    "RVA": 86016,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 166,
+                    "RVA": 8192,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 167,
+                    "RVA": 80384,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 171,
+                    "RVA": 3221225536,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 250,
+                    "RVA": 144,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 448,
+                    "RVA": 1600092160,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 449,
+                    "RVA": 1382113910,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 450,
+                    "RVA": 1919895096,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 451,
+                    "RVA": 1954047310,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 452,
+                    "RVA": 1667590211,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 453,
+                    "RVA": 107,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 513,
+                    "RVA": 3519545344,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 514,
+                    "RVA": 1,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 515,
+                    "RVA": 309329920,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 516,
+                    "RVA": 312743960,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 517,
+                    "RVA": 959462543,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 518,
+                    "RVA": 959119359,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 519,
+                    "RVA": 14867,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 520,
+                    "RVA": 2132949536,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 521,
+                    "RVA": 524305,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 522,
+                    "RVA": 32080,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 523,
+                    "RVA": 1114112,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 524,
+                    "RVA": 302830024,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 525,
+                    "RVA": 975190585,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 526,
+                    "RVA": 1146658,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 527,
+                    "RVA": 2102394888,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 528,
+                    "RVA": 304873472,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 529,
+                    "RVA": 975194933,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 530,
+                    "RVA": 1146658,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 531,
+                    "RVA": 307494948,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 532,
+                    "RVA": 309105192,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 533,
+                    "RVA": 5131404,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 534,
+                    "RVA": 1271468636,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 535,
+                    "RVA": 5111808,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 536,
+                    "RVA": 1271857232,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 537,
+                    "RVA": 2132934656,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 538,
+                    "RVA": 310673186,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 539,
+                    "RVA": 19379,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 540,
+                    "RVA": 310116432,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 541,
+                    "RVA": 3519545344,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 542,
+                    "RVA": 315675080,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 543,
+                    "RVA": 303567416,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 544,
+                    "RVA": 5131011,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 545,
+                    "RVA": 305660143,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 546,
+                    "RVA": 315923251,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 547,
+                    "RVA": 85846,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 548,
+                    "RVA": 305679129,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 549,
+                    "RVA": 1343492816,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 550,
+                    "RVA": 317456462,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 551,
+                    "RVA": 3508292599,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 552,
+                    "RVA": 5243119,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 553,
+                    "RVA": 305414768,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 554,
+                    "RVA": 60,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 555,
+                    "RVA": 15716636,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 556,
+                    "RVA": 303058512,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 557,
+                    "RVA": 15682520,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 558,
+                    "RVA": 305397840,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 559,
+                    "RVA": 3508273152,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 560,
+                    "RVA": 2132939320,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 561,
+                    "RVA": 1273107008,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 562,
+                    "RVA": 1313865967,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 563,
+                    "RVA": 4660,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 564,
+                    "RVA": 3508326684,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 565,
+                    "RVA": 315621454,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 566,
+                    "RVA": 15667768,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 567,
+                    "RVA": 1268847328,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 568,
+                    "RVA": 4283433199,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 569,
+                    "RVA": 2601456336,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 570,
+                    "RVA": 3508273230,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 571,
+                    "RVA": 376969240,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 572,
+                    "RVA": 2457932340,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 573,
+                    "RVA": 2455574024,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 574,
+                    "RVA": 4256439008,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 575,
+                    "RVA": 4784,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 576,
+                    "RVA": 448827944,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 577,
+                    "RVA": 2458261112,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 578,
+                    "RVA": 3676872,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 579,
+                    "RVA": 2462318592,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 580,
+                    "RVA": 1016010360,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 581,
+                    "RVA": 4294916784,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 582,
+                    "RVA": 988560043,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 583,
+                    "RVA": 376998240,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 584,
+                    "RVA": 4294906376,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 585,
+                    "RVA": 308019200,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 586,
+                    "RVA": 20501,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 587,
+                    "RVA": 1264325120,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 588,
+                    "RVA": 15663182,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 589,
+                    "RVA": 318509624,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 590,
+                    "RVA": 53532,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 591,
+                    "RVA": 1259803240,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 592,
+                    "RVA": 15663182,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 593,
+                    "RVA": 2609320504,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 594,
+                    "RVA": 1879446256,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 595,
+                    "RVA": 2132934656,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 596,
+                    "RVA": 524366,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 597,
+                    "RVA": 4624,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 599,
+                    "RVA": 1262963767,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 600,
+                    "RVA": 1263881080,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 601,
+                    "RVA": 2610894872,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 602,
+                    "RVA": 302780948,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 603,
+                    "RVA": 20588,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 604,
+                    "RVA": 1269043848,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 605,
+                    "RVA": 1879441408,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 606,
+                    "RVA": 15663182,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 607,
+                    "RVA": 1265635896,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 608,
+                    "RVA": 959713972,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 609,
+                    "RVA": 5140486,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 610,
+                    "RVA": 305660143,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 611,
+                    "RVA": 3134016368,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 612,
+                    "RVA": 317718528,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 613,
+                    "RVA": 303844208,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 614,
+                    "RVA": 1265645846,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 615,
+                    "RVA": 5140486,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 616,
+                    "RVA": 305660143,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 617,
+                    "RVA": 1879441408,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 618,
+                    "RVA": 1366824,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 619,
+                    "RVA": 1,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 620,
+                    "RVA": 1048576,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 621,
+                    "RVA": 317456384,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 622,
+                    "RVA": 1,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 623,
+                    "RVA": 315621376,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 624,
+                    "RVA": 308321227,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 625,
+                    "RVA": 959462543,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 626,
+                    "RVA": 309329920,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 627,
+                    "RVA": 15008,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 628,
+                    "RVA": 1879460720,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 629,
+                    "RVA": 15663182,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 630,
+                    "RVA": 2276725304,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 631,
+                    "RVA": 5111809,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 632,
+                    "RVA": 3676866464,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 633,
+                    "RVA": 1024,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 634,
+                    "RVA": 1225790020,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 635,
+                    "RVA": 1016009328,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 636,
+                    "RVA": 4294916784,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 637,
+                    "RVA": 988549784,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 638,
+                    "RVA": 5146528,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 639,
+                    "RVA": 305660143,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 640,
+                    "RVA": 19312,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 642,
+                    "RVA": 2440237816,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 643,
+                    "RVA": 1577640,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 644,
+                    "RVA": 5146528,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 645,
+                    "RVA": 305660143,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 646,
+                    "RVA": 978537328,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 647,
+                    "RVA": 980695486,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 648,
+                    "RVA": 5140486,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 649,
+                    "RVA": 305660143,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 650,
+                    "RVA": 11534336,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 651,
+                    "RVA": 974323712,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 652,
+                    "RVA": 3676831822,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 653,
+                    "RVA": 1648914438,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 654,
+                    "RVA": 987959832,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 655,
+                    "RVA": 5146528,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 656,
+                    "RVA": 305660143,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 657,
+                    "RVA": 3508273152,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 658,
+                    "RVA": 1225654275,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 659,
+                    "RVA": 5140486,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 660,
+                    "RVA": 305660143,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 661,
+                    "RVA": 3519545347,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 662,
+                    "RVA": 15695650,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 663,
+                    "RVA": 261968,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 664,
+                    "RVA": 1246494723,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 665,
+                    "RVA": 196611,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 666,
+                    "RVA": 2609905488,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 667,
+                    "RVA": 3519549968,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 668,
+                    "RVA": 310907564,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 669,
+                    "RVA": 1349522080,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 670,
+                    "RVA": 1254162433,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 671,
+                    "RVA": 1432092675,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 672,
+                    "RVA": 3519601448,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 673,
+                    "RVA": 86544,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 674,
+                    "RVA": 310922009,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 675,
+                    "RVA": 1376785052,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 676,
+                    "RVA": 316407886,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 677,
+                    "RVA": 3519564791,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 678,
+                    "RVA": 5242888,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 679,
+                    "RVA": 302008944,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 680,
+                    "RVA": 60,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 681,
+                    "RVA": 2102399504,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 682,
+                    "RVA": 302830024,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 683,
+                    "RVA": 543714,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 684,
+                    "RVA": 301989968,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 685,
+                    "RVA": 3519545344,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 686,
+                    "RVA": 5165512,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 687,
+                    "RVA": 303043228,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 688,
+                    "RVA": 313262088,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 689,
+                    "RVA": 543649,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 690,
+                    "RVA": 312278864,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 691,
+                    "RVA": 5151555,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 692,
+                    "RVA": 404279752,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 693,
+                    "RVA": 301995640,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 694,
+                    "RVA": 369660545,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 695,
+                    "RVA": 450925149,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 696,
+                    "RVA": 304414132,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 697,
+                    "RVA": 2451701760,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 698,
+                    "RVA": 376969920,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 699,
+                    "RVA": 449314872,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 700,
+                    "RVA": 3684209348,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 701,
+                    "RVA": 376967824,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 702,
+                    "RVA": 2102410458,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 703,
+                    "RVA": 14,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 705,
+                    "RVA": 315889272,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 706,
+                    "RVA": 65535,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 707,
+                    "RVA": 1343558184,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 708,
+                    "RVA": 315359232,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 709,
+                    "RVA": 5131100,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 710,
+                    "RVA": 303038472,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 711,
+                    "RVA": 3519550152,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 712,
+                    "RVA": 305397760,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 713,
+                    "RVA": 5131031,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 714,
+                    "RVA": 303038472,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 715,
+                    "RVA": 314350555,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 716,
+                    "RVA": 32546,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 717,
+                    "RVA": 556368,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 718,
+                    "RVA": 32546,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 720,
+                    "RVA": 1278672896,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 721,
+                    "RVA": 1266174791,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 722,
+                    "RVA": 404245333,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 723,
+                    "RVA": 316709843,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 724,
+                    "RVA": 1349259992,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 725,
+                    "RVA": 307494912,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 726,
+                    "RVA": 19364,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 727,
+                    "RVA": 5144354,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 728,
+                    "RVA": 303038472,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 729,
+                    "RVA": 310397808,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 730,
+                    "RVA": 2132949300,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 731,
+                    "RVA": 524366,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 732,
+                    "RVA": 1265635856,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 733,
+                    "RVA": 47821,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 734,
+                    "RVA": 1265636028,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 735,
+                    "RVA": 957747944,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 736,
+                    "RVA": 2132953968,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 737,
+                    "RVA": 524366,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 738,
+                    "RVA": 4624,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 739,
+                    "RVA": 1256226594,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 740,
+                    "RVA": 65556,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 741,
+                    "RVA": 4644,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 743,
+                    "RVA": 81038,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 745,
+                    "RVA": 987828892,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 746,
+                    "RVA": 1016009260,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 747,
+                    "RVA": 14640,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 748,
+                    "RVA": 983568956,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 749,
+                    "RVA": 1265631232,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 750,
+                    "RVA": 5144354,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 751,
+                    "RVA": 303038472,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 752,
+                    "RVA": 100724,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 753,
+                    "RVA": 2304770126,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 754,
+                    "RVA": 67128032,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 755,
+                    "RVA": 303038464,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 756,
+                    "RVA": 313018640,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 757,
+                    "RVA": 984628367,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 758,
+                    "RVA": 308609023,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 759,
+                    "RVA": 2304785132,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 760,
+                    "RVA": 524366,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 761,
+                    "RVA": 1265635856,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 763,
+                    "RVA": 314834944,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 764,
+                    "RVA": 309629299,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 765,
+                    "RVA": 2304770072,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 766,
+                    "RVA": 524366,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 767,
+                    "RVA": 1265635856,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 768,
+                    "RVA": 968768083,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 769,
+                    "RVA": 2132949620,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 770,
+                    "RVA": 524366,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 771,
+                    "RVA": 4624,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 772,
+                    "RVA": 176,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 773,
+                    "RVA": 5165512,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 774,
+                    "RVA": 2132953824,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 775,
+                    "RVA": 316957336,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 776,
+                    "RVA": 2304785123,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 777,
+                    "RVA": 524366,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 778,
+                    "RVA": 4624,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 779,
+                    "RVA": 983227288,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 780,
+                    "RVA": 2132953664,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 781,
+                    "RVA": 524366,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 782,
+                    "RVA": 2616136208,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 783,
+                    "RVA": 3684227992,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 784,
+                    "RVA": 3676836432,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 785,
+                    "RVA": 556368,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 786,
+                    "RVA": 261968,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 787,
+                    "RVA": 327683,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 788,
+                    "RVA": 959119359,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 789,
+                    "RVA": 407386643,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 790,
+                    "RVA": 867546,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 791,
+                    "RVA": 2132934664,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 793,
+                    "RVA": 3684171776,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 794,
+                    "RVA": 310172568,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 795,
+                    "RVA": 1020934713,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 796,
+                    "RVA": 556368,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 797,
+                    "RVA": 32546,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 798,
+                    "RVA": 312213504,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 799,
+                    "RVA": 1020939061,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 800,
+                    "RVA": 556368,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 801,
+                    "RVA": 32546,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 802,
+                    "RVA": 307288984,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 803,
+                    "RVA": 2615401256,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 804,
+                    "RVA": 1343623748,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 805,
+                    "RVA": 1257177089,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 806,
+                    "RVA": 1269497856,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 807,
+                    "RVA": 2613039560,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 808,
+                    "RVA": 3684171784,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 809,
+                    "RVA": 376969240,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 810,
+                    "RVA": 2457932452,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 811,
+                    "RVA": 2455574024,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 812,
+                    "RVA": 4256439008,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 813,
+                    "RVA": 4644,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 814,
+                    "RVA": 448843688,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 815,
+                    "RVA": 3619165816,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 816,
+                    "RVA": 29563592,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 817,
+                    "RVA": 1232816,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 818,
+                    "RVA": 1185400,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 819,
+                    "RVA": 310378728,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 820,
+                    "RVA": 309629216,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 821,
+                    "RVA": 377000224,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 822,
+                    "RVA": 4294923768,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 823,
+                    "RVA": 315359232,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 824,
+                    "RVA": 20501,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 825,
+                    "RVA": 1264325232,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 826,
+                    "RVA": 2132934664,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 827,
+                    "RVA": 309088904,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 828,
+                    "RVA": 56216,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 829,
+                    "RVA": 1259803352,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 830,
+                    "RVA": 2132934664,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 831,
+                    "RVA": 2604072960,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 832,
+                    "RVA": 2102399584,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 833,
+                    "RVA": 2102394880,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 834,
+                    "RVA": 851970,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 835,
+                    "RVA": 7169,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 837,
+                    "RVA": 1262963767,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 838,
+                    "RVA": 1263881080,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 839,
+                    "RVA": 2601457688,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 840,
+                    "RVA": 310121092,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 841,
+                    "RVA": 20588,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 842,
+                    "RVA": 1269043960,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 843,
+                    "RVA": 2102394880,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 844,
+                    "RVA": 2132934664,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 845,
+                    "RVA": 1265631232,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 846,
+                    "RVA": 959713828,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 847,
+                    "RVA": 556368,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 848,
+                    "RVA": 32546,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 849,
+                    "RVA": 3134016368,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 850,
+                    "RVA": 308281344,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 851,
+                    "RVA": 311184240,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 852,
+                    "RVA": 1265645846,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 853,
+                    "RVA": 556368,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 854,
+                    "RVA": 32546,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 855,
+                    "RVA": 2102401096,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 856,
+                    "RVA": 1329664,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 857,
+                    "RVA": 1,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 858,
+                    "RVA": 1048576,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 859,
+                    "RVA": 312475648,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 860,
+                    "RVA": 1,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 861,
+                    "RVA": 306184192,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 862,
+                    "RVA": 315628224,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 863,
+                    "RVA": 959462543,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 864,
+                    "RVA": 316669952,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 865,
+                    "RVA": 407386784,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 866,
+                    "RVA": 2102414192,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 867,
+                    "RVA": 2132934664,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 868,
+                    "RVA": 2160852992,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 869,
+                    "RVA": 3684171777,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 870,
+                    "RVA": 1241570200,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 871,
+                    "RVA": 1024,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 872,
+                    "RVA": 1225790132,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 873,
+                    "RVA": 1016009336,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 874,
+                    "RVA": 4294916784,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 875,
+                    "RVA": 988549640,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 876,
+                    "RVA": 557240,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 877,
+                    "RVA": 32546,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 878,
+                    "RVA": 19312,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 880,
+                    "RVA": 2440237600,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 881,
+                    "RVA": 1577496,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 882,
+                    "RVA": 557240,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 883,
+                    "RVA": 32546,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 884,
+                    "RVA": 978537328,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 885,
+                    "RVA": 1272592926,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 886,
+                    "RVA": 1252949794,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 887,
+                    "RVA": 3684211627,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 888,
+                    "RVA": 2102402049,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 889,
+                    "RVA": 1441535608,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 890,
+                    "RVA": 327679,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 891,
+                    "RVA": 1343558376,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 892,
+                    "RVA": 1433422896,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 893,
+                    "RVA": 304087047,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 894,
+                    "RVA": 1348473364,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 895,
+                    "RVA": 1271857151,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 896,
+                    "RVA": 65549,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 897,
+                    "RVA": 2614034460,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 898,
+                    "RVA": 3684171778,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 899,
+                    "RVA": 310122520,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 900,
+                    "RVA": 32080,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 904,
+                    "RVA": 1278672896,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 905,
+                    "RVA": 1266174791,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 906,
+                    "RVA": 404245333,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 907,
+                    "RVA": 312515347,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 908,
+                    "RVA": 1349259928,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 909,
+                    "RVA": 1265635964,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 910,
+                    "RVA": 19364,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 911,
+                    "RVA": 8879440,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 912,
+                    "RVA": 4294923696,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 913,
+                    "RVA": 312213504,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 914,
+                    "RVA": 20501,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 915,
+                    "RVA": 1264325184,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 916,
+                    "RVA": 851970,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 917,
+                    "RVA": 305943200,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 918,
+                    "RVA": 56216,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 919,
+                    "RVA": 1259803304,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 920,
+                    "RVA": 851970,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 921,
+                    "RVA": 2605128705,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 922,
+                    "RVA": 2102399536,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 927,
+                    "RVA": 1262963767,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 928,
+                    "RVA": 1263881080,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 929,
+                    "RVA": 2606700568,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 930,
+                    "RVA": 306975316,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 931,
+                    "RVA": 20588,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 932,
+                    "RVA": 1269043912,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 933,
+                    "RVA": 2102394880,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 934,
+                    "RVA": 851970,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 935,
+                    "RVA": 1265638401,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 936,
+                    "RVA": 959714036,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 937,
+                    "RVA": 163152,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 938,
+                    "RVA": 469827597,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 939,
+                    "RVA": 3134016368,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 940,
+                    "RVA": 305135616,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 941,
+                    "RVA": 308038512,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 942,
+                    "RVA": 1265645846,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 943,
+                    "RVA": 163152,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 944,
+                    "RVA": 469827597,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 945,
+                    "RVA": 407378000,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 946,
+                    "RVA": 1343672,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 947,
+                    "RVA": 1,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 948,
+                    "RVA": 6216,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 949,
+                    "RVA": 2159542272,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 950,
+                    "RVA": 1,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 951,
+                    "RVA": 303038464,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 952,
+                    "RVA": 313277011,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 953,
+                    "RVA": 959462543,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 954,
+                    "RVA": 314310656,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 955,
+                    "RVA": 407386573,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 956,
+                    "RVA": 2102414192,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 957,
+                    "RVA": 851970,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 958,
+                    "RVA": 2160860161,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 959,
+                    "RVA": 2275409921,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 960,
+                    "RVA": 268360,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 961,
+                    "RVA": 131207,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 962,
+                    "RVA": 884048,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 963,
+                    "RVA": 310640640,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 964,
+                    "RVA": 315392184,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 965,
+                    "RVA": 972045455,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 966,
+                    "RVA": 315424767,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 967,
+                    "RVA": 407386384,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 968,
+                    "RVA": 317718528,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 969,
+                    "RVA": 407386879,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 970,
+                    "RVA": 3508273152,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 971,
+                    "RVA": 6216,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 972,
+                    "RVA": 2275409930,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 973,
+                    "RVA": 1263024811,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 974,
+                    "RVA": 2159570950,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 975,
+                    "RVA": 1272828188,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 976,
+                    "RVA": 1270356040,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 977,
+                    "RVA": 407377992,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 978,
+                    "RVA": 1104943176,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 979,
+                    "RVA": 1879447624,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 980,
+                    "RVA": 407391150,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 981,
+                    "RVA": 302782536,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 982,
+                    "RVA": 1609452515,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 983,
+                    "RVA": 407377992,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 984,
+                    "RVA": 1260263448,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 985,
+                    "RVA": 1260984392,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 986,
+                    "RVA": 1265113160,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 987,
+                    "RVA": 6216,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 988,
+                    "RVA": 1265963532,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 989,
+                    "RVA": 302776324,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 990,
+                    "RVA": 4824,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 991,
+                    "RVA": 65536,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 992,
+                    "RVA": 6216,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 993,
+                    "RVA": 281400,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 994,
+                    "RVA": 39735,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 995,
+                    "RVA": 2166555164,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 996,
+                    "RVA": 8,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 998,
+                    "RVA": 1624248844,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 999,
+                    "RVA": 24784,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 1000,
+                    "RVA": 303043224,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 1001,
+                    "RVA": 20646,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 1002,
+                    "RVA": 1074004688,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 1003,
+                    "RVA": 1430821643,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 1004,
+                    "RVA": 314594632,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 1005,
+                    "RVA": 1430847487,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 1006,
+                    "RVA": 1,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 1008,
+                    "RVA": 1358757372,
+                    "Name": ""
+                },
+                {
+                    "Ordinal": 1009,
+                    "RVA": 1,
+                    "Name": ""
+                }
+            ],
+            "Imported symbols": [
+                [
+                    {
+                        "Structure": "IMAGE_IMPORT_DESCRIPTOR",
+                        "OriginalFirstThunk": {
+                            "FileOffset": 83579,
+                            "Offset": 0,
+                            "Value": 89251
+                        },
+                        "Characteristics": {
+                            "FileOffset": 83579,
+                            "Offset": 0,
+                            "Value": 89251
+                        },
+                        "TimeDateStamp": {
+                            "FileOffset": 83583,
+                            "Offset": 4,
+                            "Value": "0x0        [Thu Jan  1 00:00:00 1970 UTC]"
+                        },
+                        "ForwarderChain": {
+                            "FileOffset": 83587,
+                            "Offset": 8,
+                            "Value": 0
+                        },
+                        "Name": {
+                            "FileOffset": 83591,
+                            "Offset": 12,
+                            "Value": 89339
+                        },
+                        "FirstThunk": {
+                            "FileOffset": 83595,
+                            "Offset": 16,
+                            "Value": 89251
+                        }
+                    },
+                    {
+                        "DLL": "KERNEL32.DLL",
+                        "Name": "CloseHandle",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "KERNEL32.DLL",
+                        "Name": "CreateDirectoryA",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "KERNEL32.DLL",
+                        "Name": "CreateFileA",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "KERNEL32.DLL",
+                        "Name": "DeleteFileA",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "KERNEL32.DLL",
+                        "Name": "ExitProcess",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "KERNEL32.DLL",
+                        "Name": "FreeLibrary",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "KERNEL32.DLL",
+                        "Name": "GetCommandLineA",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "KERNEL32.DLL",
+                        "Name": "GetFileTime",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "KERNEL32.DLL",
+                        "Name": "GetModuleHandleA",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "KERNEL32.DLL",
+                        "Name": "GetProcAddress",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "KERNEL32.DLL",
+                        "Name": "GetSystemDirectoryA",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "KERNEL32.DLL",
+                        "Name": "GetTempPathA",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "KERNEL32.DLL",
+                        "Name": "GetWindowsDirectoryA",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "KERNEL32.DLL",
+                        "Name": "LoadLibraryA",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "KERNEL32.DLL",
+                        "Name": "lstrcatA",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "KERNEL32.DLL",
+                        "Name": "lstrcmpiA",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "KERNEL32.DLL",
+                        "Name": "RemoveDirectoryA",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "KERNEL32.DLL",
+                        "Name": "SetFileTime",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "KERNEL32.DLL",
+                        "Name": "VirtualAlloc",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "KERNEL32.DLL",
+                        "Name": "VirtualFree",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "KERNEL32.DLL",
+                        "Name": "WriteFile",
+                        "Hint": 0
+                    }
+                ]
+            ],
+            "Resource directory": [
+                {
+                    "Structure": "IMAGE_RESOURCE_DIRECTORY",
+                    "Characteristics": {
+                        "FileOffset": 61440,
+                        "Offset": 0,
+                        "Value": 0
+                    },
+                    "TimeDateStamp": {
+                        "FileOffset": 61444,
+                        "Offset": 4,
+                        "Value": "0x4D395C44 [Fri Jan 21 10:13:24 2011 UTC]"
+                    },
+                    "MajorVersion": {
+                        "FileOffset": 61448,
+                        "Offset": 8,
+                        "Value": 184
+                    },
+                    "MinorVersion": {
+                        "FileOffset": 61450,
+                        "Offset": 10,
+                        "Value": 0
+                    },
+                    "NumberOfNamedEntries": {
+                        "FileOffset": 61452,
+                        "Offset": 12,
+                        "Value": 0
+                    },
+                    "NumberOfIdEntries": {
+                        "FileOffset": 61454,
+                        "Offset": 14,
+                        "Value": 3
+                    }
+                },
+                {
+                    "Id": [
+                        3,
+                        "RT_ICON"
+                    ],
+                    "Structure": "IMAGE_RESOURCE_DIRECTORY_ENTRY",
+                    "Name": {
+                        "FileOffset": 61456,
+                        "Offset": 0,
+                        "Value": 3
+                    },
+                    "OffsetToData": {
+                        "FileOffset": 61460,
+                        "Offset": 4,
+                        "Value": 2147483688
+                    }
+                },
+                [
+                    {
+                        "Structure": "IMAGE_RESOURCE_DIRECTORY",
+                        "Characteristics": {
+                            "FileOffset": 61480,
+                            "Offset": 0,
+                            "Value": 0
+                        },
+                        "TimeDateStamp": {
+                            "FileOffset": 61484,
+                            "Offset": 4,
+                            "Value": "0x0        [Thu Jan  1 00:00:00 1970 UTC]"
+                        },
+                        "MajorVersion": {
+                            "FileOffset": 61488,
+                            "Offset": 8,
+                            "Value": 0
+                        },
+                        "MinorVersion": {
+                            "FileOffset": 61490,
+                            "Offset": 10,
+                            "Value": 0
+                        },
+                        "NumberOfNamedEntries": {
+                            "FileOffset": 61492,
+                            "Offset": 12,
+                            "Value": 0
+                        },
+                        "NumberOfIdEntries": {
+                            "FileOffset": 61494,
+                            "Offset": 14,
+                            "Value": 1
+                        }
+                    },
+                    {
+                        "Id": 1,
+                        "Structure": "IMAGE_RESOURCE_DIRECTORY_ENTRY",
+                        "Name": {
+                            "FileOffset": 61496,
+                            "Offset": 0,
+                            "Value": 1
+                        },
+                        "OffsetToData": {
+                            "FileOffset": 61500,
+                            "Offset": 4,
+                            "Value": 2147483760
+                        }
+                    },
+                    [
+                        {
+                            "Structure": "IMAGE_RESOURCE_DIRECTORY",
+                            "Characteristics": {
+                                "FileOffset": 61552,
+                                "Offset": 0,
+                                "Value": 0
+                            },
+                            "TimeDateStamp": {
+                                "FileOffset": 61556,
+                                "Offset": 4,
+                                "Value": "0x0        [Thu Jan  1 00:00:00 1970 UTC]"
+                            },
+                            "MajorVersion": {
+                                "FileOffset": 61560,
+                                "Offset": 8,
+                                "Value": 0
+                            },
+                            "MinorVersion": {
+                                "FileOffset": 61562,
+                                "Offset": 10,
+                                "Value": 0
+                            },
+                            "NumberOfNamedEntries": {
+                                "FileOffset": 61564,
+                                "Offset": 12,
+                                "Value": 0
+                            },
+                            "NumberOfIdEntries": {
+                                "FileOffset": 61566,
+                                "Offset": 14,
+                                "Value": 1
+                            }
+                        },
+                        {
+                            "LANG": 0,
+                            "SUBLANG": 0,
+                            "LANG_NAME": "LANG_NEUTRAL",
+                            "SUBLANG_NAME": "SUBLANG_NEUTRAL",
+                            "Structure": "IMAGE_RESOURCE_DATA_ENTRY",
+                            "Name": {
+                                "FileOffset": 61568,
+                                "Offset": 0,
+                                "Value": 0
+                            },
+                            "OffsetToData": {
+                                "FileOffset": 61624,
+                                "Offset": 0,
+                                "Value": 61672
+                            },
+                            "Size": {
+                                "FileOffset": 61628,
+                                "Offset": 4,
+                                "Value": 2216
+                            },
+                            "CodePage": {
+                                "FileOffset": 61632,
+                                "Offset": 8,
+                                "Value": 0
+                            },
+                            "Reserved": {
+                                "FileOffset": 61636,
+                                "Offset": 12,
+                                "Value": 0
+                            }
+                        }
+                    ]
+                ],
+                {
+                    "Id": [
+                        14,
+                        "RT_GROUP_ICON"
+                    ],
+                    "Structure": "IMAGE_RESOURCE_DIRECTORY_ENTRY",
+                    "Name": {
+                        "FileOffset": 61464,
+                        "Offset": 0,
+                        "Value": 14
+                    },
+                    "OffsetToData": {
+                        "FileOffset": 61468,
+                        "Offset": 4,
+                        "Value": 2147483712
+                    }
+                },
+                [
+                    {
+                        "Structure": "IMAGE_RESOURCE_DIRECTORY",
+                        "Characteristics": {
+                            "FileOffset": 61504,
+                            "Offset": 0,
+                            "Value": 0
+                        },
+                        "TimeDateStamp": {
+                            "FileOffset": 61508,
+                            "Offset": 4,
+                            "Value": "0x4D395C44 [Fri Jan 21 10:13:24 2011 UTC]"
+                        },
+                        "MajorVersion": {
+                            "FileOffset": 61512,
+                            "Offset": 8,
+                            "Value": 184
+                        },
+                        "MinorVersion": {
+                            "FileOffset": 61514,
+                            "Offset": 10,
+                            "Value": 0
+                        },
+                        "NumberOfNamedEntries": {
+                            "FileOffset": 61516,
+                            "Offset": 12,
+                            "Value": 0
+                        },
+                        "NumberOfIdEntries": {
+                            "FileOffset": 61518,
+                            "Offset": 14,
+                            "Value": 1
+                        }
+                    },
+                    {
+                        "Id": 1,
+                        "Structure": "IMAGE_RESOURCE_DIRECTORY_ENTRY",
+                        "Name": {
+                            "FileOffset": 61520,
+                            "Offset": 0,
+                            "Value": 1
+                        },
+                        "OffsetToData": {
+                            "FileOffset": 61524,
+                            "Offset": 4,
+                            "Value": 2147483784
+                        }
+                    },
+                    [
+                        {
+                            "Structure": "IMAGE_RESOURCE_DIRECTORY",
+                            "Characteristics": {
+                                "FileOffset": 61576,
+                                "Offset": 0,
+                                "Value": 0
+                            },
+                            "TimeDateStamp": {
+                                "FileOffset": 61580,
+                                "Offset": 4,
+                                "Value": "0x4D395C44 [Fri Jan 21 10:13:24 2011 UTC]"
+                            },
+                            "MajorVersion": {
+                                "FileOffset": 61584,
+                                "Offset": 8,
+                                "Value": 184
+                            },
+                            "MinorVersion": {
+                                "FileOffset": 61586,
+                                "Offset": 10,
+                                "Value": 0
+                            },
+                            "NumberOfNamedEntries": {
+                                "FileOffset": 61588,
+                                "Offset": 12,
+                                "Value": 0
+                            },
+                            "NumberOfIdEntries": {
+                                "FileOffset": 61590,
+                                "Offset": 14,
+                                "Value": 1
+                            }
+                        },
+                        {
+                            "LANG": 0,
+                            "SUBLANG": 0,
+                            "LANG_NAME": "LANG_NEUTRAL",
+                            "SUBLANG_NAME": "SUBLANG_NEUTRAL",
+                            "Structure": "IMAGE_RESOURCE_DATA_ENTRY",
+                            "Name": {
+                                "FileOffset": 61592,
+                                "Offset": 0,
+                                "Value": 0
+                            },
+                            "OffsetToData": {
+                                "FileOffset": 61640,
+                                "Offset": 0,
+                                "Value": 63888
+                            },
+                            "Size": {
+                                "FileOffset": 61644,
+                                "Offset": 4,
+                                "Value": 20
+                            },
+                            "CodePage": {
+                                "FileOffset": 61648,
+                                "Offset": 8,
+                                "Value": 1200
+                            },
+                            "Reserved": {
+                                "FileOffset": 61652,
+                                "Offset": 12,
+                                "Value": 0
+                            }
+                        }
+                    ]
+                ],
+                {
+                    "Id": [
+                        16,
+                        "RT_VERSION"
+                    ],
+                    "Structure": "IMAGE_RESOURCE_DIRECTORY_ENTRY",
+                    "Name": {
+                        "FileOffset": 61472,
+                        "Offset": 0,
+                        "Value": 16
+                    },
+                    "OffsetToData": {
+                        "FileOffset": 61476,
+                        "Offset": 4,
+                        "Value": 2147483736
+                    }
+                },
+                [
+                    {
+                        "Structure": "IMAGE_RESOURCE_DIRECTORY",
+                        "Characteristics": {
+                            "FileOffset": 61528,
+                            "Offset": 0,
+                            "Value": 0
+                        },
+                        "TimeDateStamp": {
+                            "FileOffset": 61532,
+                            "Offset": 4,
+                            "Value": "0x4D395C44 [Fri Jan 21 10:13:24 2011 UTC]"
+                        },
+                        "MajorVersion": {
+                            "FileOffset": 61536,
+                            "Offset": 8,
+                            "Value": 184
+                        },
+                        "MinorVersion": {
+                            "FileOffset": 61538,
+                            "Offset": 10,
+                            "Value": 0
+                        },
+                        "NumberOfNamedEntries": {
+                            "FileOffset": 61540,
+                            "Offset": 12,
+                            "Value": 0
+                        },
+                        "NumberOfIdEntries": {
+                            "FileOffset": 61542,
+                            "Offset": 14,
+                            "Value": 1
+                        }
+                    },
+                    {
+                        "Id": 1,
+                        "Structure": "IMAGE_RESOURCE_DIRECTORY_ENTRY",
+                        "Name": {
+                            "FileOffset": 61544,
+                            "Offset": 0,
+                            "Value": 1
+                        },
+                        "OffsetToData": {
+                            "FileOffset": 61548,
+                            "Offset": 4,
+                            "Value": 2147483808
+                        }
+                    },
+                    [
+                        {
+                            "Structure": "IMAGE_RESOURCE_DIRECTORY",
+                            "Characteristics": {
+                                "FileOffset": 61600,
+                                "Offset": 0,
+                                "Value": 0
+                            },
+                            "TimeDateStamp": {
+                                "FileOffset": 61604,
+                                "Offset": 4,
+                                "Value": "0x4D395C44 [Fri Jan 21 10:13:24 2011 UTC]"
+                            },
+                            "MajorVersion": {
+                                "FileOffset": 61608,
+                                "Offset": 8,
+                                "Value": 184
+                            },
+                            "MinorVersion": {
+                                "FileOffset": 61610,
+                                "Offset": 10,
+                                "Value": 0
+                            },
+                            "NumberOfNamedEntries": {
+                                "FileOffset": 61612,
+                                "Offset": 12,
+                                "Value": 0
+                            },
+                            "NumberOfIdEntries": {
+                                "FileOffset": 61614,
+                                "Offset": 14,
+                                "Value": 1
+                            }
+                        },
+                        {
+                            "LANG": 9,
+                            "SUBLANG": 1,
+                            "LANG_NAME": "LANG_ENGLISH",
+                            "SUBLANG_NAME": "SUBLANG_ENGLISH_US",
+                            "Structure": "IMAGE_RESOURCE_DATA_ENTRY",
+                            "Name": {
+                                "FileOffset": 61616,
+                                "Offset": 0,
+                                "Value": 1033
+                            },
+                            "OffsetToData": {
+                                "FileOffset": 61656,
+                                "Offset": 0,
+                                "Value": 63908
+                            },
+                            "Size": {
+                                "FileOffset": 61660,
+                                "Offset": 4,
+                                "Value": 796
+                            },
+                            "CodePage": {
+                                "FileOffset": 61664,
+                                "Offset": 8,
+                                "Value": 1200
+                            },
+                            "Reserved": {
+                                "FileOffset": 61668,
+                                "Offset": 12,
+                                "Value": 0
+                            }
+                        }
+                    ]
+                ]
+            ]
+        },
+        "signature_matches": "",
+        "generated_ep_signature": "\"data at RVA can't be fetched. Corrupt header?\""
+    },
+    "strings": [
+        "!This program cannot be run in DOS mode.",
+        "D\\9M",
+        ".text",
+        ".data",
+        ".rsrc",
+        "x__vbaR8ForNextCheck",
+        "9: :\"",
+        "5K :\"",
+        "7LGKxKUK",
+        "pKS:",
+        "7LGKxKUK",
+        "9pK\"",
+        "pKS:",
+        "9t:\"",
+        ":@J\"",
+        "7LGKxKUK",
+        "49P}",
+        "9pKP}",
+        "pKP}",
+        "pKS:",
+        "P0LpU",
+        "7LGKxKUK",
+        "7LGKxKUK",
+        "49P}",
+        "9pKP}",
+        "pKP}",
+        "HUHU",
+        "VB5!",
+        "Module1",
+        "Module2",
+        "mantea",
+        "Class",
+        "C:\\Windows\\system32\\Msvbvm60.dll\\3",
+        "VBRUN",
+        "kernel32",
+        "RtlMoveMemory",
+        "DecryptByte",
+        "DecryptString",
+        "EncryptByte",
+        "EncryptFile",
+        "DecryptFile",
+        "EncryptString",
+        "Progress",
+        "USER32",
+        "CallWindowProcW",
+        "KKIG",
+        ".EXE",
+        "VBA6.DLL",
+        "__vbaFreeObj",
+        "__vbaAryDestruct",
+        "__vbaAryLock",
+        "__vbaErase",
+        "__vbaVar2Vec",
+        "__vbaFreeStr",
+        "__vbaAryUnlock",
+        "__vbaGenerateBoundsError",
+        "__vbaFreeVarList",
+        "__vbaVarDup",
+        "__vbaAryVar",
+        "__vbaAryCopy",
+        "__vbaFileClose",
+        "__vbaGet3",
+        "__vbaFreeVar",
+        "__vbaStrVarMove",
+        "__vbaFileOpen",
+        "__vbaStrCopy",
+        "__vbaFreeObjList",
+        "__vbaFreeStrList",
+        "__vbaHresultCheckObj",
+        "__vbaNew2",
+        "__vbaStrCat",
+        "__vbaStrMove",
+        "__vbaSetSystemError",
+        "__vbaUI1I2",
+        "__vbaCopyBytes",
+        "__vbaVarVargNofree",
+        "__vbaI4ErrVar",
+        "__vbaUbound",
+        "__vbaLbound",
+        "__vbaUI1ErrVar",
+        "__vbaErrorOverflow",
+        "__vbaVarZero",
+        "__vbaVarMove",
+        "__vbaRedim",
+        "__vbaAryConstruct2",
+        "__vbaVarIndexLoad",
+        "__vbaVarCat",
+        "__vbaStrVarVal",
+        "__vbaFpUI1",
+        "__vbaVarCopy",
+        "__vbaStrCmp",
+        "__vbaPutOwner3",
+        "__vbaGetOwner3",
+        "__vbaI2I4",
+        "__vbaAryMove",
+        "__vbaObjSet",
+        "__vbaRaiseEvent",
+        "__vbaR8IntI4",
+        "__vbaUI1I4",
+        "__vbaRedimPreserve",
+        "__vbaExitProc",
+        "__vbaOnError",
+        "__vbaFpI4",
+        "__vbaR8ForNextCheck",
+        "__vbaLenBstr",
+        "__vbaStrToUnicode",
+        "__vbaStrToAnsi",
+        "`42@",
+        "`$2@",
+        "`H2@",
+        "byteArray",
+        "Text",
+        "IsTextInHex",
+        "InFile",
+        "OutFile",
+        "Overwrite",
+        "OutputInHex",
+        "New_Value",
+        "Percent",
+        "hL\"@",
+        "hYH@",
+        "\\SVW",
+        "f954",
+        "M\fVVQPW",
+        "VVVVR",
+        "hyl@",
+        "t$\fW",
+        "0SVW",
+        "O|QR",
+        "hRn@",
+        "dSVW",
+        "h]p@",
+        "xSVW",
+        "hEr@",
+        "U\fQR",
+        "h,$@",
+        "hP$@",
+        "\f22H",
+        "\f22H",
+        "\f22H",
+        "\f22H",
+        "\f22H",
+        "\f22H",
+        "\f22H",
+        "\f22H",
+        "f3\\H",
+        "U\fRj",
+        "@SVW",
+        "hl$@",
+        "hP$@",
+        "DSVW",
+        "E\fPW",
+        "QHf9u",
+        "RVWj ",
+        "HSVW",
+        "E\fPW",
+        "QHf9u",
+        "QVWj ",
+        "@SVW",
+        "HSVW",
+        "MSVBVM60.DLL ",
+        "_CIcos",
+        "_adj_fptan",
+        "__vbaVarMove",
+        "__vbaVarVargNofree",
+        "__vbaAryMove",
+        "__vbaFreeVar",
+        "__vbaLenBstr",
+        "__vbaStrVarMove",
+        "__vbaFreeVarList",
+        "_adj_fdiv_m64",
+        "__vbaRaiseEvent",
+        "__vbaFreeObjList",
+        "_adj_fprem1",
+        "__vbaCopyBytes",
+        "__vbaStrCat",
+        "__vbaSetSystemError",
+        "__vbaHresultCheckObj",
+        "_adj_fdiv_m32",
+        "__vbaAryVar",
+        "__vbaAryDestruct",
+        "__vbaExitProc",
+        "__vbaOnError",
+        "__vbaObjSet",
+        "_adj_fdiv_m16i",
+        "_adj_fdivr_m16i",
+        "__vbaVarIndexLoad",
+        "_CIsin",
+        "__vbaErase",
+        "__vbaVarZero",
+        "__vbaChkstk",
+        "__vbaFileClose",
+        "EVENT_SINK_AddRef",
+        "__vbaGenerateBoundsError",
+        "__vbaStrCmp",
+        "__vbaGet3",
+        "__vbaPutOwner3",
+        "__vbaAryConstruct2",
+        "__vbaI2I4",
+        "DllFunctionCall",
+        "__vbaFpUI1",
+        "__vbaRedimPreserve",
+        "__vbaLbound",
+        "_adj_fpatan",
+        "__vbaRedim",
+        "__vbaUI1ErrVar",
+        "EVENT_SINK_Release",
+        "__vbaUI1I2",
+        "_CIsqrt",
+        "EVENT_SINK_QueryInterface",
+        "__vbaUI1I4",
+        "__vbaExceptHandler",
+        "__vbaStrToUnicode",
+        "_adj_fprem",
+        "_adj_fdivr_m64",
+        "__vbaFPException",
+        "__vbaGetOwner3",
+        "__vbaStrVarVal",
+        "__vbaUbound",
+        "__vbaVarCat",
+        "_CIlog",
+        "__vbaErrorOverflow",
+        "__vbaFileOpen",
+        "__vbaNew2",
+        "__vbaVar2Vec",
+        "_adj_fdiv_m32i",
+        "_adj_fdivr_m32i",
+        "__vbaStrCopy",
+        "__vbaFreeStrList",
+        "_adj_fdivr_m32",
+        "_adj_fdiv_r",
+        "__vbaAryLock",
+        "__vbaStrToAnsi",
+        "__vbaVarDup",
+        "__vbaFpI4",
+        "__vbaVarCopy",
+        "_CIatan",
+        "__vbaStrMove",
+        "__vbaAryCopy",
+        "__vbaR8IntI4",
+        "_allmul",
+        "_CItan",
+        "__vbaAryUnlock",
+        "_CIexp",
+        "__vbaI4ErrVar",
+        "__vbaFreeStr",
+        "__vbaFreeObj",
+        "D\\9M",
+        "D\\9M",
+        "D\\9M",
+        "D\\9M",
+        "D\\9M",
+        "FGGA",
+        "\"kq~",
+        "B^bns",
+        "sj[9",
+        "/LYi",
+        "~bWM%",
+        "ljhgghjp",
+        "IuofONXZNQ[|:",
+        "?P-v",
+        "w3+H",
+        "!This program cannot be run in DOS mode.",
+        "Rich",
+        ".text",
+        "`.data",
+        ".rsrc",
+        "@.reloc",
+        "msvcrt.dll",
+        "ADVAPI32.dll",
+        "KERNEL32.dll",
+        "NTDLL.DLL",
+        "NETSH.EXE",
+        "netshell.dll",
+        "ole32.dll",
+        "qNB10",
+        "hnetmon.pdb",
+        "M\fQV",
+        "Sj@Y3",
+        "PWWht",
+        "9]\fj@",
+        "PSh?",
+        "SSSVh",
+        "ua9]",
+        "PSSW",
+        ";E\fu",
+        "E\fPj",
+        "sf+u",
+        "tQHur",
+        "t\fHu",
+        "PG9u",
+        ";}\ft",
+        "]\fWS",
+        "uB!E",
+        "HVW3",
+        " VWj",
+        "t$\fW3",
+        "wcscat",
+        "wcscpy",
+        "wcslen",
+        "wcstoul",
+        "msvcrt.dll",
+        "RegQueryValueExW",
+        "RegCloseKey",
+        "RegOpenKeyExW",
+        "RegSetValueExW",
+        "RegCreateKeyExW",
+        "ADVAPI32.dll",
+        "HeapFree",
+        "HeapAlloc",
+        "GetProcessHeap",
+        "KERNEL32.dll",
+        "PrintMessageFromModule",
+        "FreeString",
+        "PrintMessage",
+        "MakeString",
+        "PrintError",
+        "MatchEnumTag",
+        "PreprocessCommand",
+        "RegisterContext",
+        "RegisterHelper",
+        "NETSH.EXE",
+        "NcFreeNetconProperties",
+        "netshell.dll",
+        "CoTaskMemFree",
+        "StringFromGUID2",
+        "CoUninitialize",
+        "CoCreateInstance",
+        "CoInitializeEx",
+        "ole32.dll",
+        "Tr};",
+        "hnetmon.dll",
+        "InitHelperDll",
+        "PADDINGXXPADDINGPADDINGXXPADDINGPADDINGX",
+        "2?3E3V3",
+        "4%404B4M4r4",
+        "5H6N6S6^6{6",
+        "7)7K7W7^7g7",
+        "8&8N8f8m8",
+        "9`9y9",
+        ":!;\\;",
+        "<\"<;<`<u<z<",
+        "<%=@=H=N=b=",
+        "000@0H0X0d0h0|0",
+        ".exe",
+        "    ;",
+        "tt<\\u",
+        "t0<.t",
+        "^^_[",
+        "LoadLibraryA",
+        "LoadLibraryW",
+        "ExitProcess",
+        "GetProcAddress",
+        "USER32.DLL",
+        "OLE32.DLL",
+        "MessageBoxA",
+        "Entry Point Not Found",
+        "The ordinal %d could not be located in the dynamic link library %s.",
+        "The procedure entry point %s could not be located in the dynamic link library %s.",
+        "Unable To Locate DLL",
+        "The dynamic link library %s could not be found in the specified path",
+        "DllRegisterServer",
+        "CoInitialize",
+        "wsprintfA",
+        "Download",
+        "KERNEL32.DLL",
+        "LoadLibraryA",
+        "GetProcAddress",
+        "VirtualAlloc",
+        "VirtualFree",
+        "ExitProcess",
+        "CreateFileA",
+        "CloseHandle",
+        "WriteFile",
+        "GetSystemDirectoryA",
+        "GetFileTime",
+        "SetFileTime",
+        "GetWindowsDirectoryA",
+        "lstrcatA",
+        "FreeLibrary",
+        "GetTempPathA",
+        "DeleteFileA",
+        "GetModuleHandleA",
+        "GetCommandLineA",
+        "CreateDirectoryA",
+        "RemoveDirectoryA",
+        "lstrcmpiA",
+        "GetCommandLineW",
+        "X^ZP",
+        "tpWV",
+        "t6<%u%",
+        "t+WV",
+        "FGAG",
+        "AAAAV",
+        "+E\f^_[",
+        "PotorroMordidoEnsangrentadoMalRasurado",
+        "$#dV",
+        "oClY",
+        "D}x4",
+        "a3p,L",
+        "AJco",
+        "9\fjQ",
+        "Y2FV|",
+        "'7W!",
+        " MSg%!\"",
+        "'7jyhGt",
+        "&lu)",
+        "n-8zx",
+        "9!y^k{",
+        "e~0*",
+        "6p>j",
+        "_|as",
+        "ajcg",
+        "^?Pev",
+        "E m@",
+        "=lA5?",
+        "|.fH",
+        "dy)R",
+        ";bxo",
+        "4&iC",
+        "|U;d \\",
+        "ZOBL",
+        "5^pc#",
+        "xw0B",
+        "q4vQ",
+        "s[D>",
+        "_yq<rl",
+        "\f?q_",
+        "$5Ga",
+        "fjr?6",
+        "n.*s",
+        "#:-{c",
+        "f\\7U",
+        "?7\"'",
+        "et#VH",
+        "h[dr-",
+        "3. k",
+        "h9a-",
+        "s=ic",
+        "pM@KF}",
+        "Et1m",
+        "d\"L*|*",
+        "tw=0N",
+        "vO.v",
+        "ziy~",
+        "<c0<O",
+        "(k`zk",
+        "JToJ",
+        "oV;]1",
+        "D\\0p",
+        "(Y2:",
+        " )LNn=V",
+        "w\"KF",
+        "7N-t",
+        "zJq+",
+        "2JUjW",
+        "U,^BQq",
+        "a3yi",
+        "Ep/E",
+        "{Hpl\\",
+        "CaQN",
+        "1zxL",
+        "FfEoK",
+        "k\ft.",
+        "Q#;S",
+        "NTas",
+        "Cmu~",
+        "YKQd",
+        "}\f$(",
+        "B+IR",
+        "Th>{b",
+        "=-JQ",
+        "quOI",
+        "D#qD",
+        "-V)\\o",
+        "t!)I",
+        "KH2t",
+        "`ZM-",
+        "mrJd",
+        "}m|;]",
+        "/S!/",
+        "tk%=`",
+        "Y[]T",
+        "L7&(",
+        ":A[Z-",
+        "A>hZ",
+        "4UqI5+m",
+        "]7AN<",
+        "Q#V(#h",
+        "PUw x",
+        "rgtnQ",
+        "SWc-!",
+        "gwJ0t",
+        "$.:}X",
+        "STq3",
+        "_@W~",
+        "3xH 8W",
+        " -=f",
+        "0UTXB",
+        "cx\\b0",
+        "(m(q",
+        "tz\fJ",
+        "gS%R",
+        "G?/`@",
+        "F[s;",
+        "Jm`0",
+        "L:qj\\I",
+        "Mt]s",
+        "tcqz",
+        "9{)o",
+        "c=<\\5v_'h",
+        "%P<2z",
+        ".8\fAj",
+        "JDI?b",
+        "_)p\"",
+        "v-3p",
+        "{&/D",
+        "S@3-",
+        "T:=m\f",
+        "__{wZ",
+        "tK#a",
+        ":AA0i",
+        "WYV6",
+        "W mcFG",
+        "<%X!",
+        "`wNg",
+        "Xnmt",
+        "Q}/mf",
+        "L;g6",
+        "EH9xN",
+        "J)IW",
+        "v5\"+",
+        "w$$-",
+        "7\f($",
+        "Yaa\f",
+        "mI;[W",
+        "+Ltc",
+        "H0H\\",
+        ";WI!",
+        "lk+~",
+        "hqu|0;",
+        "r|0r",
+        "Y>>%",
+        "%7@s",
+        "Q6NF{si",
+        "GCXl",
+        ";^KC",
+        "T4nF",
+        "WMbW",
+        "2[Av",
+        "\\l[!",
+        "HQv\fFF",
+        "A,'i_",
+        "<Nq7",
+        "^d4z",
+        "pV}x",
+        "!R%2",
+        "`5&wHi",
+        ":eMxd]|Wl",
+        "{L\"DQqXk",
+        "Dh,2FB",
+        "+^6l",
+        "&,8U)?",
+        "%wZ\"e",
+        "6Q$b4",
+        "7.jm",
+        "rP3wx",
+        "?iuE9WO?",
+        "\"X{A",
+        "4\\X~|",
+        "R,Fy",
+        "/Ls\"7",
+        "6=Gm",
+        ":.sq",
+        "'R!k",
+        "R{SpR",
+        "WH/y",
+        "&3Eg",
+        "Pv<i",
+        "s0RUyR",
+        "9pk%",
+        "bzk\\ycR",
+        "x|Jv",
+        "/t*>v",
+        "Su;F",
+        "`d)#",
+        "-U.]2",
+        "{@zd",
+        "ogf+",
+        "]@nG",
+        "`jR<",
+        "5.Wfo#H",
+        "ai%L",
+        "F8[q|",
+        "R715",
+        "GL#t",
+        "u,Z|V",
+        "vIc7C",
+        "`Db-\\",
+        "I>:/",
+        "~)JEO",
+        "`>D+",
+        "6V$\\",
+        "f<0g",
+        "DmgJ",
+        "lElZ",
+        ")H07Scf",
+        "*.~e",
+        "|Z!nf",
+        "(()qc",
+        "9h 1\\",
+        "q;Vl",
+        "1ZQ ",
+        "vD>v",
+        "Ak^Oj",
+        "+p:\",",
+        "Vx<\f",
+        "0PSE^",
+        ")'Xq",
+        "!Z^p",
+        "L79:",
+        "L=/B\"_Tl",
+        "I)0%",
+        "{B!qCfgScp",
+        "]k&f",
+        "@D} ",
+        "Z)J*",
+        "ZsV6/",
+        "bSa}",
+        "3);~3X",
+        "Tt@f",
+        "X$(5",
+        "Ycb+8aR",
+        "FH,2",
+        "Npqk",
+        "fr* o.",
+        "h^|6q",
+        "W~kF]",
+        "J\\Nj ",
+        "Qr8w",
+        ",2v>",
+        "IzYQ",
+        "I2h|",
+        "8il$",
+        "v,1v",
+        "r+`~",
+        "S;OmR2",
+        "<^i}=",
+        "OGXff",
+        "ot}y",
+        "gC ,",
+        "3nml",
+        "E_7*@",
+        "Z=fz",
+        "AZ}Ft",
+        "AEua",
+        "cvjH",
+        "(5'==",
+        "&U)\\",
+        "<-xq",
+        "+}(6",
+        "g,'\fh",
+        "\":xL",
+        "2.5BY!}-",
+        "!e4cH",
+        "-VZxo",
+        "tM!o/BV",
+        "f/.^",
+        "]JaB!",
+        "hm]u-{S",
+        "|/}p",
+        ";CyJK",
+        "&>08m",
+        "~([D4",
+        "0WOn9",
+        "l+-g",
+        "F-JU",
+        "nA S",
+        "a?8p+",
+        "BM 0Y",
+        "[;Ch",
+        "sV9f",
+        "|){I0q\f;",
+        "5f=?k",
+        "8X)FI",
+        ")B-]H`Q",
+        "uNx8",
+        "lerp",
+        "\fy^a*ho",
+        ")aVy7",
+        "{KMD",
+        "zC+:",
+        "o9vkYh",
+        "-+$fL2M",
+        "JGN 3",
+        "bL\fm",
+        "q(.LpR$-",
+        "iHA7",
+        "$Z3t",
+        "p 3S",
+        "R41bg(d",
+        "<{xM=",
+        "2'a}~",
+        "A/)37",
+        "(F+B",
+        "un 9",
+        ">%WD",
+        "!5u}",
+        "LF9A",
+        "c:*m",
+        "!=,]g",
+        "X8Tee",
+        "/[K^YH",
+        "#y0W",
+        "{]7CP",
+        "vn7&",
+        "=L=y",
+        "{hts",
+        "Q6]~",
+        "IV@C",
+        "*OFD",
+        "7MT}I",
+        "7\\o]$",
+        "z0|3n",
+        "2F=`/",
+        "uFoI",
+        "\\pZw5",
+        "RL4#",
+        "(W]-",
+        "UA-%",
+        "r-BF",
+        "\\\"6L",
+        "6\f]_",
+        "+sp9|N",
+        "y\f3_",
+        ";+Wr)!4yD",
+        "'i?O",
+        ">K4N",
+        "F,H>O",
+        "c)6*",
+        ";z=0",
+        ";+E%_(",
+        "f:i}",
+        "EuFF",
+        "Fa[)",
+        "<sT!",
+        "RJ Q",
+        "e,-42",
+        "&m\"7m",
+        "{s$f",
+        ".L$m",
+        "(w\fj6~",
+        "BqI}iF",
+        "D\"~9hDKo",
+        "n!w&",
+        "-JZ%",
+        "-UBl",
+        "g,?g",
+        "`KzL?",
+        "K4zU",
+        ">$g@0",
+        "w+PB",
+        "I@\\c]",
+        "'WS7",
+        "Rbt<",
+        "9c%OO",
+        "vQD/",
+        "/i\\H",
+        "V5tv",
+        "E{LS",
+        ".jZ5",
+        "VKsO",
+        "[]Gp",
+        "Hr%S",
+        "KmZA",
+        "d\\?A",
+        "_V{q",
+        "H=Fx",
+        "J5bRA",
+        ")s\\!",
+        "JF2?",
+        "uhFVJ",
+        "*ySSu",
+        "g+1d",
+        "8:r?^",
+        "Vygo",
+        ";Y<-",
+        "6)b4",
+        "pSlP8vB^",
+        ",Q\\#F",
+        "^m+#",
+        "|$(o",
+        "~jje",
+        "B\f6U",
+        "T}cy\"",
+        "vg9*",
+        "@Cvyx}",
+        "q+S&",
+        "15m@",
+        "{g-d\\s",
+        "\fsq&[",
+        "b.y%^",
+        "eH4^",
+        ")9nF",
+        "Kt@`^",
+        "^dnE{\"",
+        "(?z,",
+        "y]Qxx",
+        "&(^P_",
+        "&ZL5#,w",
+        "=_\\d",
+        "n4GZ",
+        "<f$_",
+        "pR7Z",
+        ">d+Wo",
+        "Cti)",
+        "]s4D",
+        "x\"79",
+        "@EO5i",
+        ">d3&",
+        "$<g9",
+        "p8?wt",
+        "Zu\f\"E",
+        "V.nl",
+        "2&YE",
+        "`;rJq4",
+        "n/FU",
+        "f**(",
+        ")fj1",
+        "Jzl*",
+        "5XH4",
+        "G|P/",
+        "1~/|",
+        "BjYdY",
+        "=ZQu",
+        "C_hd",
+        "(z!/",
+        "DFyFd",
+        "+Kwo",
+        " vvZ]",
+        "9,rI",
+        "j+/w",
+        "e~n,",
+        "^U{R",
+        "[t2R",
+        "2g2i",
+        "1C0e",
+        "\"<b_S",
+        ",,qo",
+        "^\\{d",
+        "M. 4",
+        "D:<!3]O",
+        "\"d2y",
+        "3_L@<{",
+        "!nGL'G<W}",
+        "ZpeO",
+        "*Gm]Q",
+        "h6R{",
+        "WL?.",
+        "WXr4?",
+        "SDauY",
+        "7lv ",
+        "S3o6",
+        "EA(`",
+        "r7A]",
+        "f5V4;i",
+        "OU+_Q",
+        "Ejz1U",
+        "*_*r",
+        "ypy<a",
+        "P>oum",
+        "T8lD8",
+        "e0nE",
+        "Fvge",
+        "m?OKI",
+        "%\"M\\k",
+        "DAlDF",
+        "6#U4",
+        "&<@9",
+        "tMCd",
+        "{'NPotorroMordidoEnsangrentadoMalRasurado7Yo.*C'p*'/MOh]&dP:_(KN]Npti`9PotorroMordidoEnsangrentadoMalRasurado",
+        ""
+    ],
+    "malware": "malware"
+}
