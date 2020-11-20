@@ -1,7 +1,6 @@
-
 import json
 import os
-import glob
+from pathlib import Path
 import re
 
 def flatten_json(y): #changed version of https://stackoverflow.com/a/51379007
@@ -30,7 +29,7 @@ def write_to_json(dic, targetdir):
         outfile.write(dump)
 
 def get_all_strings(target_dir):
-    files = glob.glob(os.path.join(target_dir,"*.json"))
+    files = Path(target_dir).rglob("*.json")
     strings = []
     for file in files:
         if not os.path.exists(file): raise Exception("Requested file does not exist: " + file)

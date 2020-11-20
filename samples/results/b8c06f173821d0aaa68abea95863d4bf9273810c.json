@@ -1,0 +1,2751 @@
+{
+    "filename": "Backdoor.Win32.Bifrose.dxjs_4a9b.exe",
+    "md5": "b050f71e67d8722e5ca9e723d8a1a97b",
+    "sha1": "b8c06f173821d0aaa68abea95863d4bf9273810c",
+    "filetype": "../samples/malware/malware/Backdoor.Win32.Bifrose.dxjs_4a9b.exe: PE32 executable (DLL) (GUI) Intel 80386, for MS Windows, UPX compressed",
+    "pe_info": {
+        "pe_info": {
+            "Parsing Warnings": [
+                "Suspicious flags set for section 0. Both IMAGE_SCN_MEM_WRITE and IMAGE_SCN_MEM_EXECUTE are set. This might indicate a packed executable.",
+                "Suspicious flags set for section 1. Both IMAGE_SCN_MEM_WRITE and IMAGE_SCN_MEM_EXECUTE are set. This might indicate a packed executable.",
+                "AddressOfEntryPoint lies outside the sections' boundaries. AddressOfEntryPoint: 0xcc00ffee",
+                "Imported symbols contain entries typical of packed executables."
+            ],
+            "DOS_HEADER": {
+                "Structure": "IMAGE_DOS_HEADER",
+                "e_magic": {
+                    "FileOffset": 0,
+                    "Offset": 0,
+                    "Value": 23117
+                },
+                "e_cblp": {
+                    "FileOffset": 2,
+                    "Offset": 2,
+                    "Value": 144
+                },
+                "e_cp": {
+                    "FileOffset": 4,
+                    "Offset": 4,
+                    "Value": 3
+                },
+                "e_crlc": {
+                    "FileOffset": 6,
+                    "Offset": 6,
+                    "Value": 0
+                },
+                "e_cparhdr": {
+                    "FileOffset": 8,
+                    "Offset": 8,
+                    "Value": 4
+                },
+                "e_minalloc": {
+                    "FileOffset": 10,
+                    "Offset": 10,
+                    "Value": 0
+                },
+                "e_maxalloc": {
+                    "FileOffset": 12,
+                    "Offset": 12,
+                    "Value": 65535
+                },
+                "e_ss": {
+                    "FileOffset": 14,
+                    "Offset": 14,
+                    "Value": 0
+                },
+                "e_sp": {
+                    "FileOffset": 16,
+                    "Offset": 16,
+                    "Value": 184
+                },
+                "e_csum": {
+                    "FileOffset": 18,
+                    "Offset": 18,
+                    "Value": 0
+                },
+                "e_ip": {
+                    "FileOffset": 20,
+                    "Offset": 20,
+                    "Value": 0
+                },
+                "e_cs": {
+                    "FileOffset": 22,
+                    "Offset": 22,
+                    "Value": 0
+                },
+                "e_lfarlc": {
+                    "FileOffset": 24,
+                    "Offset": 24,
+                    "Value": 64
+                },
+                "e_ovno": {
+                    "FileOffset": 26,
+                    "Offset": 26,
+                    "Value": 0
+                },
+                "e_res": {
+                    "FileOffset": 28,
+                    "Offset": 28,
+                    "Value": "\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00"
+                },
+                "e_oemid": {
+                    "FileOffset": 36,
+                    "Offset": 36,
+                    "Value": 0
+                },
+                "e_oeminfo": {
+                    "FileOffset": 38,
+                    "Offset": 38,
+                    "Value": 0
+                },
+                "e_res2": {
+                    "FileOffset": 40,
+                    "Offset": 40,
+                    "Value": "\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00"
+                },
+                "e_lfanew": {
+                    "FileOffset": 60,
+                    "Offset": 60,
+                    "Value": 200
+                }
+            },
+            "NT_HEADERS": {
+                "Structure": "IMAGE_NT_HEADERS",
+                "Signature": {
+                    "FileOffset": 200,
+                    "Offset": 0,
+                    "Value": 17744
+                }
+            },
+            "FILE_HEADER": {
+                "Structure": "IMAGE_FILE_HEADER",
+                "Machine": {
+                    "FileOffset": 204,
+                    "Offset": 0,
+                    "Value": 332
+                },
+                "NumberOfSections": {
+                    "FileOffset": 206,
+                    "Offset": 2,
+                    "Value": 3
+                },
+                "TimeDateStamp": {
+                    "FileOffset": 208,
+                    "Offset": 4,
+                    "Value": "0x4DEFEFAC [Wed Jun  8 21:54:52 2011 UTC]"
+                },
+                "PointerToSymbolTable": {
+                    "FileOffset": 212,
+                    "Offset": 8,
+                    "Value": 0
+                },
+                "NumberOfSymbols": {
+                    "FileOffset": 216,
+                    "Offset": 12,
+                    "Value": 0
+                },
+                "SizeOfOptionalHeader": {
+                    "FileOffset": 220,
+                    "Offset": 16,
+                    "Value": 224
+                },
+                "Characteristics": {
+                    "FileOffset": 222,
+                    "Offset": 18,
+                    "Value": 8462
+                }
+            },
+            "Flags": [
+                "IMAGE_FILE_EXECUTABLE_IMAGE",
+                "IMAGE_FILE_LINE_NUMS_STRIPPED",
+                "IMAGE_FILE_LOCAL_SYMS_STRIPPED",
+                "IMAGE_FILE_32BIT_MACHINE",
+                "IMAGE_FILE_DLL"
+            ],
+            "OPTIONAL_HEADER": {
+                "Structure": "IMAGE_OPTIONAL_HEADER",
+                "Magic": {
+                    "FileOffset": 224,
+                    "Offset": 0,
+                    "Value": 267
+                },
+                "MajorLinkerVersion": {
+                    "FileOffset": 226,
+                    "Offset": 2,
+                    "Value": 6
+                },
+                "MinorLinkerVersion": {
+                    "FileOffset": 227,
+                    "Offset": 3,
+                    "Value": 0
+                },
+                "SizeOfCode": {
+                    "FileOffset": 228,
+                    "Offset": 4,
+                    "Value": 77824
+                },
+                "SizeOfInitializedData": {
+                    "FileOffset": 232,
+                    "Offset": 8,
+                    "Value": 4096
+                },
+                "SizeOfUninitializedData": {
+                    "FileOffset": 236,
+                    "Offset": 12,
+                    "Value": 397312
+                },
+                "AddressOfEntryPoint": {
+                    "FileOffset": 240,
+                    "Offset": 16,
+                    "Value": 3422617582
+                },
+                "BaseOfCode": {
+                    "FileOffset": 244,
+                    "Offset": 20,
+                    "Value": 401408
+                },
+                "BaseOfData": {
+                    "FileOffset": 248,
+                    "Offset": 24,
+                    "Value": 479232
+                },
+                "ImageBase": {
+                    "FileOffset": 252,
+                    "Offset": 28,
+                    "Value": 285212672
+                },
+                "SectionAlignment": {
+                    "FileOffset": 256,
+                    "Offset": 32,
+                    "Value": 4096
+                },
+                "FileAlignment": {
+                    "FileOffset": 260,
+                    "Offset": 36,
+                    "Value": 512
+                },
+                "MajorOperatingSystemVersion": {
+                    "FileOffset": 264,
+                    "Offset": 40,
+                    "Value": 4
+                },
+                "MinorOperatingSystemVersion": {
+                    "FileOffset": 266,
+                    "Offset": 42,
+                    "Value": 0
+                },
+                "MajorImageVersion": {
+                    "FileOffset": 268,
+                    "Offset": 44,
+                    "Value": 51
+                },
+                "MinorImageVersion": {
+                    "FileOffset": 270,
+                    "Offset": 46,
+                    "Value": 2600
+                },
+                "MajorSubsystemVersion": {
+                    "FileOffset": 272,
+                    "Offset": 48,
+                    "Value": 4
+                },
+                "MinorSubsystemVersion": {
+                    "FileOffset": 274,
+                    "Offset": 50,
+                    "Value": 0
+                },
+                "Reserved1": {
+                    "FileOffset": 276,
+                    "Offset": 52,
+                    "Value": 0
+                },
+                "SizeOfImage": {
+                    "FileOffset": 280,
+                    "Offset": 56,
+                    "Value": 483328
+                },
+                "SizeOfHeaders": {
+                    "FileOffset": 284,
+                    "Offset": 60,
+                    "Value": 4096
+                },
+                "CheckSum": {
+                    "FileOffset": 288,
+                    "Offset": 64,
+                    "Value": 0
+                },
+                "Subsystem": {
+                    "FileOffset": 292,
+                    "Offset": 68,
+                    "Value": 2
+                },
+                "DllCharacteristics": {
+                    "FileOffset": 294,
+                    "Offset": 70,
+                    "Value": 0
+                },
+                "SizeOfStackReserve": {
+                    "FileOffset": 296,
+                    "Offset": 72,
+                    "Value": 1048576
+                },
+                "SizeOfStackCommit": {
+                    "FileOffset": 300,
+                    "Offset": 76,
+                    "Value": 4096
+                },
+                "SizeOfHeapReserve": {
+                    "FileOffset": 304,
+                    "Offset": 80,
+                    "Value": 1048576
+                },
+                "SizeOfHeapCommit": {
+                    "FileOffset": 308,
+                    "Offset": 84,
+                    "Value": 4096
+                },
+                "LoaderFlags": {
+                    "FileOffset": 312,
+                    "Offset": 88,
+                    "Value": 0
+                },
+                "NumberOfRvaAndSizes": {
+                    "FileOffset": 316,
+                    "Offset": 92,
+                    "Value": 16
+                }
+            },
+            "DllCharacteristics": [],
+            "PE Sections": [
+                {
+                    "Structure": "IMAGE_SECTION_HEADER",
+                    "Name": {
+                        "FileOffset": 448,
+                        "Offset": 0,
+                        "Value": "UPX0\\x00\\x00\\x00\\x00"
+                    },
+                    "Misc": {
+                        "FileOffset": 456,
+                        "Offset": 8,
+                        "Value": 397312
+                    },
+                    "Misc_PhysicalAddress": {
+                        "FileOffset": 456,
+                        "Offset": 8,
+                        "Value": 397312
+                    },
+                    "Misc_VirtualSize": {
+                        "FileOffset": 456,
+                        "Offset": 8,
+                        "Value": 397312
+                    },
+                    "VirtualAddress": {
+                        "FileOffset": 460,
+                        "Offset": 12,
+                        "Value": 4096
+                    },
+                    "SizeOfRawData": {
+                        "FileOffset": 464,
+                        "Offset": 16,
+                        "Value": 0
+                    },
+                    "PointerToRawData": {
+                        "FileOffset": 468,
+                        "Offset": 20,
+                        "Value": 1024
+                    },
+                    "PointerToRelocations": {
+                        "FileOffset": 472,
+                        "Offset": 24,
+                        "Value": 0
+                    },
+                    "PointerToLinenumbers": {
+                        "FileOffset": 476,
+                        "Offset": 28,
+                        "Value": 0
+                    },
+                    "NumberOfRelocations": {
+                        "FileOffset": 480,
+                        "Offset": 32,
+                        "Value": 0
+                    },
+                    "NumberOfLinenumbers": {
+                        "FileOffset": 482,
+                        "Offset": 34,
+                        "Value": 0
+                    },
+                    "Characteristics": {
+                        "FileOffset": 484,
+                        "Offset": 36,
+                        "Value": 3758096512
+                    },
+                    "Flags": [
+                        "IMAGE_SCN_CNT_UNINITIALIZED_DATA",
+                        "IMAGE_SCN_MEM_EXECUTE",
+                        "IMAGE_SCN_MEM_READ",
+                        "IMAGE_SCN_MEM_WRITE"
+                    ],
+                    "Entropy": 0.0,
+                    "MD5": "d41d8cd98f00b204e9800998ecf8427e",
+                    "SHA1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+                    "SHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                    "SHA512": "cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e"
+                },
+                {
+                    "Structure": "IMAGE_SECTION_HEADER",
+                    "Name": {
+                        "FileOffset": 488,
+                        "Offset": 0,
+                        "Value": "UPX1\\x00\\x00\\x00\\x00"
+                    },
+                    "Misc": {
+                        "FileOffset": 496,
+                        "Offset": 8,
+                        "Value": 77824
+                    },
+                    "Misc_PhysicalAddress": {
+                        "FileOffset": 496,
+                        "Offset": 8,
+                        "Value": 77824
+                    },
+                    "Misc_VirtualSize": {
+                        "FileOffset": 496,
+                        "Offset": 8,
+                        "Value": 77824
+                    },
+                    "VirtualAddress": {
+                        "FileOffset": 500,
+                        "Offset": 12,
+                        "Value": 401408
+                    },
+                    "SizeOfRawData": {
+                        "FileOffset": 504,
+                        "Offset": 16,
+                        "Value": 77312
+                    },
+                    "PointerToRawData": {
+                        "FileOffset": 508,
+                        "Offset": 20,
+                        "Value": 1024
+                    },
+                    "PointerToRelocations": {
+                        "FileOffset": 512,
+                        "Offset": 24,
+                        "Value": 0
+                    },
+                    "PointerToLinenumbers": {
+                        "FileOffset": 516,
+                        "Offset": 28,
+                        "Value": 0
+                    },
+                    "NumberOfRelocations": {
+                        "FileOffset": 520,
+                        "Offset": 32,
+                        "Value": 0
+                    },
+                    "NumberOfLinenumbers": {
+                        "FileOffset": 522,
+                        "Offset": 34,
+                        "Value": 0
+                    },
+                    "Characteristics": {
+                        "FileOffset": 524,
+                        "Offset": 36,
+                        "Value": 3758096448
+                    },
+                    "Flags": [
+                        "IMAGE_SCN_CNT_INITIALIZED_DATA",
+                        "IMAGE_SCN_MEM_EXECUTE",
+                        "IMAGE_SCN_MEM_READ",
+                        "IMAGE_SCN_MEM_WRITE"
+                    ],
+                    "Entropy": 7.90156508579406,
+                    "MD5": "1a80b8d10543056aa7ba80419ebc5e0c",
+                    "SHA1": "59d42b809fb398c478d9c5b02709fecb99ee16b9",
+                    "SHA256": "61aaa6e1b6e867019ca8514083d8259595a69e152d86a87996d8672c786aba4a",
+                    "SHA512": "dc5c9be857838a540da9ae2340622d3fb0f43199b6e73ff024310d7789cadfa7ab0c3754912f1f76f81c2a5cd9c67134c361b9a66f5147ab1165f595718004db"
+                },
+                {
+                    "Structure": "IMAGE_SECTION_HEADER",
+                    "Name": {
+                        "FileOffset": 528,
+                        "Offset": 0,
+                        "Value": ".rsrc\\x00\\x00\\x00"
+                    },
+                    "Misc": {
+                        "FileOffset": 536,
+                        "Offset": 8,
+                        "Value": 4096
+                    },
+                    "Misc_PhysicalAddress": {
+                        "FileOffset": 536,
+                        "Offset": 8,
+                        "Value": 4096
+                    },
+                    "Misc_VirtualSize": {
+                        "FileOffset": 536,
+                        "Offset": 8,
+                        "Value": 4096
+                    },
+                    "VirtualAddress": {
+                        "FileOffset": 540,
+                        "Offset": 12,
+                        "Value": 479232
+                    },
+                    "SizeOfRawData": {
+                        "FileOffset": 544,
+                        "Offset": 16,
+                        "Value": 3584
+                    },
+                    "PointerToRawData": {
+                        "FileOffset": 548,
+                        "Offset": 20,
+                        "Value": 78336
+                    },
+                    "PointerToRelocations": {
+                        "FileOffset": 552,
+                        "Offset": 24,
+                        "Value": 0
+                    },
+                    "PointerToLinenumbers": {
+                        "FileOffset": 556,
+                        "Offset": 28,
+                        "Value": 0
+                    },
+                    "NumberOfRelocations": {
+                        "FileOffset": 560,
+                        "Offset": 32,
+                        "Value": 0
+                    },
+                    "NumberOfLinenumbers": {
+                        "FileOffset": 562,
+                        "Offset": 34,
+                        "Value": 0
+                    },
+                    "Characteristics": {
+                        "FileOffset": 564,
+                        "Offset": 36,
+                        "Value": 3221225536
+                    },
+                    "Flags": [
+                        "IMAGE_SCN_CNT_INITIALIZED_DATA",
+                        "IMAGE_SCN_MEM_READ",
+                        "IMAGE_SCN_MEM_WRITE"
+                    ],
+                    "Entropy": 3.7212584291033983,
+                    "MD5": "13d8aeac7b8b6170f94663a31701b5d3",
+                    "SHA1": "ead835f6072cc46940ea954cb78130cce8e3f023",
+                    "SHA256": "ed8f8ad54e33e45fac72cdf09d213383b59a36f512a6d5870129b5e20313e336",
+                    "SHA512": "62e80eea36cfa333d5892664eb84d5abe07b6c1fb9090e35af4783532e11ac044a414dafeb75ca28da5985c1491ecdc655c12fcb97731d0d5905b23507d4aa85"
+                }
+            ],
+            "Directories": [
+                {
+                    "Structure": "IMAGE_DIRECTORY_ENTRY_EXPORT",
+                    "VirtualAddress": {
+                        "FileOffset": 320,
+                        "Offset": 0,
+                        "Value": 482476
+                    },
+                    "Size": {
+                        "FileOffset": 324,
+                        "Offset": 4,
+                        "Value": 168
+                    }
+                },
+                {
+                    "Structure": "IMAGE_DIRECTORY_ENTRY_IMPORT",
+                    "VirtualAddress": {
+                        "FileOffset": 328,
+                        "Offset": 0,
+                        "Value": 482280
+                    },
+                    "Size": {
+                        "FileOffset": 332,
+                        "Offset": 4,
+                        "Value": 196
+                    }
+                },
+                {
+                    "Structure": "IMAGE_DIRECTORY_ENTRY_RESOURCE",
+                    "VirtualAddress": {
+                        "FileOffset": 336,
+                        "Offset": 0,
+                        "Value": 479232
+                    },
+                    "Size": {
+                        "FileOffset": 340,
+                        "Offset": 4,
+                        "Value": 3048
+                    }
+                },
+                {
+                    "Structure": "IMAGE_DIRECTORY_ENTRY_EXCEPTION",
+                    "VirtualAddress": {
+                        "FileOffset": 344,
+                        "Offset": 0,
+                        "Value": 0
+                    },
+                    "Size": {
+                        "FileOffset": 348,
+                        "Offset": 4,
+                        "Value": 0
+                    }
+                },
+                {
+                    "Structure": "IMAGE_DIRECTORY_ENTRY_SECURITY",
+                    "VirtualAddress": {
+                        "FileOffset": 352,
+                        "Offset": 0,
+                        "Value": 0
+                    },
+                    "Size": {
+                        "FileOffset": 356,
+                        "Offset": 4,
+                        "Value": 0
+                    }
+                },
+                {
+                    "Structure": "IMAGE_DIRECTORY_ENTRY_BASERELOC",
+                    "VirtualAddress": {
+                        "FileOffset": 360,
+                        "Offset": 0,
+                        "Value": 482644
+                    },
+                    "Size": {
+                        "FileOffset": 364,
+                        "Offset": 4,
+                        "Value": 12
+                    }
+                },
+                {
+                    "Structure": "IMAGE_DIRECTORY_ENTRY_DEBUG",
+                    "VirtualAddress": {
+                        "FileOffset": 368,
+                        "Offset": 0,
+                        "Value": 0
+                    },
+                    "Size": {
+                        "FileOffset": 372,
+                        "Offset": 4,
+                        "Value": 0
+                    }
+                },
+                {
+                    "Structure": "IMAGE_DIRECTORY_ENTRY_COPYRIGHT",
+                    "VirtualAddress": {
+                        "FileOffset": 376,
+                        "Offset": 0,
+                        "Value": 0
+                    },
+                    "Size": {
+                        "FileOffset": 380,
+                        "Offset": 4,
+                        "Value": 0
+                    }
+                },
+                {
+                    "Structure": "IMAGE_DIRECTORY_ENTRY_GLOBALPTR",
+                    "VirtualAddress": {
+                        "FileOffset": 384,
+                        "Offset": 0,
+                        "Value": 0
+                    },
+                    "Size": {
+                        "FileOffset": 388,
+                        "Offset": 4,
+                        "Value": 0
+                    }
+                },
+                {
+                    "Structure": "IMAGE_DIRECTORY_ENTRY_TLS",
+                    "VirtualAddress": {
+                        "FileOffset": 392,
+                        "Offset": 0,
+                        "Value": 0
+                    },
+                    "Size": {
+                        "FileOffset": 396,
+                        "Offset": 4,
+                        "Value": 0
+                    }
+                },
+                {
+                    "Structure": "IMAGE_DIRECTORY_ENTRY_LOAD_CONFIG",
+                    "VirtualAddress": {
+                        "FileOffset": 400,
+                        "Offset": 0,
+                        "Value": 0
+                    },
+                    "Size": {
+                        "FileOffset": 404,
+                        "Offset": 4,
+                        "Value": 0
+                    }
+                },
+                {
+                    "Structure": "IMAGE_DIRECTORY_ENTRY_BOUND_IMPORT",
+                    "VirtualAddress": {
+                        "FileOffset": 408,
+                        "Offset": 0,
+                        "Value": 0
+                    },
+                    "Size": {
+                        "FileOffset": 412,
+                        "Offset": 4,
+                        "Value": 0
+                    }
+                },
+                {
+                    "Structure": "IMAGE_DIRECTORY_ENTRY_IAT",
+                    "VirtualAddress": {
+                        "FileOffset": 416,
+                        "Offset": 0,
+                        "Value": 0
+                    },
+                    "Size": {
+                        "FileOffset": 420,
+                        "Offset": 4,
+                        "Value": 0
+                    }
+                },
+                {
+                    "Structure": "IMAGE_DIRECTORY_ENTRY_DELAY_IMPORT",
+                    "VirtualAddress": {
+                        "FileOffset": 424,
+                        "Offset": 0,
+                        "Value": 0
+                    },
+                    "Size": {
+                        "FileOffset": 428,
+                        "Offset": 4,
+                        "Value": 0
+                    }
+                },
+                {
+                    "Structure": "IMAGE_DIRECTORY_ENTRY_COM_DESCRIPTOR",
+                    "VirtualAddress": {
+                        "FileOffset": 432,
+                        "Offset": 0,
+                        "Value": 0
+                    },
+                    "Size": {
+                        "FileOffset": 436,
+                        "Offset": 4,
+                        "Value": 0
+                    }
+                },
+                {
+                    "Structure": "IMAGE_DIRECTORY_ENTRY_RESERVED",
+                    "VirtualAddress": {
+                        "FileOffset": 440,
+                        "Offset": 0,
+                        "Value": 0
+                    },
+                    "Size": {
+                        "FileOffset": 444,
+                        "Offset": 4,
+                        "Value": 0
+                    }
+                }
+            ],
+            "Version Information": [
+                [
+                    {
+                        "Structure": "VS_VERSIONINFO",
+                        "Length": {
+                            "FileOffset": 80208,
+                            "Offset": 0,
+                            "Value": 1176
+                        },
+                        "ValueLength": {
+                            "FileOffset": 80210,
+                            "Offset": 2,
+                            "Value": 52
+                        },
+                        "Type": {
+                            "FileOffset": 80212,
+                            "Offset": 4,
+                            "Value": 0
+                        }
+                    },
+                    {
+                        "Structure": "VS_FIXEDFILEINFO",
+                        "Signature": {
+                            "FileOffset": 80248,
+                            "Offset": 0,
+                            "Value": 4277077181
+                        },
+                        "StrucVersion": {
+                            "FileOffset": 80252,
+                            "Offset": 4,
+                            "Value": 65536
+                        },
+                        "FileVersionMS": {
+                            "FileOffset": 80256,
+                            "Offset": 8,
+                            "Value": 3344936
+                        },
+                        "FileVersionLS": {
+                            "FileOffset": 80260,
+                            "Offset": 12,
+                            "Value": 6059
+                        },
+                        "ProductVersionMS": {
+                            "FileOffset": 80264,
+                            "Offset": 16,
+                            "Value": 3344936
+                        },
+                        "ProductVersionLS": {
+                            "FileOffset": 80268,
+                            "Offset": 20,
+                            "Value": 6059
+                        },
+                        "FileFlagsMask": {
+                            "FileOffset": 80272,
+                            "Offset": 24,
+                            "Value": 0
+                        },
+                        "FileFlags": {
+                            "FileOffset": 80276,
+                            "Offset": 28,
+                            "Value": 0
+                        },
+                        "FileOS": {
+                            "FileOffset": 80280,
+                            "Offset": 32,
+                            "Value": 4
+                        },
+                        "FileType": {
+                            "FileOffset": 80284,
+                            "Offset": 36,
+                            "Value": 2
+                        },
+                        "FileSubtype": {
+                            "FileOffset": 80288,
+                            "Offset": 40,
+                            "Value": 0
+                        },
+                        "FileDateMS": {
+                            "FileOffset": 80292,
+                            "Offset": 44,
+                            "Value": 0
+                        },
+                        "FileDateLS": {
+                            "FileOffset": 80296,
+                            "Offset": 48,
+                            "Value": 0
+                        }
+                    }
+                ]
+            ],
+            "Exported symbols": [
+                {
+                    "Structure": "IMAGE_EXPORT_DIRECTORY",
+                    "Characteristics": {
+                        "FileOffset": 81580,
+                        "Offset": 0,
+                        "Value": 0
+                    },
+                    "TimeDateStamp": {
+                        "FileOffset": 81584,
+                        "Offset": 4,
+                        "Value": "0x4DEFEFAC [Wed Jun  8 21:54:52 2011 UTC]"
+                    },
+                    "MajorVersion": {
+                        "FileOffset": 81588,
+                        "Offset": 8,
+                        "Value": 0
+                    },
+                    "MinorVersion": {
+                        "FileOffset": 81590,
+                        "Offset": 10,
+                        "Value": 0
+                    },
+                    "Name": {
+                        "FileOffset": 81592,
+                        "Offset": 12,
+                        "Value": 482556
+                    },
+                    "Base": {
+                        "FileOffset": 81596,
+                        "Offset": 16,
+                        "Value": 1
+                    },
+                    "NumberOfFunctions": {
+                        "FileOffset": 81600,
+                        "Offset": 20,
+                        "Value": 4
+                    },
+                    "NumberOfNames": {
+                        "FileOffset": 81604,
+                        "Offset": 24,
+                        "Value": 4
+                    },
+                    "AddressOfFunctions": {
+                        "FileOffset": 81608,
+                        "Offset": 28,
+                        "Value": 482516
+                    },
+                    "AddressOfNames": {
+                        "FileOffset": 81612,
+                        "Offset": 32,
+                        "Value": 482532
+                    },
+                    "AddressOfNameOrdinals": {
+                        "FileOffset": 81616,
+                        "Offset": 36,
+                        "Value": 482548
+                    }
+                },
+                {
+                    "Ordinal": 1,
+                    "RVA": 75442,
+                    "Name": "DllCanUnloadNow"
+                },
+                {
+                    "Ordinal": 2,
+                    "RVA": 75398,
+                    "Name": "DllGetClassObject"
+                },
+                {
+                    "Ordinal": 3,
+                    "RVA": 75420,
+                    "Name": "DllRegisterServer"
+                },
+                {
+                    "Ordinal": 4,
+                    "RVA": 75376,
+                    "Name": "DllUnregisterServer"
+                }
+            ],
+            "Imported symbols": [
+                [
+                    {
+                        "Structure": "IMAGE_IMPORT_DESCRIPTOR",
+                        "OriginalFirstThunk": {
+                            "FileOffset": 81384,
+                            "Offset": 0,
+                            "Value": 0
+                        },
+                        "Characteristics": {
+                            "FileOffset": 81384,
+                            "Offset": 0,
+                            "Value": 0
+                        },
+                        "TimeDateStamp": {
+                            "FileOffset": 81388,
+                            "Offset": 4,
+                            "Value": "0x0        [Thu Jan  1 00:00:00 1970 UTC]"
+                        },
+                        "ForwarderChain": {
+                            "FileOffset": 81392,
+                            "Offset": 8,
+                            "Value": 0
+                        },
+                        "Name": {
+                            "FileOffset": 81396,
+                            "Offset": 12,
+                            "Value": 482372
+                        },
+                        "FirstThunk": {
+                            "FileOffset": 81400,
+                            "Offset": 16,
+                            "Value": 482340
+                        }
+                    },
+                    {
+                        "DLL": "KERNEL32.DLL",
+                        "Name": "LoadLibraryA",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "KERNEL32.DLL",
+                        "Name": "GetProcAddress",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "KERNEL32.DLL",
+                        "Name": "VirtualProtect",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "KERNEL32.DLL",
+                        "Name": "VirtualAlloc",
+                        "Hint": 0
+                    },
+                    {
+                        "DLL": "KERNEL32.DLL",
+                        "Name": "VirtualFree",
+                        "Hint": 0
+                    }
+                ],
+                [
+                    {
+                        "Structure": "IMAGE_IMPORT_DESCRIPTOR",
+                        "OriginalFirstThunk": {
+                            "FileOffset": 81404,
+                            "Offset": 0,
+                            "Value": 0
+                        },
+                        "Characteristics": {
+                            "FileOffset": 81404,
+                            "Offset": 0,
+                            "Value": 0
+                        },
+                        "TimeDateStamp": {
+                            "FileOffset": 81408,
+                            "Offset": 4,
+                            "Value": "0x0        [Thu Jan  1 00:00:00 1970 UTC]"
+                        },
+                        "ForwarderChain": {
+                            "FileOffset": 81412,
+                            "Offset": 8,
+                            "Value": 0
+                        },
+                        "Name": {
+                            "FileOffset": 81416,
+                            "Offset": 12,
+                            "Value": 482385
+                        },
+                        "FirstThunk": {
+                            "FileOffset": 81420,
+                            "Offset": 16,
+                            "Value": 482364
+                        }
+                    },
+                    {
+                        "DLL": "MSVBVM60.DLL",
+                        "Ordinal": 581
+                    }
+                ]
+            ],
+            "Resource directory": [
+                {
+                    "Structure": "IMAGE_RESOURCE_DIRECTORY",
+                    "Characteristics": {
+                        "FileOffset": 78336,
+                        "Offset": 0,
+                        "Value": 0
+                    },
+                    "TimeDateStamp": {
+                        "FileOffset": 78340,
+                        "Offset": 4,
+                        "Value": "0x4DEFEFAC [Wed Jun  8 21:54:52 2011 UTC]"
+                    },
+                    "MajorVersion": {
+                        "FileOffset": 78344,
+                        "Offset": 8,
+                        "Value": 64
+                    },
+                    "MinorVersion": {
+                        "FileOffset": 78346,
+                        "Offset": 10,
+                        "Value": 2600
+                    },
+                    "NumberOfNamedEntries": {
+                        "FileOffset": 78348,
+                        "Offset": 12,
+                        "Value": 2
+                    },
+                    "NumberOfIdEntries": {
+                        "FileOffset": 78350,
+                        "Offset": 14,
+                        "Value": 1
+                    }
+                },
+                {
+                    "Name": {
+                        "FileOffset": 78352,
+                        "Offset": 0,
+                        "Value": 2147483880
+                    },
+                    "Structure": "IMAGE_RESOURCE_DIRECTORY_ENTRY",
+                    "OffsetToData": {
+                        "FileOffset": 78356,
+                        "Offset": 4,
+                        "Value": 2147483688
+                    }
+                },
+                [
+                    {
+                        "Structure": "IMAGE_RESOURCE_DIRECTORY",
+                        "Characteristics": {
+                            "FileOffset": 78376,
+                            "Offset": 0,
+                            "Value": 0
+                        },
+                        "TimeDateStamp": {
+                            "FileOffset": 78380,
+                            "Offset": 4,
+                            "Value": "0x4DEFEFAC [Wed Jun  8 21:54:52 2011 UTC]"
+                        },
+                        "MajorVersion": {
+                            "FileOffset": 78384,
+                            "Offset": 8,
+                            "Value": 64
+                        },
+                        "MinorVersion": {
+                            "FileOffset": 78386,
+                            "Offset": 10,
+                            "Value": 2600
+                        },
+                        "NumberOfNamedEntries": {
+                            "FileOffset": 78388,
+                            "Offset": 12,
+                            "Value": 0
+                        },
+                        "NumberOfIdEntries": {
+                            "FileOffset": 78390,
+                            "Offset": 14,
+                            "Value": 1
+                        }
+                    },
+                    {
+                        "Id": 1,
+                        "Structure": "IMAGE_RESOURCE_DIRECTORY_ENTRY",
+                        "Name": {
+                            "FileOffset": 78392,
+                            "Offset": 0,
+                            "Value": 1
+                        },
+                        "OffsetToData": {
+                            "FileOffset": 78396,
+                            "Offset": 4,
+                            "Value": 2147483712
+                        }
+                    },
+                    [
+                        {
+                            "Structure": "IMAGE_RESOURCE_DIRECTORY",
+                            "Characteristics": {
+                                "FileOffset": 78400,
+                                "Offset": 0,
+                                "Value": 0
+                            },
+                            "TimeDateStamp": {
+                                "FileOffset": 78404,
+                                "Offset": 4,
+                                "Value": "0x4DEFEFAC [Wed Jun  8 21:54:52 2011 UTC]"
+                            },
+                            "MajorVersion": {
+                                "FileOffset": 78408,
+                                "Offset": 8,
+                                "Value": 64
+                            },
+                            "MinorVersion": {
+                                "FileOffset": 78410,
+                                "Offset": 10,
+                                "Value": 2600
+                            },
+                            "NumberOfNamedEntries": {
+                                "FileOffset": 78412,
+                                "Offset": 12,
+                                "Value": 0
+                            },
+                            "NumberOfIdEntries": {
+                                "FileOffset": 78414,
+                                "Offset": 14,
+                                "Value": 1
+                            }
+                        },
+                        {
+                            "LANG": 0,
+                            "SUBLANG": 0,
+                            "LANG_NAME": "LANG_NEUTRAL",
+                            "SUBLANG_NAME": "SUBLANG_NEUTRAL",
+                            "Structure": "IMAGE_RESOURCE_DATA_ENTRY",
+                            "Name": {
+                                "FileOffset": 78416,
+                                "Offset": 0,
+                                "Value": 0
+                            },
+                            "OffsetToData": {
+                                "FileOffset": 78424,
+                                "Offset": 0,
+                                "Value": 479528
+                            },
+                            "Size": {
+                                "FileOffset": 78428,
+                                "Offset": 4,
+                                "Value": 1572
+                            },
+                            "CodePage": {
+                                "FileOffset": 78432,
+                                "Offset": 8,
+                                "Value": 1200
+                            },
+                            "Reserved": {
+                                "FileOffset": 78436,
+                                "Offset": 12,
+                                "Value": 0
+                            }
+                        }
+                    ]
+                ],
+                {
+                    "Name": {
+                        "FileOffset": 78360,
+                        "Offset": 0,
+                        "Value": 2147483896
+                    },
+                    "Structure": "IMAGE_RESOURCE_DIRECTORY_ENTRY",
+                    "OffsetToData": {
+                        "FileOffset": 78364,
+                        "Offset": 4,
+                        "Value": 2147483752
+                    }
+                },
+                [
+                    {
+                        "Structure": "IMAGE_RESOURCE_DIRECTORY",
+                        "Characteristics": {
+                            "FileOffset": 78440,
+                            "Offset": 0,
+                            "Value": 0
+                        },
+                        "TimeDateStamp": {
+                            "FileOffset": 78444,
+                            "Offset": 4,
+                            "Value": "0x4DEFEFAC [Wed Jun  8 21:54:52 2011 UTC]"
+                        },
+                        "MajorVersion": {
+                            "FileOffset": 78448,
+                            "Offset": 8,
+                            "Value": 64
+                        },
+                        "MinorVersion": {
+                            "FileOffset": 78450,
+                            "Offset": 10,
+                            "Value": 2600
+                        },
+                        "NumberOfNamedEntries": {
+                            "FileOffset": 78452,
+                            "Offset": 12,
+                            "Value": 0
+                        },
+                        "NumberOfIdEntries": {
+                            "FileOffset": 78454,
+                            "Offset": 14,
+                            "Value": 1
+                        }
+                    },
+                    {
+                        "Id": 1,
+                        "Structure": "IMAGE_RESOURCE_DIRECTORY_ENTRY",
+                        "Name": {
+                            "FileOffset": 78456,
+                            "Offset": 0,
+                            "Value": 1
+                        },
+                        "OffsetToData": {
+                            "FileOffset": 78460,
+                            "Offset": 4,
+                            "Value": 2147483776
+                        }
+                    },
+                    [
+                        {
+                            "Structure": "IMAGE_RESOURCE_DIRECTORY",
+                            "Characteristics": {
+                                "FileOffset": 78464,
+                                "Offset": 0,
+                                "Value": 0
+                            },
+                            "TimeDateStamp": {
+                                "FileOffset": 78468,
+                                "Offset": 4,
+                                "Value": "0x4DEFEFAC [Wed Jun  8 21:54:52 2011 UTC]"
+                            },
+                            "MajorVersion": {
+                                "FileOffset": 78472,
+                                "Offset": 8,
+                                "Value": 64
+                            },
+                            "MinorVersion": {
+                                "FileOffset": 78474,
+                                "Offset": 10,
+                                "Value": 2600
+                            },
+                            "NumberOfNamedEntries": {
+                                "FileOffset": 78476,
+                                "Offset": 12,
+                                "Value": 0
+                            },
+                            "NumberOfIdEntries": {
+                                "FileOffset": 78478,
+                                "Offset": 14,
+                                "Value": 1
+                            }
+                        },
+                        {
+                            "LANG": 0,
+                            "SUBLANG": 0,
+                            "LANG_NAME": "LANG_NEUTRAL",
+                            "SUBLANG_NAME": "SUBLANG_NEUTRAL",
+                            "Structure": "IMAGE_RESOURCE_DATA_ENTRY",
+                            "Name": {
+                                "FileOffset": 78480,
+                                "Offset": 0,
+                                "Value": 0
+                            },
+                            "OffsetToData": {
+                                "FileOffset": 78488,
+                                "Offset": 0,
+                                "Value": 415176
+                            },
+                            "Size": {
+                                "FileOffset": 78492,
+                                "Offset": 4,
+                                "Value": 20
+                            },
+                            "CodePage": {
+                                "FileOffset": 78496,
+                                "Offset": 8,
+                                "Value": 1200
+                            },
+                            "Reserved": {
+                                "FileOffset": 78500,
+                                "Offset": 12,
+                                "Value": 0
+                            }
+                        }
+                    ]
+                ],
+                {
+                    "Id": [
+                        16,
+                        "RT_VERSION"
+                    ],
+                    "Structure": "IMAGE_RESOURCE_DIRECTORY_ENTRY",
+                    "Name": {
+                        "FileOffset": 78368,
+                        "Offset": 0,
+                        "Value": 16
+                    },
+                    "OffsetToData": {
+                        "FileOffset": 78372,
+                        "Offset": 4,
+                        "Value": 2147483816
+                    }
+                },
+                [
+                    {
+                        "Structure": "IMAGE_RESOURCE_DIRECTORY",
+                        "Characteristics": {
+                            "FileOffset": 78504,
+                            "Offset": 0,
+                            "Value": 0
+                        },
+                        "TimeDateStamp": {
+                            "FileOffset": 78508,
+                            "Offset": 4,
+                            "Value": "0x4DEFEFAC [Wed Jun  8 21:54:52 2011 UTC]"
+                        },
+                        "MajorVersion": {
+                            "FileOffset": 78512,
+                            "Offset": 8,
+                            "Value": 64
+                        },
+                        "MinorVersion": {
+                            "FileOffset": 78514,
+                            "Offset": 10,
+                            "Value": 2600
+                        },
+                        "NumberOfNamedEntries": {
+                            "FileOffset": 78516,
+                            "Offset": 12,
+                            "Value": 0
+                        },
+                        "NumberOfIdEntries": {
+                            "FileOffset": 78518,
+                            "Offset": 14,
+                            "Value": 1
+                        }
+                    },
+                    {
+                        "Id": 1,
+                        "Structure": "IMAGE_RESOURCE_DIRECTORY_ENTRY",
+                        "Name": {
+                            "FileOffset": 78520,
+                            "Offset": 0,
+                            "Value": 1
+                        },
+                        "OffsetToData": {
+                            "FileOffset": 78524,
+                            "Offset": 4,
+                            "Value": 2147483840
+                        }
+                    },
+                    [
+                        {
+                            "Structure": "IMAGE_RESOURCE_DIRECTORY",
+                            "Characteristics": {
+                                "FileOffset": 78528,
+                                "Offset": 0,
+                                "Value": 0
+                            },
+                            "TimeDateStamp": {
+                                "FileOffset": 78532,
+                                "Offset": 4,
+                                "Value": "0x4DEFEFAC [Wed Jun  8 21:54:52 2011 UTC]"
+                            },
+                            "MajorVersion": {
+                                "FileOffset": 78536,
+                                "Offset": 8,
+                                "Value": 64
+                            },
+                            "MinorVersion": {
+                                "FileOffset": 78538,
+                                "Offset": 10,
+                                "Value": 2600
+                            },
+                            "NumberOfNamedEntries": {
+                                "FileOffset": 78540,
+                                "Offset": 12,
+                                "Value": 0
+                            },
+                            "NumberOfIdEntries": {
+                                "FileOffset": 78542,
+                                "Offset": 14,
+                                "Value": 1
+                            }
+                        },
+                        {
+                            "LANG": 10,
+                            "SUBLANG": 3,
+                            "LANG_NAME": "LANG_SPANISH",
+                            "SUBLANG_NAME": "SUBLANG_SPANISH_MODERN",
+                            "Structure": "IMAGE_RESOURCE_DATA_ENTRY",
+                            "Name": {
+                                "FileOffset": 78544,
+                                "Offset": 0,
+                                "Value": 3082
+                            },
+                            "OffsetToData": {
+                                "FileOffset": 78552,
+                                "Offset": 0,
+                                "Value": 481104
+                            },
+                            "Size": {
+                                "FileOffset": 78556,
+                                "Offset": 4,
+                                "Value": 1176
+                            },
+                            "CodePage": {
+                                "FileOffset": 78560,
+                                "Offset": 8,
+                                "Value": 1200
+                            },
+                            "Reserved": {
+                                "FileOffset": 78564,
+                                "Offset": 12,
+                                "Value": 0
+                            }
+                        }
+                    ]
+                ]
+            ],
+            "Base relocations": [
+                [
+                    {
+                        "Structure": "IMAGE_BASE_RELOCATION",
+                        "VirtualAddress": {
+                            "FileOffset": 81748,
+                            "Offset": 0,
+                            "Value": 475136
+                        },
+                        "SizeOfBlock": {
+                            "FileOffset": 81752,
+                            "Offset": 4,
+                            "Value": 12
+                        }
+                    },
+                    {
+                        "RVA": 478125,
+                        "Type": "HIGHLOW"
+                    },
+                    {
+                        "RVA": 475136,
+                        "Type": "ABSOLUTE"
+                    }
+                ]
+            ]
+        }
+    },
+    "strings": [
+        "!This program cannot be run in DOS mode.",
+        "Rich",
+        "UPX0",
+        "UPX1",
+        ".rsrc",
+        "3.00",
+        "UPX!",
+        "C#ceg",
+        "9y6$",
+        ".TVXdy",
+        "<'IVh",
+        ";HTg",
+        "5<y.y",
+        "UWYer",
+        "<'Uh",
+        "D@Yey",
+        "N;.O+<",
+        "g'Xp$",
+        "9yTj}",
+        "DvD-",
+        "\\Moy",
+        "]Hc_x",
+        "y'{<",
+        "<=SXtl6",
+        "<r(3);*D",
+        "+Zp,",
+        "l.@/t",
+        "@B*Srm",
+        "1'Md",
+        "dsJN",
+        "6U.y",
+        "/<osp",
+        "0@?2",
+        "(&$' (",
+        "%Np)-C",
+        ";r!x9",
+        "{6:O",
+        "g?!e@",
+        "y6Eb",
+        "K5AMYe{!",
+        "l.yf",
+        ",=l6",
+        "m6G6",
+        "|;4|",
+        "#[fx",
+        "\\0Gt",
+        "_X#C",
+        "\\.$\f",
+        "Kerb",
+        "osObj",
+        "\f\fUW",
+        "kDal",
+        "sz1 As ",
+        "ectsd",
+        "J c<",
+        "wB(T",
+        "@r!'pp`",
+        "VB5!",
+        "6ES.DLLc*",
+        "trrr",
+        "9ShM",
+        "9`FDE",
+        "'GNNp(D",
+        "-*l0",
+        "t?B>",
+        "P!A?,D?w|",
+        "N-?n'-%B",
+        "'\\{P8",
+        "M]:dUS",
+        "A=\f<u",
+        "L}-K",
+        "ijh'",
+        "~ReadyState",
+        "shdoc",
+        "vw.dl`SHD",
+        "VwCtl.WebB",
+        "g2ZM6",
+        "lBKsb",
+        ")pdb<w",
+        "p$MR",
+        "4$4`h",
+        "yXern",
+        "w18o",
+        "^w<6",
+        "!.;H",
+        "<Ub9p",
+        "6 Gg",
+        " @'6p",
+        ":M:ZgDK",
+        " C8R",
+        "Ps/N",
+        "O=8(n",
+        "R_ly",
+        "7dBNP",
+        ")@0&",
+        "6|9+oiF",
+        "''o_D",
+        "(5xZ\\",
+        "P18WF^",
+        "Z$.@",
+        "Ll.`",
+        "Mod!",
+        ".8ick?'onts",
+        "Tim?",
+        "VaF!h",
+        ".9HPH",
+        "327GetW",
+        "TextA",
+        "Messag",
+        "r;57F4",
+        "-_nl'",
+        "Z'<.",
+        "VBAm",
+        "__vbatitb",
+        "Ope?$",
+        "CAryDe",
+        "t'RecA\\5",
+        "Rpign",
+        "a'St7(",
+        "BouRs",
+        "Like\f",
+        "OrOvolwul6",
+        "BT7y`",
+        "FDe>",
+        "l7Ip",
+        "(Loa)",
+        "GtOn",
+        "P`xMo",
+        "^o0+",
+        "aqomL",
+        "\"8{5",
+        "177{",
+        "5WN'",
+        "p3?Wo",
+        "ddJT?",
+        "4f'UI1I2",
+        "?`Sy",
+        "'FToAnsi \f",
+        "9\"F~,",
+        " $(,0;",
+        "LPX\\`h<",
+        "<lptx|",
+        "<u@n",
+        "y8TMXD",
+        "`Ed>",
+        "t/xO|",
+        "orrr",
+        "n#gg?\f",
+        "1s2'",
+        "W4k4o",
+        "4NI ",
+        ".^$6",
+        "~IfEnt",
+        "|6R7",
+        "-0yW",
+        "X7Pj",
+        "iphlpapi",
+        "sInfoW",
+        "6BOf",
+        "faces+D",
+        "kdnelJ",
+        "wRtl",
+        "Memo",
+        "V,WLo",
+        "LCID",
+        "~+3q",
+        "C:\\Arquivos de programas\\Mic",
+        "oft Visup Studio\\",
+        "VB98",
+        "6.OL",
+        "<qtT",
+        "OsTR",
+        "u_Sb",
+        "6WINDOWS\\sU",
+        ",\\mshtml.*bcc",
+        "JSHTM+Y",
+        "BPAG",
+        "__onTyu",
+        "Y6T38",
+        "72_z-",
+        "W8_$",
+        "]_E/E",
+        "K5'3",
+        "_g3[",
+        "{BW68",
+        "73o9",
+        "EE/`",
+        "vCcQg",
+        "R7>:",
+        "Bg0W",
+        "*qEo",
+        "VqO?Oo`\fw",
+        "1G.m",
+        "P/OgB",
+        "?O0G",
+        "(01/",
+        "8X%6",
+        ")v_\"",
+        "]o9G6",
+        "gD+<V",
+        "TCarreg",
+        "0'/A",
+        "5GoWX4",
+        ":!q5O,+",
+        "?%VlW",
+        "6/?6",
+        "heck",
+        "Tornado",
+        "ief%",
+        "e.N7.",
+        "IF\\*.",
+        ")$/pI2",
+        "i7Init",
+        "Wo!q$",
+        "code'Lat",
+        "A)#c",
+        "wo0&n",
+        "\"'\f8",
+        "ptOffsq",
+        "pj'GT+",
+        "o16,o",
+        "N4xR",
+        "_O0-",
+        "EachCo",
+        "lo`X",
+        "o0FG",
+        ".$g,b1",
+        "X?V5",
+        "+Na%^7/c",
+        "RiNdJo",
+        ">iRk",
+        "XOGw",
+        "+0GC",
+        ",w77",
+        "9gwC",
+        "j]k?",
+        "W:p3/c",
+        "\fb!\"",
+        "AWD ",
+        "'worErQ22",
+        "_E0+",
+        "+{Rh7g",
+        "5k7E",
+        "*m w",
+        "j'qp",
+        "'m\f>v",
+        "/7/G",
+        ",\"VW",
+        "qo'F",
+        "379f",
+        "l&V`",
+        "O'/g",
+        "dgw)",
+        "96SWO4Tq",
+        "Gj'p@",
+        "m/K9/",
+        "7_T7",
+        "74j#",
+        "2o2.",
+        " ?4/\\",
+        "X_5$",
+        "6?7B",
+        "H0`8_",
+        "bCyO$~0B",
+        "?AndO",
+        "d<Rf",
+        "_GhW",
+        "+}/_",
+        "]8+.W",
+        "o%D,3",
+        "6oWG",
+        "R7O2",
+        "2/p'",
+        "R(K>",
+        "47;f",
+        "_X4U",
+        "_'_%v`",
+        "hWW7",
+        "ZB8(",
+        "o'3W",
+        "w$2uwH",
+        "7'tI",
+        "r8Od-",
+        ".nc/4?6V",
+        "Sg'!B",
+        "67v'nz",
+        "_g'vl",
+        "&jvj",
+        "4nmXr5",
+        "jWj>Bgoe",
+        "1\"\\3",
+        "ginf",
+        "$mJQ",
+        "Jsco",
+        "F10f",
+        "*Bb`?",
+        "82_/,",
+        "O_0X",
+        "=|j#",
+        "6o0_",
+        "FaG/",
+        "3vwo",
+        "Qpc\"g",
+        "0fw6",
+        "g3w$-",
+        "wIF_BeforeNavig",
+        "Change",
+        "1t/16c",
+        "q>?6",
+        "Complex",
+        ".mrX",
+        "?5?E",
+        "pM]g7",
+        "CG_:4",
+        "5WD>",
+        "E7N(",
+        "/Wg2P",
+        "o:q]7",
+        "'5w$e",
+        "AWg0",
+        "WpA*",
+        "3VuD",
+        "nF?2 R",
+        "|aUW",
+        "oJ%V0",
+        "GM`EXG",
+        "TLB\\",
+        ",` p",
+        "8\f&OG",
+        "]`LW0?",
+        "_2gB",
+        "w/JT",
+        "_vbvm605",
+        "RUNv",
+        "=,V^",
+        "?'WwR,",
+        "4gW_",
+        "wl\fvo",
+        "&#.6m",
+        "k10?",
+        "0'G7",
+        "A#gG",
+        "7Gp5",
+        "x/'6.",
+        "0w<a",
+        "fWGOk+",
+        "1Rda",
+        "G,Vu%/",
+        "F=/o",
+        "'GG*",
+        "Ae}b7",
+        ".iho1",
+        "'l+n]7^",
+        "9G_+2",
+        "M'#F",
+        "aBWFw",
+        "#g56#U/__",
+        "on)q",
+        "OfGk",
+        "iGoo",
+        "N_/1",
+        "ja[_",
+        "o'G#",
+        "HwE'xD",
+        "=lo_?E",
+        "F\\i%",
+        "j#vo",
+        "5]~?",
+        "Gn\\X",
+        "ki{oA",
+        "'gSG7",
+        "Ra_O_",
+        "0O1O$",
+        "G?qM",
+        "Q?gWH",
+        "V$\\Bg",
+        "b\fW;",
+        "p0'*",
+        "d'V#",
+        "tY;/",
+        "j/O'",
+        "`W?b",
+        "!\\$b",
+        "1T F",
+        "19c1",
+        "M+]>Q",
+        "`j8@L",
+        "r)uL5",
+        "n,5v",
+        "\\GZ\f",
+        "prii",
+        "pv}~",
+        " |p`",
+        "pDisQUR2",
+        "xMatFlag)T",
+        "tV/- ",
+        "PTC^",
+        "@DcISe",
+        "To\\yF",
+        "|t.C",
+        "}e,P64",
+        "CPd\"",
+        "Q1:}M",
+        ")4{,\"",
+        "cZZE",
+        "I*_{",
+        "^x00`ZM",
+        "SU(&D*",
+        ":6Xl",
+        "8M9d",
+        "=v|P+P",
+        "ZHSU",
+        "H;6-o",
+        "?\fQt",
+        "\\ABC",
+        "rA D",
+        "2!GH $",
+        " IT%",
+        "LLQ+sS",
+        "rIRST'",
+        "\\UV2Q",
+        "\fWX!",
+        "T]/=_2$",
+        "rrsh^",
+        "v()w",
+        "wZ\fmC",
+        "[&F\fm",
+        "RrA <Dw",
+        "*eJ|",
+        "wnU \f",
+        "7$a]",
+        "R@pa",
+        "5 Q\f",
+        ":dP+A",
+        "l\\L/",
+        "d,sM",
+        "v\\F\f",
+        "\\~Y;",
+        "I[E=",
+        "C_Q@!W",
+        "@$1+E\fRj/",
+        "xU|>+",
+        "YJBj",
+        "i@[X",
+        "aOF}",
+        "@|8`u",
+        "p1UUB$",
+        "Jto#",
+        "4AOP",
+        "0VB>D",
+        "Rg,ax",
+        "d_(q)",
+        "Kv\fu",
+        "Q1Sr",
+        "o%y$",
+        "(A4#",
+        "0@NR",
+        " W24",
+        "ISU/i",
+        "/WB>$",
+        "5r7l",
+        "JEcE",
+        "><_E",
+        "Jt.\fQ",
+        "ap0cW",
+        ")1rQ",
+        " 5x?",
+        "q}#j\\ZxSR",
+        "`P@r",
+        "\\.0 ",
+        "Yp4'M\f",
+        "Yl[|",
+        "<Yb`",
+        "DOBc`",
+        " f0&",
+        "HxO;",
+        "Xp0&`",
+        "]xy|B",
+        " B.x",
+        "F4R$",
+        "=Lr2HP",
+        "!S25gDD",
+        "4\\HS",
+        "S^<M",
+        ";d,m$",
+        "%5S)Z",
+        "B:tu",
+        ";\"||;g",
+        "B%C5T",
+        ")ct<",
+        "!&h+",
+        "C<C<",
+        "4oi5",
+        "J8%z",
+        "JWU2",
+        "7X\"r\f",
+        "zT'$",
+        "4\f=V",
+        "u<S[0 ",
+        "@N!G",
+        "WW~H",
+        "S\\8%",
+        "#5(<",
+        "Z~P$",
+        "@#7Ie",
+        "9\\tt",
+        "d\"lllO",
+        "&h#`",
+        "TuTQ<",
+        "?na(|",
+        "]i+v",
+        "sH=%R",
+        "nhqC",
+        ",dXA",
+        "ME42",
+        "r\\\\e",
+        "!]EY",
+        "b'K ",
+        "2@Q('",
+        "CLh0",
+        "A\f u",
+        "Hx0m(",
+        "h1NM",
+        "<<S'",
+        "D:ho/",
+        "e[1,",
+        "+:3t",
+        "%C$G",
+        "0,99",
+        "P)lO",
+        "\fe(a",
+        "JVQSw~uH",
+        "CZHb",
+        "LSzb",
+        "JfH8",
+        "m2>m",
+        "kxx\f=",
+        "*`2 ",
+        "3P]7C",
+        " uez",
+        "\\\\EJ",
+        "BP#\f",
+        "I0fd",
+        "'>Uf",
+        "?CXCe",
+        "44Xs",
+        "_TQS",
+        "uR*(,",
+        "jhcR",
+        "A0 +",
+        "A0 +",
+        "A0 +",
+        "\f9fi",
+        "YW!u",
+        "S-%(",
+        "UlPM",
+        "!R}!",
+        "4ppx",
+        "%<2L",
+        "u#3\\!",
+        "rQ\f0",
+        "t(`(",
+        "FKonI",
+        "I\fpC",
+        " [T2=",
+        "{d)kQ",
+        "WM|]",
+        "> \fh",
+        "As|P",
+        "cc7g",
+        "tIcRU",
+        "^.Pk",
+        "\fvVVN@!",
+        "Y3,;",
+        "$4jPF",
+        "@9x%6]",
+        "0W]:t",
+        "!$$$",
+        "D[ctl",
+        "YM!RLdJ",
+        "3Sed",
+        "ILF.",
+        "K.jL\\7\\XX",
+        "2r!\\X",
+        "`P@0",
+        "A$,m",
+        "AIbA",
+        "p.hA",
+        "=f9M",
+        "X$E<z8!",
+        "ulPI",
+        "\fOk.",
+        "pwI.",
+        "P+`Up",
+        ")2222",
+        "4222",
+        "S]g9b",
+        "]GYV",
+        " P'Yb5c",
+        " #C`\\",
+        "2I7x",
+        "x n`h",
+        "[J='",
+        "QVqD$",
+        "jX>wl",
+        "XP#(",
+        "5rGo",
+        "XD\"tws",
+        "gJ[A",
+        "phmQ@",
+        "bjFJ",
+        "TpH>/",
+        "H\"`\f",
+        "Wajr",
+        "\"\"`\fqD",
+        " &w\f",
+        "\"`\f&,",
+        "%Ex#S",
+        "FLX.",
+        "|&d2&Y",
+        "J!g%",
+        "pmR0bp",
+        "RI'l",
+        "l6ju",
+        "&DIHL\"`",
+        "hhh@F",
+        "dd>p",
+        "8\\J&",
+        "?},.r",
+        "\"b])",
+        "TTvza",
+        "H.2A",
+        "L2,5~",
+        "Kd@&",
+        "(/Q\\*",
+        "oSr2 ",
+        "GH\\q",
+        "U(b7",
+        "7'#G>",
+        "W%k[",
+        "mVqf",
+        "caqC",
+        "qP<)",
+        "H@&(",
+        "J.H&=",
+        "$WrA2?",
+        "PL.[*8D",
+        "<4,$9",
+        "\f2rTtdr0",
+        " o7\\",
+        "X88m",
+        "I|C:O",
+        "*{+c",
+        "yP1>X",
+        "({toU|V",
+        "@NMP",
+        "Xf\fQ",
+        "/aQ]",
+        "J7YO6",
+        "APH;l",
+        "(u``'",
+        "\\`\\\\@",
+        "XXTD",
+        "QrT0\\",
+        "vPPN.",
+        "!'HD",
+        "D4wj",
+        "x:*MTG",
+        "Q@#n's",
+        "[4D<",
+        "_@.Wr888tP'c",
+        "S#*c",
+        "J7\fP",
+        "4;4q",
+        "t#D7",
+        "DeDN",
+        "4\\B7",
+        "Le#*",
+        "x#*#",
+        "[GoD",
+        "dJcB",
+        "xx|S",
+        "df+Q",
+        "LkfS?",
+        "\f%4P",
+        "\"||9",
+        "pxxJN.",
+        "30Q#",
+        "VrAh'",
+        "9E#a",
+        "rum@@",
+        "D.89 ",
+        "r2 88R",
+        "O00\"'",
+        "NNF&",
+        "d$$O e",
+        "r$  ",
+        "|S#f r|",
+        "9xSRx",
+        "$X*cq;",
+        "3p4-",
+        "\fLtA",
+        "0JN.",
+        "QrrA",
+        "HNPD",
+        "pmpp",
+        "0$#Jh",
+        "8`O`",
+        "TOPD",
+        "Dr$W4O@@",
+        "7yHL",
+        "7SRx8Ah",
+        "4O0;",
+        "Zllg",
+        "hhSZ",
+        "m''#",
+        "'dYd(o",
+        "``cSp2 ",
+        "X`((\f",
+        "T&XXSp2",
+        "TTTPP",
+        "tx|.",
+        "TF(HH",
+        "^S^H",
+        "dDD@2",
+        "s>s#",
+        "y88'",
+        "S`8\f\f",
+        "@bHT",
+        "TX\\&",
+        "99`440",
+        "T0S^0`",
+        ",((d@",
+        "  S` ",
+        "4'#G2d48<$#''@",
+        "b}dD",
+        "p)tP",
+        "cd(\"",
+        "YxQ\"",
+        "2%C$",
+        ".S2D",
+        "!ppp",
+        "!dd&",
+        "!:)``",
+        "r`\\\\",
+        "!'XT",
+        "TEHeB&",
+        "fp#9P",
+        "pH_%",
+        "PEQM",
+        "#9A5E@",
+        "5E5E m",
+        "E\f|T",
+        "l; Jm",
+        "A2Qrl",
+        "@.Wr",
+        "Fs\f5R",
+        "#n` ",
+        "#%#|2d",
+        "Gxx\"",
+        "M^`E",
+        "/'c2",
+        "AcpA",
+        "BD*D",
+        "*DGA",
+        "S=v#l?",
+        "; -`H",
+        "/pNk",
+        "h![\f",
+        "4$VH",
+        "\f2r!",
+        "\f4=K",
+        "cL0.",
+        "PP*/X",
+        "s(;p+",
+        ":RQK",
+        "lq=zQ",
+        "u1X({",
+        "iq`i",
+        "iW?5",
+        "TWHX",
+        "U!\\l",
+        "mxF)#",
+        "$UnV",
+        "xrp\fb",
+        "[pU-",
+        "0Nu\fr",
+        "\fTO`",
+        "5a^W",
+        "0a7Ih{5",
+        "`P@0 Ry",
+        "tR!<5",
+        ";tLA",
+        "K\f\f;",
+        "(Q,c",
+        "tp@u",
+        "5G#1",
+        "m,m{",
+        "{3L@ 0",
+        "z|5j3",
+        "``LJ",
+        "Is3S",
+        "VWfZx",
+        "pouF",
+        "[7VH",
+        "288\"",
+        "`A:z",
+        "*=T7\"",
+        "\\Y\\TP",
+        "$*dB.4",
+        "(nSnN",
+        "0*]A",
+        "]%HA",
+        "BhU=!",
+        "%!7\\",
+        "HeW@h",
+        "C\fnj",
+        "D\\/M",
+        "uZ!\"",
+        "jA=?",
+        "\"AqS",
+        "lj4S",
+        "ol-n",
+        "\"*`p",
+        "@2!SLX@2!",
+        "Px y ",
+        "9@*k1",
+        "*`4P",
+        "f*U!k",
+        "#n`0G_",
+        "&IB*S",
+        "=(n`m",
+        "_n`G\"",
+        "X=_j",
+        "P@0 \\*/",
+        "S.jS",
+        "_OvdB",
+        ",X)K*CE",
+        "jkPq",
+        "!PG8B@0_",
+        "uR_r",
+        "'$`3",
+        "F=fR",
+        "!omb=",
+        "!)TC",
+        "D?h$",
+        "a`PQ",
+        "$Ygm!A",
+        "v3T^",
+        "`8(:",
+        "[8k.\"",
+        "WiD=",
+        "wHH<",
+        "rd@~",
+        "UNN&",
+        "<@D\f",
+        "Tg'x",
+        ".EI&",
+        "ha/D",
+        "k*R?",
+        "oSX>",
+        "1DF*D",
+        ">,\"u",
+        "@&\f1`0",
+        "$\fU=",
+        "8<3H",
+        "#[qlb2!",
+        "IeJDD",
+        "$q?<",
+        "P88$",
+        "#FZ]I",
+        "!LcZM",
+        "4R#~Y",
+        "|-@C",
+        "lqlm",
+        "=@@;h'",
+        "+adY\\D",
+        "hx[@",
+        "!n!4",
+        "3iLw)y",
+        "+w1\"",
+        "/053",
+        "!rU[;",
+        "h+WRp",
+        "GW<_M",
+        ",Aj[",
+        "WK10",
+        "\\qhSfS",
+        "L;\\i",
+        "\\AE{",
+        "E##s+",
+        "SH&6",
+        "!eHZ",
+        "rr2r",
+        ";g4Sy",
+        "A1kh",
+        "eTel4",
+        "dh0~",
+        "Nb7F",
+        "[R\\s",
+        "O8*d",
+        "-&hCA",
+        "dKEC",
+        "dhe(",
+        "8-N,",
+        "EXHT",
+        "%T-A",
+        "Br\"]",
+        "~1COZ5",
+        "``!:",
+        "AiDbk",
+        "A#cQk",
+        ",,8uRoD",
+        "GEQP",
+        "H,9B",
+        "u'exi ",
+        "XXGJ`+7",
+        ")`TTE",
+        "Fzi|E",
+        "A\fRy",
+        "&sM(",
+        "[!G(",
+        "\\444",
+        "SUJ.",
+        "Vr z",
+        "!h%l",
+        "`J&\f\f",
+        ")Au*",
+        "\"H!\f",
+        "{FHA",
+        "Gn,nwo",
+        "2D$_",
+        "E$\ftYdM",
+        "Z\fQaR*H[c PIB",
+        "a-tq",
+        "DrA2-",
+        "!98N",
+        "2 Cr",
+        "I[\fM3",
+        "Y!/e`",
+        "r0u(",
+        "(,M0",
+        "M(T\f",
+        "\"cC9#",
+        " bzA",
+        "M\"@\"",
+        ":$Fh",
+        "uU\\P",
+        "\\1Cm",
+        " t? <",
+        " Y@@W",
+        ")&!b",
+        "!6%!0p",
+        "VF*T",
+        "Wa= ",
+        "4F!T",
+        " `)9E",
+        "(|Ji",
+        "njCOc",
+        "qy!p",
+        ">s'x",
+        "cW9h'`",
+        "r80(",
+        "!_1e",
+        "0)%X}",
+        "Y\fd8",
+        "92 G",
+        "Hu #",
+        "(HXh",
+        "###o(8HXhJ,##x",
+        "qpc'",
+        "T4:F%",
+        "XX#!",
+        "2@/`",
+        "GdMa",
+        "++HM",
+        "u YP7LQ",
+        "D4. ",
+        "P[EP",
+        "8U#l",
+        "2!C%F",
+        "!G&5L",
+        "g\"mRi",
+        "5c@P\fLr8",
+        "8 c1i.9",
+        "lOl$",
+        "8`oXr",
+        "PoH m",
+        "nP@8",
+        "nR0(",
+        "]2r\\8 o",
+        "XOX'96",
+        "LOL8",
+        "@O@?&9",
+        "<O<8",
+        "O4?nP",
+        "+O0?nRp",
+        ",8`oX",
+        "$(O(",
+        "PoH{",
+        "?nR@",
+        " ?nQ0+h.9(",
+        "nP$Lr",
+        "`(.O",
+        "%#8`oX",
+        "N8 o",
+        "`N\\t",
+        "*aX\"",
+        "E<@~",
+        "h(Xd",
+        "+9H8(",
+        "dXH8",
+        "XH8@F",
+        "dXH8",
+        "XHr ",
+        "xhr #",
+        " W8(XZ",
+        "Vr #",
+        "H8(r #",
+        "xhhXA",
+        "XH8@F",
+        "Jxh+9",
+        "[D8ea`CL",
+        "xa\"k",
+        "ab$S,",
+        "B4T)",
+        "lvdd",
+        "(xRddd",
+        "FFFF",
+        "FFFF",
+        ")x#EFF",
+        "2222",
+        "3\"##",
+        "dddd",
+        "`z0=",
+        "%GxE5",
+        "hhmX",
+        "dm$;",
+        "E?#r1",
+        "H884XB",
+        "(I}10",
+        "RH71",
+        "y(8HX",
+        "ddd6",
+        "%o-S",
+        "yRhx)",
+        "4222",
+        "Cu8)HXhdddhx",
+        "Ffxu",
+        "FFFF",
+        ")8HXG62",
+        ")dddd",
+        "Shx)",
+        ")HddddXhx",
+        "FFFF",
+        ")8HX2",
+        "ddd6",
+        "w653H)X",
+        ")ddddHXhxx5kd",
+        "FFFf",
+        "Sdd62",
+        ")HXh",
+        "`ddx",
+        ")ryy9",
+        "02HX",
+        "Shx)",
+        "`L6+",
+        "J7+Y",
+        "6[=n",
+        "t(h5+C",
+        "'\"AH-",
+        "iQEA",
+        "T\"bA",
+        "2!C%",
+        "@,kY",
+        "a qE",
+        "\"Rgy",
+        "NS5%",
+        "'$R'",
+        "Q4`H4:",
+        "(L@+7M",
+        "S\\-J",
+        "I@!uH",
+        "axHn",
+        "QrX\\`",
+        "]KXe",
+        "0+ r ",
+        "biOh",
+        "ph`'",
+        "XPsV",
+        "0S| 1",
+        "n1D}",
+        "5d3G}4.",
+        "}`PP",
+        " 23))",
+        ";B:,",
+        "!aPB",
+        "F)bQ",
+        "S0d,jA",
+        "5,bA",
+        "Ds cX",
+        "8yHP{",
+        "YP`60",
+        "EQT;]D",
+        "9IIh",
+        "n#9T",
+        ")SQT7",
+        "'p7H",
+        "bwe%#(",
+        "HHm\fp",
+        "dJN&PP",
+        "}Z'Jl",
+        "\\6VAP",
+        "oHEH",
+        "<0I8",
+        ">bRx",
+        "7S`,",
+        "/!S`",
+        "Fr$x",
+        "v@(@{$",
+        "Hx<R",
+        ",l\\ ",
+        "\\<L,!",
+        ",jB+'e",
+        "$\fE-",
+        "UlH\\\f",
+        "I+)\"^",
+        "(QiLA",
+        "Gq22",
+        "(<L\\",
+        "BF'b",
+        "*` d",
+        "i1*(M",
+        " \f aU",
+        "[&be",
+        "e`\f(",
+        "x#'X",
+        "S\f(9",
+        "\"SUj",
+        "q\\UT]",
+        "[L`M",
+        "A(@3",
+        "r+\\+",
+        "Lrr9",
+        "||,J",
+        ":[,K",
+        "R2Dp%A",
+        "|aCJ",
+        "+dTd",
+        "hQL,",
+        "@>LX",
+        "`HaH",
+        "@m@@",
+        "ia000",
+        "000@",
+        "=--d",
+        "GDD#dd",
+        "g\f\fK",
+        "fa10",
+        "K*U[J",
+        ";MrL",
+        "K*R&",
+        "CfS@",
+        "}EVENT_SINK",
+        "(IDsOfH",
+        "CIco_adj_fptanY",
+        "Adiv_m64",
+        "Invok(",
+        " `m1tl",
+        "Zombie",
+        "$pdEHL",
+        "kK2_Releasx",
+        "16i:",
+        "iorG",
+        "sinXw",
+        "x#Chk",
+        "%e=n",
+        "Function",
+        "QueVY",
+        "-`/Rf5o",
+        "r'=aopyy",
+        "bba8",
+        "!49]",
+        "`0={",
+        "Nktmul",
+        "L05%",
+        "T*]\f",
+        "LPPv\f",
+        "l5P`-_",
+        "/#kS",
+        "9(@G",
+        ">)K]",
+        "(\f%$",
+        "V>8*",
+        "FZk@",
+        "24'!",
+        "JtJU",
+        ";n6**",
+        ",/&\f-`L",
+        "^\"\"l",
+        "%/33",
+        ",thX",
+        "u7l8pM",
+        ">Rlq&%G*:",
+        "+>/2",
+        "V/*T",
+        "b!M)",
+        "%[h4]",
+        "a_%$",
+        "\f+,>",
+        "\f#!8+",
+        "c.J$ct ",
+        "Y#;X",
+        "=x=/",
+        ")3Q`p",
+        "+f\"+PP",
+        "E0k2!#5",
+        "`u\f@",
+        "s;v=p",
+        "M,e9x",
+        "'&&)",
+        ":\f$:{o",
+        "/@ZS",
+        "R HT",
+        "!P\fw.",
+        "1/E!D",
+        "\"*\\t",
+        ")]HL",
+        "3d1p'1A",
+        ")-u||",
+        "7)f\f7",
+        "m:|&",
+        "99S8",
+        "'G\"1",
+        "'L%o",
+        "3]Sj",
+        "l&A#",
+        "\fDpC",
+        "Z4m3",
+        "!T,t",
+        "#CE=",
+        "$bm<",
+        "G\f>07",
+        "r\"Y8",
+        "hz)Pn\f",
+        "L%`.",
+        ">?.textx",
+        "`.dH",
+        "/#h ",
+        ".rsrc",
+        "PO0@",
+        "eloPv",
+        "XPTPSW",
+        "MSFT",
+        "stdole2.tlbWWW",
+        "KerberosObj.tlbWWW",
+        "KerberosObjW",
+        ">_KerberosObjectsd",
+        "842KerberosObjectsW",
+        "KERNEL32.DLL",
+        "MSVBVM60.DLL",
+        "LoadLibraryA",
+        "GetProcAddress",
+        "VirtualProtect",
+        "VirtualAlloc",
+        "VirtualFree",
+        "KerberosObj.dll",
+        "DllCanUnloadNow",
+        "DllGetClassObject",
+        "DllRegisterServer",
+        "DllUnregisterServer",
+        ""
+    ],
+    "malware": "malware"
+}
